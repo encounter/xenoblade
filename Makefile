@@ -93,7 +93,7 @@ else
 endif
 CC      := $(WINE) tools/mwcc_compiler/$(CONSOLE)/$(MWCC_VERSION)/mwcceppc.exe
 LD      := $(WINE) tools/mwcc_compiler/$(CONSOLE)/$(MWLD_VERSION)/mwldeppc.exe
-DTKd    := build/dtk
+DTK     := build/dtk
 ELF2DOL := $(DTK) elf2dol
 SHASUM  := $(DTK) shasum
 
@@ -161,9 +161,9 @@ DUMMY != mkdir -p $(ALL_DIRS)
 
 .PHONY: tools
 
-$(DOL): $(ELF) | tools
+$(DOL): $(ELF) | $(DTK)
 	$(QUIET) $(ELF2DOL) $< $@
-	$(QUIET) $(SHA1SUM) -c sha1/$(NAME).$(VERSION).sha1
+	$(QUIET) $(SHASUM) -c sha1/$(NAME).$(VERSION).sha1
 ifneq ($(findstring -map,$(LDFLAGS)),)
 	$(QUIET) $(PYTHON) tools/calcprogress.py $@ $(MAP)
 endif

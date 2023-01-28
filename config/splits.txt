@@ -18,31 +18,19 @@ kyoshin/appgame/CGameRestart.o:
 	.ctors      start:0x804F5904 end:0x804F5908
 	.sbss       start:0x8066660C end:0x80666610
 
-kyoshin/appgame/main_1.o:
-	extab       start:0x800067C4 end:0x800067DC
-	extabindex  start:0x80021104 end:0x80021128
-	.text       start:0x80039EFC end:0x80039F94
-
 kyoshin/appgame/main.o:
-	extabindex  start:0x00000000 end:0x0000000C
-	extab       start:0x800067DC end:0x800067E4
-	.text       start:0x80039F94 end:0x8003A05C
-	.rodata     start:0x804F5B88 end:0x804F5B94
-	.sdata2     start:0x806683A0 end:0x806683A8
-
-kyoshin/appgame/main_2.o:
-	extab       start:0x800067E4 end:0x8000684C
-	extabindex  start:0x80021128 end:0x800211C4
-	.text       start:0x8003A05C end:0x8003A53C
+	extab       start:0x800067C4 end:0x8000684C
+	extabindex  start:0x80021104 end:0x800211D0
+	.text       start:0x80039EFC end:0x8003A53C
 	.ctors      start:0x804F5908 end:0x804F590C
-	.rodata     start:0x804F5B94 end:0x804F5D50
+	.rodata     start:0x804F5B88 end:0x804F5D50
 	.data       start:0x80528380 end:0x80528530
 	.bss        start:0x80573C80 end:0x80573DD0
-	.sdata2     start:0x806683A8 end:0x80668468
+	.sdata2     start:0x806683A0 end:0x80668468
 
 kyoshin/appgame/code_8003A53C.o:
 	extab       start:0x8000684C end:0x80006BDC
-	extabindex  start:0x800211C4 end:0x8002171C
+	extabindex  start:0x800211D0 end:0x80021728
 	.text       start:0x8003A53C end:0x80040144
 	.rodata     start:0x804F5D50 end:0x804F5F48
 	.data       start:0x80528530 end:0x80528D44
@@ -52,7 +40,7 @@ kyoshin/appgame/code_8003A53C.o:
 
 kyoshin/appgame/CTaskGame.o:
 	extab       start:0x80006BDC end:0x80006E68
-	extabindex  start:0x8002171C end:0x80021A58
+	extabindex  start:0x80021728 end:0x80021A64
 	.text       start:0x80040144 end:0x80044168
 	.rodata     start:0x804F5F48 end:0x804F61B0
 	.data       start:0x80528D44 end:0x80529310
@@ -62,7 +50,7 @@ kyoshin/appgame/CTaskGame.o:
 
 kyoshin/appgame/cf/CTaskGameCf.o:
 	extab       start:0x80006E68 end:0x80006EC8
-	extabindex  start:0x80021A58 end:0x80021AE8
+	extabindex  start:0x80021A64 end:0x80021AF4
 	.text       start:0x80044168 end:0x80044AB8
 	.rodata     start:0x804F61B0 end:0x804F61D8
 	.data       start:0x80529310 end:0x80529438
@@ -72,7 +60,7 @@ kyoshin/appgame/cf/CTaskGameCf.o:
 
 kyoshin/appgame/CTaskGameEff.o:
 	extab       start:0x80006EC8 end:0x80007398
-	extabindex  start:0x80021AE8 end:0x800221B4
+	extabindex  start:0x80021AF4 end:0x800221C0
 	.text       start:0x80044AB8 end:0x8004B028
 	.rodata     start:0x804F61D8 end:0x804F6898
 	.data       start:0x80529438 end:0x805299F8
@@ -82,7 +70,7 @@ kyoshin/appgame/CTaskGameEff.o:
 
 kyoshin/action/CActParamAnim.o:
 	extab       start:0x80007398 end:0x800075E4
-	extabindex  start:0x800221B4 end:0x80022508
+	extabindex  start:0x800221C0 end:0x80022514
 	.text       start:0x8004B028 end:0x800539EC
 	.ctors      start:0x804F590C end:0x804F5910
 	.rodata     start:0x804F6898 end:0x804F68C8
@@ -93,7 +81,7 @@ kyoshin/action/CActParamAnim.o:
 
 kyoshin/action/CActParamData.o:
 	extab       start:0x800075E4 end:0x80007704
-	extabindex  start:0x80022508 end:0x800226B8
+	extabindex  start:0x80022514 end:0x800226C4
 	.text       start:0x800539EC end:0x80058414
 	.data       start:0x80529B68 end:0x80529B78
 	.bss        start:0x80573DE8 end:0x80574028
@@ -103,7 +91,7 @@ kyoshin/action/CActParamData.o:
 
 kyoshin/appgame/cf/CMcaFile.o:
 	extab       start:0x80007704 end:0x80007714
-	extabindex  start:0x800226B8 end:0x800226D0
+	extabindex  start:0x800226C4 end:0x800226DC
 	.text       start:0x80058414 end:0x8005857C
 	.rodata     start:0x804F68C8 end:0x804F68D8
 	.data       start:0x80529B78 end:0x80529BC0
@@ -111,7 +99,7 @@ kyoshin/appgame/cf/CMcaFile.o:
 
 kyoshin/appgame/cf/CTaskEnvironment.o:
 	extab       start:0x80007714 end:0x80007794
-	extabindex  start:0x800226D0 end:0x80022790
+	extabindex  start:0x800226DC end:0x8002279C
 	.text       start:0x8005857C end:0x80059EB8
 	.ctors      start:0x804F5910 end:0x804F5914
 	.rodata     start:0x804F68D8 end:0x804F6908
@@ -123,7 +111,7 @@ kyoshin/appgame/cf/CTaskEnvironment.o:
 
 kyoshin/appgame/CTimeLightGrp.o:
 	extab       start:0x80007794 end:0x800077EC
-	extabindex  start:0x80022790 end:0x800227E4
+	extabindex  start:0x8002279C end:0x800227F0
 	.text       start:0x80059EB8 end:0x8005A3FC
 	.rodata     start:0x804F6908 end:0x804F6968
 	.data       start:0x80529C48 end:0x80529C88
@@ -132,7 +120,7 @@ kyoshin/appgame/CTimeLightGrp.o:
 
 kyoshin/appgame/cf/CActParamAnimGame.o:
 	extab       start:0x800077EC end:0x800078EC
-	extabindex  start:0x800227E4 end:0x80022928
+	extabindex  start:0x800227F0 end:0x80022934
 	.text       start:0x8005A3FC end:0x800602B8
 	.rodata     start:0x804F6968 end:0x804F6980
 	.data       start:0x80529C88 end:0x80529D90
@@ -142,7 +130,7 @@ kyoshin/appgame/cf/CActParamAnimGame.o:
 
 kyoshin/appgame/code_800602B4.o:
 	extab       start:0x800078EC end:0x8000798C
-	extabindex  start:0x80022928 end:0x80022A18
+	extabindex  start:0x80022934 end:0x80022A24
 	.text       start:0x800602B8 end:0x800614F4
 	.rodata     start:0x804F6980 end:0x804F69E8
 	.data       start:0x80529D90 end:0x80529E38
@@ -150,7 +138,7 @@ kyoshin/appgame/code_800602B4.o:
 
 kyoshin/appgame/cf/CTaskGameEffAfter.o:
 	extab       start:0x8000798C end:0x80007C44
-	extabindex  start:0x80022A18 end:0x80022E2C
+	extabindex  start:0x80022A24 end:0x80022E38
 	.text       start:0x800614F4 end:0x80065848
 	.rodata     start:0x804F69E8 end:0x804F6A20
 	.data       start:0x80529E38 end:0x80529FD4
@@ -160,12 +148,12 @@ kyoshin/appgame/cf/CTaskGameEffAfter.o:
 
 kyoshin/appgame/cf/CfResTask.o:
 	extab       start:0x80007C44 end:0x80007C78
-	extabindex  start:0x80022E2C end:0x80022E5C
+	extabindex  start:0x80022E38 end:0x80022E68
 	.text       start:0x80065848 end:0x800659C4
 
 kyoshin/appgame/cf/CfRes.o:
 	extab       start:0x80007C78 end:0x80007E2C
-	extabindex  start:0x80022E5C end:0x8002306C
+	extabindex  start:0x80022E68 end:0x80023078
 	.text       start:0x800659C4 end:0x80068990
 	.rodata     start:0x804F6A20 end:0x804F6A78
 	.data       start:0x80529FD4 end:0x8052A150
@@ -181,7 +169,7 @@ kyoshin/appgame/cf/IResInfo.o:
 
 kyoshin/appgame/cf/CfScript.o:
 	extab       start:0x80007E2C end:0x80007F28
-	extabindex  start:0x8002306C end:0x800231BC
+	extabindex  start:0x80023078 end:0x800231C8
 	.text       start:0x80068A20 end:0x80069710
 	.ctors      start:0x804F5914 end:0x804F5918
 	.rodata     start:0x804F6B98 end:0x804F6BE8
@@ -191,7 +179,7 @@ kyoshin/appgame/cf/CfScript.o:
 
 kyoshin/appgame/cf/CfTaskMain.o:
 	extab       start:0x80007F28 end:0x80007F64
-	extabindex  start:0x800231BC end:0x800231F8
+	extabindex  start:0x800231C8 end:0x80023204
 	.text       start:0x80069710 end:0x8006994C
 	.rodata     start:0x804F6BE8 end:0x804F6C10
 	.data       start:0x8052A650 end:0x8052A768
@@ -199,7 +187,7 @@ kyoshin/appgame/cf/CfTaskMain.o:
 
 kyoshin/appgame/cf/CfTFile.o:
 	extab       start:0x80007F64 end:0x8000800C
-	extabindex  start:0x800231F8 end:0x800232F4
+	extabindex  start:0x80023204 end:0x80023300
 	.text       start:0x8006994C end:0x8006A82C
 	.ctors      start:0x804F5918 end:0x804F591C
 	.rodata     start:0x804F6C10 end:0x804F6C80
@@ -210,7 +198,7 @@ kyoshin/appgame/cf/CfTFile.o:
 
 kyoshin/appgame/cf/CfCamEvent.o:
 	extab       start:0x8000800C end:0x80008088
-	extabindex  start:0x800232F4 end:0x80023390
+	extabindex  start:0x80023300 end:0x8002339C
 	.text       start:0x8006A82C end:0x8006B3EC
 	.rodata     start:0x804F6C80 end:0x804F6CF0
 	.data       start:0x8052A818 end:0x8052A924
@@ -220,12 +208,12 @@ kyoshin/appgame/cf/CfCamEvent.o:
 
 kyoshin/appgame/cf/CfCamDirectionIntf.o:
 	extab       start:0x80008088 end:0x80008098
-	extabindex  start:0x80023390 end:0x800233A8
+	extabindex  start:0x8002339C end:0x800233B4
 	.text       start:0x8006B3EC end:0x8006B508
 
 kyoshin/appgame/cf/CfCamLookatIntf.o:
 	extab       start:0x80008098 end:0x800080A8
-	extabindex  start:0x800233A8 end:0x800233C0
+	extabindex  start:0x800233B4 end:0x800233CC
 	.text       start:0x8006B508 end:0x8006B5D4
 
 kyoshin/appgame/cf/CfCamTargetIntf.o:
@@ -233,7 +221,7 @@ kyoshin/appgame/cf/CfCamTargetIntf.o:
 
 kyoshin/appgame/cf/CfCam.o:
 	extab       start:0x800080A8 end:0x800080D8
-	extabindex  start:0x800233C0 end:0x80023408
+	extabindex  start:0x800233CC end:0x80023414
 	.text       start:0x8006B6A0 end:0x8006BC2C
 	.rodata     start:0x804F6CF0 end:0x804F6E40
 	.data       start:0x8052A924 end:0x8052AA14
@@ -242,7 +230,7 @@ kyoshin/appgame/cf/CfCam.o:
 
 kyoshin/appgame/cf/CfCamFollow.o:
 	extab       start:0x800080D8 end:0x8000836C
-	extabindex  start:0x80023408 end:0x800237C8
+	extabindex  start:0x80023414 end:0x800237D4
 	.text       start:0x8006BC2C end:0x80074F4C
 	.ctors      start:0x804F591C end:0x804F5920
 	.data       start:0x8052AA14 end:0x8052AB98
@@ -253,7 +241,7 @@ kyoshin/appgame/cf/CfCamFollow.o:
 
 kyoshin/appgame/code_80074F4C.o:
 	extab       start:0x8000836C end:0x8000841C
-	extabindex  start:0x800237C8 end:0x800238D0
+	extabindex  start:0x800237D4 end:0x800238DC
 	.text       start:0x80074F4C end:0x8007C0F8
 	.ctors      start:0x804F5920 end:0x804F5924
 	.rodata     start:0x804F6E40 end:0x804F7020
@@ -265,7 +253,7 @@ kyoshin/appgame/code_80074F4C.o:
 
 kyoshin/appgame/code_8007C0F8.o:
 	extab       start:0x8000841C end:0x80008AAC
-	extabindex  start:0x800238D0 end:0x80024098
+	extabindex  start:0x800238DC end:0x800240A4
 	.text       start:0x8007C0F8 end:0x800875A8
 	.ctors      start:0x804F5924 end:0x804F5928
 	.rodata     start:0x804F7020 end:0x804F7060
@@ -277,7 +265,7 @@ kyoshin/appgame/code_8007C0F8.o:
 
 kyoshin/appgame/cf/CtrlEnemy.o:
 	extab       start:0x80008AAC end:0x80008B54
-	extabindex  start:0x80024098 end:0x80024110
+	extabindex  start:0x800240A4 end:0x8002411C
 	.text       start:0x800875A8 end:0x80088904
 	.rodata     start:0x804F7060 end:0x804F7200
 	.data       start:0x8052AEF8 end:0x8052AFD8
@@ -286,7 +274,7 @@ kyoshin/appgame/cf/CtrlEnemy.o:
 
 kyoshin/appgame/cf/CtrlMoveBase.o:
 	extab       start:0x80008B54 end:0x80008BB4
-	extabindex  start:0x80024110 end:0x800241A0
+	extabindex  start:0x8002411C end:0x800241AC
 	.text       start:0x80088904 end:0x8008A0C8
 	.rodata     start:0x804F7200 end:0x804F7214
 	.data       start:0x8052AFD8 end:0x8052AFE4
@@ -295,7 +283,7 @@ kyoshin/appgame/cf/CtrlMoveBase.o:
 
 kyoshin/appgame/cf/CtrlEneAiCall.o:
 	extab       start:0x80008BB4 end:0x80008BBC
-	extabindex  start:0x800241A0 end:0x800241AC
+	extabindex  start:0x800241AC end:0x800241B8
 	.text       start:0x8008A0C8 end:0x8008A104
 	.ctors      start:0x804F5928 end:0x804F592C
 	.rodata     start:0x804F7214 end:0x804F7238
@@ -304,7 +292,7 @@ kyoshin/appgame/cf/CtrlEneAiCall.o:
 
 kyoshin/appgame/cf/CtrlMoveEne.o:
 	extab       start:0x80008BBC end:0x80008CC4
-	extabindex  start:0x800241AC end:0x80024338
+	extabindex  start:0x800241B8 end:0x80024344
 	.text       start:0x8008A104 end:0x80093698
 	.rodata     start:0x804F7238 end:0x804F72C8
 	.data       start:0x8052B000 end:0x8052B218
@@ -314,7 +302,7 @@ kyoshin/appgame/cf/CtrlMoveEne.o:
 
 kyoshin/appgame/cf/CtrlNpc.o:
 	extab       start:0x80008CC4 end:0x80008DA4
-	extabindex  start:0x80024338 end:0x8002444C
+	extabindex  start:0x80024344 end:0x80024458
 	.text       start:0x80093698 end:0x8009689C
 	.rodata     start:0x804F72C8 end:0x804F7438
 	.data       start:0x8052B218 end:0x8052B3D8
@@ -323,7 +311,7 @@ kyoshin/appgame/cf/CtrlNpc.o:
 
 kyoshin/appgame/cf/CtrlPad.o:
 	extab       start:0x80008DA4 end:0x80008DD8
-	extabindex  start:0x8002444C end:0x8002447C
+	extabindex  start:0x80024458 end:0x80024488
 	.text       start:0x8009689C end:0x80097004
 	.rodata     start:0x804F7438 end:0x804F7454
 	.data       start:0x8052B3D8 end:0x8052B580
@@ -332,7 +320,7 @@ kyoshin/appgame/cf/CtrlPad.o:
 
 kyoshin/appgame/cf/CtrlPc.o:
 	extab       start:0x80008DD8 end:0x80008EA0
-	extabindex  start:0x8002447C end:0x80024530
+	extabindex  start:0x80024488 end:0x8002453C
 	.text       start:0x80097004 end:0x80098BE4
 	.rodata     start:0x804F7454 end:0x804F7490
 	.data       start:0x8052B580 end:0x8052B758
@@ -341,10 +329,10 @@ kyoshin/appgame/cf/CtrlPc.o:
 
 kyoshin/appgame/cf/CtrlRemote.o:
 	extab       start:0x80008EA0 end:0x80008FBC
-	extabindex  start:0x80024530 end:0x8002465C
+	extabindex  start:0x8002453C end:0x80024668
 	.text       start:0x80098BE4 end:0x8009D604
 	.rodata     start:0x804F7490 end:0x804F7498
-	.data       start:0x8052B758 end:0x8052B8A8
+	.data       start:0x8052B758 end:0x8052B8B8
 	.bss        start:0x80575040 end:0x80576298
 	.sdata      start:0x80664568 end:0x80664570
 	.sbss       start:0x80666780 end:0x80666788
@@ -352,25 +340,25 @@ kyoshin/appgame/cf/CtrlRemote.o:
 
 kyoshin/appgame/cf/CtrlObjectParam.o:
 	extab       start:0x80008FBC end:0x80009024
-	extabindex  start:0x8002465C end:0x800246F8
+	extabindex  start:0x80024668 end:0x80024704
 	.text       start:0x8009D604 end:0x8009ED08
-	.data       start:0x8052B8A8 end:0x8052B938
+	.data       start:0x8052B8B8 end:0x8052B948
 	.sdata2     start:0x80668FF8 end:0x80669018
 
 kyoshin/appgame/code_8009ED08.o:
 	extab       start:0x80009024 end:0x80009344
-	extabindex  start:0x800246F8 end:0x80024B78
+	extabindex  start:0x80024704 end:0x80024B84
 	.text       start:0x8009ED08 end:0x800AA008
 	.ctors      start:0x804F592C end:0x804F5930
 	.rodata     start:0x804F7498 end:0x804F77E8
-	.data       start:0x8052B938 end:0x8052BB80
+	.data       start:0x8052B948 end:0x8052BB80
 	.bss        start:0x80576298 end:0x80576478
 	.sbss       start:0x80666788 end:0x806667A0
 	.sdata2     start:0x80669018 end:0x806690B0
 
 kyoshin/appgame/code_800AA008.o:
 	extab       start:0x80009344 end:0x80009364
-	extabindex  start:0x80024B78 end:0x80024BA8
+	extabindex  start:0x80024B84 end:0x80024BB4
 	.text       start:0x800AA008 end:0x800AABD4
 	.ctors      start:0x804F5930 end:0x804F5934
 	.rodata     start:0x804F77E8 end:0x804F78B0
@@ -380,32 +368,32 @@ kyoshin/appgame/code_800AA008.o:
 
 kyoshin/appgame/cf/CfCollCircleImpl.o:
 	extab       start:0x80009364 end:0x80009384
-	extabindex  start:0x80024BA8 end:0x80024BC0
+	extabindex  start:0x80024BB4 end:0x80024BCC
 	.text       start:0x800AABD4 end:0x800AAD28
 
 kyoshin/appgame/cf/CfCollSphereImpl.o:
 	extab       start:0x80009384 end:0x80009394
-	extabindex  start:0x80024BC0 end:0x80024BD8
+	extabindex  start:0x80024BCC end:0x80024BE4
 	.text       start:0x800AAD28 end:0x800AAE24
 
 kyoshin/appgame/cf/CfCollAABBImpl.o:
 	extab       start:0x80009394 end:0x800093AC
-	extabindex  start:0x80024BD8 end:0x80024BE4
+	extabindex  start:0x80024BE4 end:0x80024BF0
 	.text       start:0x800AAE24 end:0x800AB010
 
 kyoshin/appgame/cf/CfCollCylinderImpl.o:
 	extab       start:0x800093AC end:0x800093BC
-	extabindex  start:0x80024BE4 end:0x80024BFC
+	extabindex  start:0x80024BF0 end:0x80024C08
 	.text       start:0x800AB010 end:0x800AB2E4
 
 kyoshin/appgame/cf/CfCollCapsuleImpl.o:
 	extab       start:0x800093BC end:0x800093C4
-	extabindex  start:0x80024BFC end:0x80024C08
+	extabindex  start:0x80024C08 end:0x80024C14
 	.text       start:0x800AB2E4 end:0x800AB3D0
 
 kyoshin/appgame/cf/CfObjectColl.o:
 	extab       start:0x800093C4 end:0x80009480
-	extabindex  start:0x80024C08 end:0x80024D04
+	extabindex  start:0x80024C14 end:0x80024D10
 	.text       start:0x800AB3D0 end:0x800AC62C
 	.rodata     start:0x804F78B0 end:0x804F7970
 	.data       start:0x8052BDB8 end:0x8052C028
@@ -415,14 +403,14 @@ kyoshin/appgame/cf/CfObjectColl.o:
 
 kyoshin/appgame/cf/CfObjectEff.o:
 	extab       start:0x80009480 end:0x80009584
-	extabindex  start:0x80024D04 end:0x80024E0C
+	extabindex  start:0x80024D10 end:0x80024E18
 	.text       start:0x800AC62C end:0x800AD888
 	.data       start:0x8052C028 end:0x8052C1E8
 	.sdata2     start:0x80669220 end:0x80669230
 
 kyoshin/appgame/cf/CfObjectEne.o:
 	extab       start:0x80009584 end:0x800096BC
-	extabindex  start:0x80024E0C end:0x80024FA4
+	extabindex  start:0x80024E18 end:0x80024FB0
 	.text       start:0x800AD888 end:0x800B132C
 	.rodata     start:0x804F7970 end:0x804F7C70
 	.data       start:0x8052C1E8 end:0x8052C828
@@ -431,7 +419,7 @@ kyoshin/appgame/cf/CfObjectEne.o:
 
 kyoshin/appgame/cf/CfObjectMap.o:
 	extab       start:0x800096BC end:0x80009B68
-	extabindex  start:0x80024FA4 end:0x800255E0
+	extabindex  start:0x80024FB0 end:0x800255EC
 	.text       start:0x800B132C end:0x800BA7E8
 	.ctors      start:0x804F5934 end:0x804F5938
 	.rodata     start:0x804F7C70 end:0x804F7D70
@@ -443,7 +431,7 @@ kyoshin/appgame/cf/CfObjectMap.o:
 
 kyoshin/appgame/cf/CfObjectModel.o:
 	extab       start:0x80009B68 end:0x80009C8C
-	extabindex  start:0x800255E0 end:0x80025778
+	extabindex  start:0x800255EC end:0x80025784
 	.text       start:0x800BA7E8 end:0x800BBC4C
 	.rodata     start:0x804F7D70 end:0x804F7D78
 	.data       start:0x8052CAE8 end:0x8052CE60
@@ -451,7 +439,7 @@ kyoshin/appgame/cf/CfObjectModel.o:
 
 kyoshin/appgame/cf/CfObjectMove.o:
 	extab       start:0x80009C8C end:0x80009EB8
-	extabindex  start:0x80025778 end:0x800259D0
+	extabindex  start:0x80025784 end:0x800259DC
 	.text       start:0x800BBC4C end:0x800BF340
 	.rodata     start:0x804F7D78 end:0x804F7D98
 	.data       start:0x8052CE60 end:0x8052D088
@@ -459,7 +447,7 @@ kyoshin/appgame/cf/CfObjectMove.o:
 
 kyoshin/appgame/cf/CfObjectNpc.o:
 	extab       start:0x80009EB8 end:0x80009F18
-	extabindex  start:0x800259D0 end:0x80025A24
+	extabindex  start:0x800259DC end:0x80025A30
 	.text       start:0x800BF340 end:0x800BF98C
 	.rodata     start:0x804F7D98 end:0x804F7DD8
 	.data       start:0x8052D088 end:0x8052D2E8
@@ -468,7 +456,7 @@ kyoshin/appgame/cf/CfObjectNpc.o:
 
 kyoshin/appgame/cf/CfObjectObj.o:
 	extab       start:0x80009F18 end:0x80009F70
-	extabindex  start:0x80025A24 end:0x80025A6C
+	extabindex  start:0x80025A30 end:0x80025A78
 	.text       start:0x800BF98C end:0x800BFC90
 	.rodata     start:0x804F7DD8 end:0x804F7E00
 	.data       start:0x8052D2E8 end:0x8052D570
@@ -476,7 +464,7 @@ kyoshin/appgame/cf/CfObjectObj.o:
 
 kyoshin/appgame/cf/CfObjectPc.o:
 	extab       start:0x80009F70 end:0x8000A058
-	extabindex  start:0x80025A6C end:0x80025B8C
+	extabindex  start:0x80025A78 end:0x80025B98
 	.text       start:0x800BFC90 end:0x800C1274
 	.rodata     start:0x804F7E00 end:0x804F7E68
 	.data       start:0x8052D570 end:0x8052DB80
@@ -484,7 +472,7 @@ kyoshin/appgame/cf/CfObjectPc.o:
 
 kyoshin/appgame/cf/CfObjectPoint.o:
 	extab       start:0x8000A058 end:0x8000A134
-	extabindex  start:0x80025B8C end:0x80025C7C
+	extabindex  start:0x80025B98 end:0x80025C88
 	.text       start:0x800C1274 end:0x800C2E3C
 	.ctors      start:0x804F5938 end:0x804F593C
 	.rodata     start:0x804F7E68 end:0x804F7E78
@@ -494,7 +482,7 @@ kyoshin/appgame/cf/CfObjectPoint.o:
 
 kyoshin/appgame/cf/CfObjectImplWalker.o:
 	extab       start:0x8000A134 end:0x8000A264
-	extabindex  start:0x80025C7C end:0x80025D30
+	extabindex  start:0x80025C88 end:0x80025D3C
 	.text       start:0x800C2E3C end:0x800C5998
 	.rodata     start:0x804F7E78 end:0x804F7F38
 	.data       start:0x8052DD28 end:0x8052DE60
@@ -503,7 +491,7 @@ kyoshin/appgame/cf/CfObjectImplWalker.o:
 
 kyoshin/appgame/cf/CfObjectImplPc.o:
 	extab       start:0x8000A264 end:0x8000A374
-	extabindex  start:0x80025D30 end:0x80025E08
+	extabindex  start:0x80025D3C end:0x80025E14
 	.text       start:0x800C5998 end:0x800CA4EC
 	.rodata     start:0x804F7F38 end:0x804F7FB8
 	.data       start:0x8052DE60 end:0x8052E0B8
@@ -511,14 +499,14 @@ kyoshin/appgame/cf/CfObjectImplPc.o:
 
 kyoshin/appgame/cf/CfObjectImplObj.o:
 	extab       start:0x8000A374 end:0x8000A394
-	extabindex  start:0x80025E08 end:0x80025E38
+	extabindex  start:0x80025E14 end:0x80025E44
 	.text       start:0x800CA4EC end:0x800CA6E4
 	.rodata     start:0x804F7FB8 end:0x804F7FD0
 	.data       start:0x8052E0B8 end:0x8052E1D0
 
 kyoshin/appgame/cf/CfObjectImplNpc.o:
 	extab       start:0x8000A394 end:0x8000A3B4
-	extabindex  start:0x80025E38 end:0x80025E68
+	extabindex  start:0x80025E44 end:0x80025E74
 	.text       start:0x800CA6E4 end:0x800CA948
 	.rodata     start:0x804F7FD0 end:0x804F8018
 	.data       start:0x8052E1D0 end:0x8052E310
@@ -527,7 +515,7 @@ kyoshin/appgame/cf/CfObjectImplNpc.o:
 
 kyoshin/appgame/cf/CfObjectImplMove.o:
 	extab       start:0x8000A3B4 end:0x8000A4A4
-	extabindex  start:0x80025E68 end:0x80025FA0
+	extabindex  start:0x80025E74 end:0x80025FAC
 	.text       start:0x800CA948 end:0x800CFFCC
 	.data       start:0x8052E310 end:0x8052E590
 	.sdata      start:0x80664638 end:0x80664640
@@ -535,7 +523,7 @@ kyoshin/appgame/cf/CfObjectImplMove.o:
 
 kyoshin/appgame/cf/CfObjectImplEne.o:
 	extab       start:0x8000A4A4 end:0x8000A4FC
-	extabindex  start:0x80025FA0 end:0x8002600C
+	extabindex  start:0x80025FAC end:0x80026018
 	.text       start:0x800CFFCC end:0x800D10DC
 	.rodata     start:0x804F8018 end:0x804F8030
 	.data       start:0x8052E590 end:0x8052E6C0
@@ -544,7 +532,7 @@ kyoshin/appgame/cf/CfObjectImplEne.o:
 
 kyoshin/appgame/cf/CtrlAct.o:
 	extab       start:0x8000A4FC end:0x8000A5FC
-	extabindex  start:0x8002600C end:0x80026138
+	extabindex  start:0x80026018 end:0x80026144
 	.text       start:0x800D10DC end:0x800D7A04
 	.ctors      start:0x804F593C end:0x804F5940
 	.rodata     start:0x804F8030 end:0x804F8048
@@ -555,13 +543,13 @@ kyoshin/appgame/cf/CtrlAct.o:
 
 kyoshin/appgame/code_800D7A04.o:
 	extab       start:0x8000A5FC end:0x8000A61C
-	extabindex  start:0x80026138 end:0x80026168
+	extabindex  start:0x80026144 end:0x80026174
 	.text       start:0x800D7A04 end:0x800D84FC
 	.sdata2     start:0x80669698 end:0x806696B4
 
 kyoshin/appgame/cf/CBattleManager.o:
 	extab       start:0x8000A61C end:0x8000ABE0
-	extabindex  start:0x80026168 end:0x8002645C
+	extabindex  start:0x80026174 end:0x80026468
 	.text       start:0x800D84FC end:0x800F47C8
 	.rodata     start:0x804F8048 end:0x804F84B8
 	.data       start:0x8052E8E0 end:0x8052F550
@@ -571,7 +559,7 @@ kyoshin/appgame/cf/CBattleManager.o:
 
 kyoshin/appgame/cf/CfObjectEnumList.o:
 	extab       start:0x8000ABE0 end:0x8000ACF4
-	extabindex  start:0x8002645C end:0x800265DC
+	extabindex  start:0x80026468 end:0x800265E8
 	.text       start:0x800F47C8 end:0x800FDB4C
 	.rodata     start:0x804F84B8 end:0x804F8550
 	.data       start:0x8052F550 end:0x8052F5A8
@@ -582,7 +570,7 @@ kyoshin/appgame/cf/CfObjectEnumList.o:
 
 kyoshin/appgame/cf/CfObjectSelectorObj.o:
 	extab       start:0x8000ACF4 end:0x8000AD80
-	extabindex  start:0x800265DC end:0x80026654
+	extabindex  start:0x800265E8 end:0x80026660
 	.text       start:0x800FDB4C end:0x800FEB84
 	.ctors      start:0x804F5940 end:0x804F5944
 	.rodata     start:0x804F8550 end:0x804F8568
@@ -593,7 +581,7 @@ kyoshin/appgame/cf/CfObjectSelectorObj.o:
 
 kyoshin/appgame/CMainMenu.o:
 	extab       start:0x8000AD80 end:0x8000AE84
-	extabindex  start:0x80026654 end:0x800266A8
+	extabindex  start:0x80026660 end:0x800266B4
 	.text       start:0x800FEB84 end:0x800FF300
 	.rodata     start:0x804F8568 end:0x804F88F0
 	.data       start:0x8052F5B8 end:0x8052F780
@@ -602,13 +590,13 @@ kyoshin/appgame/CMainMenu.o:
 
 kyoshin/appgame/CMainCur.o:
 	extab       start:0x8000AE84 end:0x8000AF14
-	extabindex  start:0x800266A8 end:0x80026750
+	extabindex  start:0x800266B4 end:0x8002675C
 	.text       start:0x800FF300 end:0x80102020
 	.sdata2     start:0x806697D8 end:0x806697F0
 
 kyoshin/appgame/menu/CMenuArtsSelect.o:
 	extab       start:0x8000AF14 end:0x8000B0AC
-	extabindex  start:0x80026750 end:0x800268C4
+	extabindex  start:0x8002675C end:0x800268D0
 	.text       start:0x80102020 end:0x80108C58
 	.rodata     start:0x804F88F0 end:0x804F8D30
 	.data       start:0x8052F780 end:0x8052F96C
@@ -618,7 +606,7 @@ kyoshin/appgame/menu/CMenuArtsSelect.o:
 
 kyoshin/appgame/menu/CMenuBattleDamage.o:
 	extab       start:0x8000B0AC end:0x8000B1A4
-	extabindex  start:0x800268C4 end:0x80026984
+	extabindex  start:0x800268D0 end:0x80026990
 	.text       start:0x80108C58 end:0x8010ADA4
 	.rodata     start:0x804F8D30 end:0x804F8F28
 	.data       start:0x8052F96C end:0x8052FB00
@@ -628,7 +616,7 @@ kyoshin/appgame/menu/CMenuBattleDamage.o:
 
 kyoshin/appgame/menu/CMenuBattlePlayerState.o:
 	extab       start:0x8000B1A4 end:0x8000B330
-	extabindex  start:0x80026984 end:0x80026A2C
+	extabindex  start:0x80026990 end:0x80026A38
 	.text       start:0x8010ADA4 end:0x8010EA64
 	.ctors      start:0x804F5944 end:0x804F5948
 	.rodata     start:0x804F8F28 end:0x804F93B0
@@ -639,14 +627,14 @@ kyoshin/appgame/menu/CMenuBattlePlayerState.o:
 
 kyoshin/appgame/CPcSelectCursor.o:
 	extab       start:0x8000B330 end:0x8000B370
-	extabindex  start:0x80026A2C end:0x80026A74
+	extabindex  start:0x80026A38 end:0x80026A80
 	.text       start:0x8010EA64 end:0x8010F170
 	.data       start:0x8052FBFC end:0x8052FC08
 	.sdata      start:0x80664718 end:0x80664720
 
 kyoshin/appgame/menu/CMenuEnemyState.o:
 	extab       start:0x8000B370 end:0x8000B4C0
-	extabindex  start:0x80026A74 end:0x80026B4C
+	extabindex  start:0x80026A80 end:0x80026B58
 	.text       start:0x8010F170 end:0x801135E0
 	.ctors      start:0x804F5948 end:0x804F594C
 	.rodata     start:0x804F93B0 end:0x804F96E0
@@ -658,7 +646,7 @@ kyoshin/appgame/menu/CMenuEnemyState.o:
 
 kyoshin/appgame/menu/CMenuFade.o:
 	extab       start:0x8000B4C0 end:0x8000B5E4
-	extabindex  start:0x80026B4C end:0x80026BDC
+	extabindex  start:0x80026B58 end:0x80026BE8
 	.text       start:0x801135E0 end:0x80114F50
 	.rodata     start:0x804F96E0 end:0x804F9720
 	.data       start:0x8052FD10 end:0x8052FE10
@@ -668,7 +656,7 @@ kyoshin/appgame/menu/CMenuFade.o:
 
 kyoshin/appgame/menu/CMenuKeyAssign.o:
 	extab       start:0x8000B5E4 end:0x8000B6A8
-	extabindex  start:0x80026BDC end:0x80026CA8
+	extabindex  start:0x80026BE8 end:0x80026CB4
 	.text       start:0x80114F50 end:0x80117A18
 	.rodata     start:0x804F9720 end:0x804F97F0
 	.data       start:0x8052FE10 end:0x8052FF10
@@ -678,7 +666,7 @@ kyoshin/appgame/menu/CMenuKeyAssign.o:
 
 kyoshin/appgame/CMiniMap.o:
 	extab       start:0x8000B6A8 end:0x8000B804
-	extabindex  start:0x80026CA8 end:0x80026D08
+	extabindex  start:0x80026CB4 end:0x80026D14
 	.text       start:0x80117A18 end:0x8011B778
 	.rodata     start:0x804F97F0 end:0x804F9D48
 	.data       start:0x8052FF10 end:0x80530258
@@ -688,7 +676,7 @@ kyoshin/appgame/CMiniMap.o:
 
 kyoshin/appgame/CMMClock.o:
 	extab       start:0x8000B804 end:0x8000B8D0
-	extabindex  start:0x80026D08 end:0x80026D50
+	extabindex  start:0x80026D14 end:0x80026D5C
 	.text       start:0x8011B778 end:0x8011C44C
 	.ctors      start:0x804F594C end:0x804F5950
 	.data       start:0x80530258 end:0x805303E0
@@ -697,7 +685,7 @@ kyoshin/appgame/CMMClock.o:
 
 kyoshin/appgame/menu/CMenuQuestLog.o:
 	extab       start:0x8000B8D0 end:0x8000BA94
-	extabindex  start:0x80026D50 end:0x80026E40
+	extabindex  start:0x80026D5C end:0x80026E4C
 	.text       start:0x8011C44C end:0x8011D424
 	.rodata     start:0x804F9D48 end:0x804F9D68
 	.data       start:0x805303E0 end:0x80530478
@@ -706,14 +694,14 @@ kyoshin/appgame/menu/CMenuQuestLog.o:
 
 kyoshin/appgame/menu/CMenuSymbolMark.o:
 	extab       start:0x8000BA94 end:0x8000BB10
-	extabindex  start:0x80026E40 end:0x80026E58
+	extabindex  start:0x80026E4C end:0x80026E64
 	.text       start:0x8011D424 end:0x8011DA34
 	.rodata     start:0x804F9D68 end:0x804F9F18
 	.data       start:0x80530478 end:0x80530508
 
 kyoshin/appgame/CArrow3D.o:
 	extab       start:0x8000BB10 end:0x8000BC10
-	extabindex  start:0x80026E58 end:0x80026F60
+	extabindex  start:0x80026E64 end:0x80026F6C
 	.text       start:0x8011DA34 end:0x80122164
 	.rodata     start:0x804F9F18 end:0x804FA048
 	.data       start:0x80530508 end:0x80530750
@@ -723,7 +711,7 @@ kyoshin/appgame/CArrow3D.o:
 
 kyoshin/appgame/CQuestWindow.o:
 	extab       start:0x8000BC10 end:0x8000BDB4
-	extabindex  start:0x80026F60 end:0x80027050
+	extabindex  start:0x80026F6C end:0x8002705C
 	.text       start:0x80122164 end:0x801245EC
 	.rodata     start:0x804FA048 end:0x804FA7D8
 	.data       start:0x80530750 end:0x80530A48
@@ -733,7 +721,7 @@ kyoshin/appgame/CQuestWindow.o:
 
 kyoshin/appgame/CSystemWindow.o:
 	extab       start:0x8000BDB4 end:0x8000BE54
-	extabindex  start:0x80027050 end:0x800270A4
+	extabindex  start:0x8002705C end:0x800270B0
 	.text       start:0x801245EC end:0x80124B80
 	.rodata     start:0x804FA7D8 end:0x804FA7F8
 	.data       start:0x80530A48 end:0x80530C48
@@ -741,14 +729,14 @@ kyoshin/appgame/CSystemWindow.o:
 	.sbss       start:0x806668D0 end:0x806668D8
 
 kyoshin/appgame/CSysWinSelect.o:
-	extab       start:0x8000BE54 end:0x8000BFF8
-	extabindex  start:0x800270A4 end:0x80027230
-	.text       start:0x80124B80 end:0x801259AC
+	extab       start:0x8000BE54 end:0x8000BF38
+	extabindex  start:0x800270B0 end:0x8002711C
+	.text       start:0x80124B80 end:0x80125310
 
 kyoshin/appgame/CTagProcessor.o:
-	extab       start:0x8000BFF8 end:0x8000C21C
-	extabindex  start:0x80027230 end:0x800274E8
-	.text       start:0x801259AC end:0x8012BC44
+	extab       start:0x8000BF38 end:0x8000C21C
+	extabindex  start:0x8002711C end:0x800274F4
+	.text       start:0x80125310 end:0x8012BC44
 	.ctors      start:0x804F5950 end:0x804F5954
 	.rodata     start:0x804FA7F8 end:0x804FB4D8
 	.data       start:0x80530C48 end:0x80531740
@@ -758,7 +746,7 @@ kyoshin/appgame/CTagProcessor.o:
 
 kyoshin/appgame/CTalkWindow.o:
 	extab       start:0x8000C21C end:0x8000C2EC
-	extabindex  start:0x800274E8 end:0x8002756C
+	extabindex  start:0x800274F4 end:0x80027578
 	.text       start:0x8012BC44 end:0x8012DF90
 	.ctors      start:0x804F5954 end:0x804F5958
 	.rodata     start:0x804FB4D8 end:0x804FB6D0
@@ -770,7 +758,7 @@ kyoshin/appgame/CTalkWindow.o:
 
 kyoshin/appgame/CUIBattleManager.o:
 	extab       start:0x8000C2EC end:0x8000C450
-	extabindex  start:0x8002756C end:0x80027710
+	extabindex  start:0x80027578 end:0x8002771C
 	.text       start:0x8012DF90 end:0x80131EA8
 	.rodata     start:0x804FB6D0 end:0x804FB800
 	.data       start:0x80531878 end:0x80531A58
@@ -780,7 +768,7 @@ kyoshin/appgame/CUIBattleManager.o:
 
 kyoshin/appgame/CUICfManager.o:
 	extab       start:0x8000C450 end:0x8000CB50
-	extabindex  start:0x80027710 end:0x80027DD0
+	extabindex  start:0x8002771C end:0x80027DDC
 	.text       start:0x80131EA8 end:0x8013C068
 	.rodata     start:0x804FB800 end:0x804FC110
 	.data       start:0x80531A58 end:0x80531D70
@@ -791,7 +779,7 @@ kyoshin/appgame/CUICfManager.o:
 
 kyoshin/appgame/CUIWindowManager.o:
 	extab       start:0x8000CB50 end:0x8000CD8C
-	extabindex  start:0x80027DD0 end:0x80028094
+	extabindex  start:0x80027DDC end:0x800280A0
 	.text       start:0x8013C068 end:0x801414CC
 	.ctors      start:0x804F5958 end:0x804F595C
 	.rodata     start:0x804FC110 end:0x804FC5A8
@@ -802,7 +790,7 @@ kyoshin/appgame/CUIWindowManager.o:
 
 kyoshin/appgame/cf/CfBdat.o:
 	extab       start:0x8000CD8C end:0x8000CE14
-	extabindex  start:0x80028094 end:0x80028160
+	extabindex  start:0x800280A0 end:0x8002816C
 	.text       start:0x801414CC end:0x8014255C
 	.ctors      start:0x804F595C end:0x804F5960
 	.rodata     start:0x804FC5A8 end:0x804FCBB8
@@ -813,7 +801,7 @@ kyoshin/appgame/cf/CfBdat.o:
 
 kyoshin/appgame/menu/CMenuUpdate.o:
 	extab       start:0x8000CE14 end:0x8000CF14
-	extabindex  start:0x80028160 end:0x8002822C
+	extabindex  start:0x8002816C end:0x80028238
 	.text       start:0x8014255C end:0x801445A8
 	.rodata     start:0x804FCBB8 end:0x804FCF40
 	.data       start:0x80531F80 end:0x80532080
@@ -823,7 +811,7 @@ kyoshin/appgame/menu/CMenuUpdate.o:
 
 kyoshin/appgame/menu/CMenuLandTelop.o:
 	extab       start:0x8000CF14 end:0x8000CFE4
-	extabindex  start:0x8002822C end:0x800282B0
+	extabindex  start:0x80028238 end:0x800282BC
 	.text       start:0x801445A8 end:0x80145B1C
 	.rodata     start:0x804FCF40 end:0x804FD0D8
 	.data       start:0x80532080 end:0x80532180
@@ -833,7 +821,7 @@ kyoshin/appgame/menu/CMenuLandTelop.o:
 
 kyoshin/appgame/cf/CBattleState.o:
 	extab       start:0x8000CFE4 end:0x8000D04C
-	extabindex  start:0x800282B0 end:0x8002834C
+	extabindex  start:0x800282BC end:0x80028358
 	.text       start:0x80145B1C end:0x80149780
 	.rodata     start:0x804FD0D8 end:0x804FD0F0
 	.data       start:0x80532180 end:0x80532210
@@ -842,7 +830,7 @@ kyoshin/appgame/cf/CBattleState.o:
 
 kyoshin/appgame/menu/CMenuGetItem.o:
 	extab       start:0x8000D04C end:0x8000D194
-	extabindex  start:0x8002834C end:0x80028400
+	extabindex  start:0x80028358 end:0x8002840C
 	.text       start:0x80149780 end:0x8014A86C
 	.rodata     start:0x804FD0F0 end:0x804FD198
 	.data       start:0x80532210 end:0x80532310
@@ -852,13 +840,13 @@ kyoshin/appgame/menu/CMenuGetItem.o:
 
 kyoshin/appgame/code_8014A864.o:
 	extab       start:0x8000D194 end:0x8000D19C
-	extabindex  start:0x80028400 end:0x8002840C
+	extabindex  start:0x8002840C end:0x80028418
 	.text       start:0x8014A86C end:0x8014A904
 	.sbss       start:0x80666AA0 end:0x80666AA8
 
 kyoshin/appgame/cf/CAIAction.o:
 	extab       start:0x8000D19C end:0x8000D32C
-	extabindex  start:0x8002840C end:0x800284B4
+	extabindex  start:0x80028418 end:0x800284C0
 	.text       start:0x8014A904 end:0x80153BEC
 	.rodata     start:0x804FD198 end:0x804FD1A8
 	.data       start:0x80532310 end:0x80532D78
@@ -866,7 +854,7 @@ kyoshin/appgame/cf/CAIAction.o:
 
 kyoshin/appgame/cf/CArtsSet.o:
 	extab       start:0x8000D32C end:0x8000D344
-	extabindex  start:0x800284B4 end:0x800284D8
+	extabindex  start:0x800284C0 end:0x800284E4
 	.text       start:0x80153BEC end:0x80153F00
 	.rodata     start:0x804FD1A8 end:0x804FD2D0
 	.data       start:0x80532D78 end:0x80532DB8
@@ -874,7 +862,7 @@ kyoshin/appgame/cf/CArtsSet.o:
 
 kyoshin/appgame/cf/CArtsParam.o:
 	extab       start:0x8000D344 end:0x8000D3AC
-	extabindex  start:0x800284D8 end:0x80028544
+	extabindex  start:0x800284E4 end:0x80028550
 	.text       start:0x80153F00 end:0x80155660
 	.ctors      start:0x804F5960 end:0x804F5964
 	.data       start:0x80532DB8 end:0x80532DF8
@@ -882,9 +870,9 @@ kyoshin/appgame/cf/CArtsParam.o:
 	.sdata      start:0x80664B70 end:0x80664B80
 	.sdata2     start:0x80669D20 end:0x80669D60
 
-kyoshin/appgame/code_80155660.o:
+kyoshin/appgame/cf/CItem.o:
 	extab       start:0x8000D3AC end:0x8000D614
-	extabindex  start:0x80028544 end:0x800288E0
+	extabindex  start:0x80028550 end:0x800288EC
 	.text       start:0x80155660 end:0x8015BAA8
 	.ctors      start:0x804F5964 end:0x804F5968
 	.rodata     start:0x804FD2D0 end:0x804FD5D0
@@ -896,7 +884,7 @@ kyoshin/appgame/code_80155660.o:
 
 kyoshin/appgame/cf/CCharEffect.o:
 	extab       start:0x8000D614 end:0x8000D67C
-	extabindex  start:0x800288E0 end:0x8002897C
+	extabindex  start:0x800288EC end:0x80028988
 	.text       start:0x8015BAA8 end:0x8015CCBC
 	.rodata     start:0x804FD5D0 end:0x804FD678
 	.data       start:0x805334D8 end:0x805335A8
@@ -906,7 +894,7 @@ kyoshin/appgame/cf/CCharEffect.o:
 
 kyoshin/appgame/cf/CCharEffectEne.o:
 	extab       start:0x8000D67C end:0x8000D6D0
-	extabindex  start:0x8002897C end:0x800289DC
+	extabindex  start:0x80028988 end:0x800289E8
 	.text       start:0x8015CCBC end:0x8015D208
 	.rodata     start:0x804FD678 end:0x804FD838
 	.data       start:0x805335A8 end:0x80533668
@@ -914,7 +902,7 @@ kyoshin/appgame/cf/CCharEffectEne.o:
 
 kyoshin/appgame/CCol6CheckBat.o:
 	extab       start:0x8000D6D0 end:0x8000D824
-	extabindex  start:0x800289DC end:0x80028A78
+	extabindex  start:0x800289E8 end:0x80028A84
 	.text       start:0x8015D208 end:0x8015E950
 	.rodata     start:0x804FD838 end:0x804FDD20
 	.sdata      start:0x80664C50 end:0x80664C58
@@ -923,19 +911,19 @@ kyoshin/appgame/CCol6CheckBat.o:
 
 kyoshin/appgame/CCol6System.o:
 	extab       start:0x8000D824 end:0x8000DA98
-	extabindex  start:0x80028A78 end:0x80028BB0
+	extabindex  start:0x80028A84 end:0x80028BBC
 	.text       start:0x8015E950 end:0x80163FB8
 	.data       start:0x80533668 end:0x80533AD0
 	.sdata      start:0x80664C58 end:0x80664C78
 
 kyoshin/appgame/CCol6Invite.o:
 	extab       start:0x8000DA98 end:0x8000DAA0
-	extabindex  start:0x80028BB0 end:0x80028BBC
+	extabindex  start:0x80028BBC end:0x80028BC8
 	.text       start:0x80163FB8 end:0x80164120
 
 kyoshin/appgame/cf/CTaskREvent.o:
 	extab       start:0x8000DAA0 end:0x8000DD00
-	extabindex  start:0x80028BBC end:0x80028D18
+	extabindex  start:0x80028BC8 end:0x80028D24
 	.text       start:0x80164120 end:0x80166704
 	.rodata     start:0x804FDD20 end:0x804FE850
 	.data       start:0x80533AD0 end:0x80534180
@@ -945,7 +933,7 @@ kyoshin/appgame/cf/CTaskREvent.o:
 
 kyoshin/appgame/cf/CInfoCf.o:
 	extab       start:0x8000DD00 end:0x8000DDDC
-	extabindex  start:0x80028D18 end:0x80028DA8
+	extabindex  start:0x80028D24 end:0x80028DB4
 	.text       start:0x80166704 end:0x801678F0
 	.rodata     start:0x804FE850 end:0x804FE860
 	.data       start:0x80534180 end:0x80534190
@@ -954,7 +942,7 @@ kyoshin/appgame/cf/CInfoCf.o:
 
 kyoshin/appgame/menu/CMenuItem.o:
 	extab       start:0x8000DDDC end:0x8000DE34
-	extabindex  start:0x80028DA8 end:0x80028DC0
+	extabindex  start:0x80028DB4 end:0x80028DCC
 	.text       start:0x801678F0 end:0x80167C40
 	.rodata     start:0x804FE860 end:0x804FE880
 	.data       start:0x80534190 end:0x80534200
@@ -963,7 +951,7 @@ kyoshin/appgame/menu/CMenuItem.o:
 
 kyoshin/appgame/realtimeevt/CREvtMem.o:
 	extab       start:0x8000DE34 end:0x8000DE54
-	extabindex  start:0x80028DC0 end:0x80028DF0
+	extabindex  start:0x80028DCC end:0x80028DFC
 	.text       start:0x80167C40 end:0x8016803C
 	.rodata     start:0x804FE880 end:0x804FE890
 	.data       start:0x80534200 end:0x80534210
@@ -973,7 +961,7 @@ kyoshin/appgame/realtimeevt/CREvtMem.o:
 
 kyoshin/appgame/cf/CTaskREvtSequence.o:
 	extab       start:0x8000DE54 end:0x8000E048
-	extabindex  start:0x80028DF0 end:0x80028FE8
+	extabindex  start:0x80028DFC end:0x80028FF4
 	.text       start:0x8016803C end:0x8016C7F0
 	.rodata     start:0x804FE890 end:0x804FE930
 	.data       start:0x80534210 end:0x805344C0
@@ -983,7 +971,7 @@ kyoshin/appgame/cf/CTaskREvtSequence.o:
 
 kyoshin/appgame/cf/CfResObjImpl.o:
 	extab       start:0x8000E048 end:0x8000E078
-	extabindex  start:0x80028FE8 end:0x80029030
+	extabindex  start:0x80028FF4 end:0x8002903C
 	.text       start:0x8016C7F0 end:0x8016CDC0
 	.rodata     start:0x804FE930 end:0x804FE958
 	.data       start:0x805344C0 end:0x80534790
@@ -993,7 +981,7 @@ kyoshin/appgame/cf/CfResObjImpl.o:
 
 kyoshin/appgame/cf/CfResReloadImpl.o:
 	extab       start:0x8000E078 end:0x8000E150
-	extabindex  start:0x80029030 end:0x80029174
+	extabindex  start:0x8002903C end:0x80029180
 	.text       start:0x8016CDC0 end:0x8016ED50
 	.ctors      start:0x804F5968 end:0x804F596C
 	.rodata     start:0x804FE958 end:0x804FEA60
@@ -1004,7 +992,7 @@ kyoshin/appgame/cf/CfResReloadImpl.o:
 
 kyoshin/appgame/cf/CfMapEffectManager.o:
 	extab       start:0x8000E150 end:0x8000E1BC
-	extabindex  start:0x80029174 end:0x800291F8
+	extabindex  start:0x80029180 end:0x80029204
 	.text       start:0x8016ED50 end:0x8016FE68
 	.rodata     start:0x804FEA60 end:0x804FEB30
 	.data       start:0x80534850 end:0x80534860
@@ -1014,14 +1002,14 @@ kyoshin/appgame/cf/CfMapEffectManager.o:
 
 kyoshin/appgame/cf/CfObjectActor.o:
 	extab       start:0x8000E1BC end:0x8000E254
-	extabindex  start:0x800291F8 end:0x800292A0
+	extabindex  start:0x80029204 end:0x800292AC
 	.text       start:0x8016FE68 end:0x801725E4
 	.data       start:0x80534860 end:0x80534E4C
 	.sdata2     start:0x80669FF8 end:0x8066A030
 
 kyoshin/appgame/realtimeevt/CREvtModel.o:
 	extab       start:0x8000E254 end:0x8000E2F0
-	extabindex  start:0x800292A0 end:0x80029324
+	extabindex  start:0x800292AC end:0x80029330
 	.text       start:0x801725E4 end:0x801731B4
 	.rodata     start:0x804FEB30 end:0x804FEBC0
 	.data       start:0x80534E4C end:0x80534EA0
@@ -1030,7 +1018,7 @@ kyoshin/appgame/realtimeevt/CREvtModel.o:
 
 kyoshin/appgame/cf/CfMapItemManager.o:
 	extab       start:0x8000E2F0 end:0x8000E380
-	extabindex  start:0x80029324 end:0x800293FC
+	extabindex  start:0x80029330 end:0x80029408
 	.text       start:0x801731B4 end:0x80175264
 	.rodata     start:0x804FEBC0 end:0x804FEC68
 	.data       start:0x80534EA0 end:0x80534F00
@@ -1040,7 +1028,7 @@ kyoshin/appgame/cf/CfMapItemManager.o:
 
 kyoshin/appgame/cf/CActorParam.o:
 	extab       start:0x8000E380 end:0x8000E540
-	extabindex  start:0x800293FC end:0x800295B8
+	extabindex  start:0x80029408 end:0x800295C4
 	.text       start:0x80175264 end:0x8017ED94
 	.rodata     start:0x804FEC68 end:0x804FEC78
 	.data       start:0x80534F00 end:0x805353B8
@@ -1048,7 +1036,7 @@ kyoshin/appgame/cf/CActorParam.o:
 
 kyoshin/appgame/menu/CMenuZeal.o:
 	extab       start:0x8000E540 end:0x8000E600
-	extabindex  start:0x800295B8 end:0x80029624
+	extabindex  start:0x800295C4 end:0x80029630
 	.text       start:0x8017ED94 end:0x8017FF78
 	.rodata     start:0x804FEC78 end:0x804FEEF8
 	.data       start:0x805353B8 end:0x805354B8
@@ -1058,7 +1046,7 @@ kyoshin/appgame/menu/CMenuZeal.o:
 
 kyoshin/appgame/realtimeevt/CREvtCamera.o:
 	extab       start:0x8000E600 end:0x8000E668
-	extabindex  start:0x80029624 end:0x80029684
+	extabindex  start:0x80029630 end:0x80029690
 	.text       start:0x8017FF78 end:0x801809B8
 	.rodata     start:0x804FEEF8 end:0x804FEF48
 	.data       start:0x805354B8 end:0x805354F0
@@ -1068,7 +1056,7 @@ kyoshin/appgame/realtimeevt/CREvtCamera.o:
 
 kyoshin/appgame/realtimeevt/CREvtModelMap.o:
 	extab       start:0x8000E668 end:0x8000E754
-	extabindex  start:0x80029684 end:0x80029708
+	extabindex  start:0x80029690 end:0x80029714
 	.text       start:0x801809B8 end:0x80181A5C
 	.rodata     start:0x804FEF48 end:0x804FEF78
 	.data       start:0x805354F0 end:0x805356C8
@@ -1078,7 +1066,7 @@ kyoshin/appgame/realtimeevt/CREvtModelMap.o:
 
 kyoshin/appgame/realtimeevt/CREvtModelObj.o:
 	extab       start:0x8000E754 end:0x8000E834
-	extabindex  start:0x80029708 end:0x800297A4
+	extabindex  start:0x80029714 end:0x800297B0
 	.text       start:0x80181A5C end:0x80183724
 	.rodata     start:0x804FEF78 end:0x804FEFD0
 	.data       start:0x805356C8 end:0x80535950
@@ -1088,7 +1076,7 @@ kyoshin/appgame/realtimeevt/CREvtModelObj.o:
 
 kyoshin/appgame/realtimeevt/CREvtModelPc.o:
 	extab       start:0x8000E834 end:0x8000E8E8
-	extabindex  start:0x800297A4 end:0x80029834
+	extabindex  start:0x800297B0 end:0x80029840
 	.text       start:0x80183724 end:0x80184B14
 	.rodata     start:0x804FEFD0 end:0x804FF018
 	.data       start:0x80535950 end:0x80535AA8
@@ -1097,7 +1085,7 @@ kyoshin/appgame/realtimeevt/CREvtModelPc.o:
 
 kyoshin/appgame/realtimeevt/CREvtEffect.o:
 	extab       start:0x8000E8E8 end:0x8000E984
-	extabindex  start:0x80029834 end:0x800298A0
+	extabindex  start:0x80029840 end:0x800298AC
 	.text       start:0x80184B14 end:0x80185690
 	.rodata     start:0x804FF018 end:0x804FF040
 	.data       start:0x80535AA8 end:0x80535AF0
@@ -1106,7 +1094,7 @@ kyoshin/appgame/realtimeevt/CREvtEffect.o:
 
 kyoshin/appgame/realtimeevt/CREvtObj.o:
 	extab       start:0x8000E984 end:0x8000EAAC
-	extabindex  start:0x800298A0 end:0x80029A14
+	extabindex  start:0x800298AC end:0x80029A20
 	.text       start:0x80185690 end:0x80186F00
 	.rodata     start:0x804FF040 end:0x804FF1E0
 	.data       start:0x80535AF0 end:0x80535BC8
@@ -1116,7 +1104,7 @@ kyoshin/appgame/realtimeevt/CREvtObj.o:
 
 kyoshin/appgame/menu/CMenuPTGauge.o:
 	extab       start:0x8000EAAC end:0x8000EC4C
-	extabindex  start:0x80029A14 end:0x80029BD0
+	extabindex  start:0x80029A20 end:0x80029BDC
 	.text       start:0x80186F00 end:0x80189DE8
 	.ctors      start:0x804F596C end:0x804F5970
 	.rodata     start:0x804FF1E0 end:0x804FF2F8
@@ -1128,7 +1116,7 @@ kyoshin/appgame/menu/CMenuPTGauge.o:
 
 kyoshin/appgame/menu/CMenuSelectShop.o:
 	extab       start:0x8000EC4C end:0x8000ED90
-	extabindex  start:0x80029BD0 end:0x80029C54
+	extabindex  start:0x80029BDC end:0x80029C60
 	.text       start:0x80189DE8 end:0x8018A628
 	.rodata     start:0x804FF2F8 end:0x804FF318
 	.data       start:0x80535D20 end:0x80535E20
@@ -1137,7 +1125,7 @@ kyoshin/appgame/menu/CMenuSelectShop.o:
 
 kyoshin/appgame/menu/CMenuShopSell.o:
 	extab       start:0x8000ED90 end:0x8000EEAC
-	extabindex  start:0x80029C54 end:0x80029CD8
+	extabindex  start:0x80029C60 end:0x80029CE4
 	.text       start:0x8018A628 end:0x8018B6B8
 	.rodata     start:0x804FF318 end:0x804FF338
 	.data       start:0x80535E20 end:0x80535E90
@@ -1146,7 +1134,7 @@ kyoshin/appgame/menu/CMenuShopSell.o:
 
 kyoshin/appgame/menu/CMenuShopBuy.o:
 	extab       start:0x8000EEAC end:0x8000EFE0
-	extabindex  start:0x80029CD8 end:0x80029D80
+	extabindex  start:0x80029CE4 end:0x80029D8C
 	.text       start:0x8018B6B8 end:0x8018C9C4
 	.rodata     start:0x804FF338 end:0x804FF358
 	.data       start:0x80535E90 end:0x80535F00
@@ -1156,7 +1144,7 @@ kyoshin/appgame/menu/CMenuShopBuy.o:
 
 kyoshin/appgame/cf/CfResPcImpl.o:
 	extab       start:0x8000EFE0 end:0x8000F2A4
-	extabindex  start:0x80029D80 end:0x8002A098
+	extabindex  start:0x80029D8C end:0x8002A0A4
 	.text       start:0x8018C9C4 end:0x80192AB8
 	.rodata     start:0x804FF358 end:0x804FF400
 	.data       start:0x80535F00 end:0x805361F0
@@ -1166,7 +1154,7 @@ kyoshin/appgame/cf/CfResPcImpl.o:
 
 kyoshin/appgame/menu/CMenuPTState.o:
 	extab       start:0x8000F2A4 end:0x8000F308
-	extabindex  start:0x8002A098 end:0x8002A0BC
+	extabindex  start:0x8002A0A4 end:0x8002A0C8
 	.text       start:0x80192AB8 end:0x80192DE8
 	.rodata     start:0x804FF400 end:0x804FF410
 	.data       start:0x805361F0 end:0x80536260
@@ -1175,7 +1163,7 @@ kyoshin/appgame/menu/CMenuPTState.o:
 
 kyoshin/appgame/cf/CPartsChange.o:
 	extab       start:0x8000F308 end:0x8000F4CC
-	extabindex  start:0x8002A0BC end:0x8002A344
+	extabindex  start:0x8002A0C8 end:0x8002A350
 	.text       start:0x80192DE8 end:0x801993C4
 	.rodata     start:0x804FF410 end:0x804FF538
 	.data       start:0x80536260 end:0x80536318
@@ -1185,7 +1173,7 @@ kyoshin/appgame/cf/CPartsChange.o:
 
 kyoshin/appgame/cf/CtrlMovePC.o:
 	extab       start:0x8000F4CC end:0x8000F55C
-	extabindex  start:0x8002A344 end:0x8002A41C
+	extabindex  start:0x8002A350 end:0x8002A428
 	.text       start:0x801993C4 end:0x8019F690
 	.rodata     start:0x804FF538 end:0x804FF548
 	.data       start:0x80536318 end:0x80536560
@@ -1194,7 +1182,7 @@ kyoshin/appgame/cf/CtrlMovePC.o:
 
 kyoshin/appgame/cf/CtrlMoveNpc.o:
 	extab       start:0x8000F55C end:0x8000F600
-	extabindex  start:0x8002A41C end:0x8002A4A0
+	extabindex  start:0x8002A428 end:0x8002A4AC
 	.text       start:0x8019F690 end:0x801A0374
 	.rodata     start:0x804FF548 end:0x804FF598
 	.data       start:0x80536560 end:0x80536588
@@ -1204,7 +1192,7 @@ kyoshin/appgame/cf/CtrlMoveNpc.o:
 
 kyoshin/appgame/menu/CMenuBattleMode.o:
 	extab       start:0x8000F600 end:0x8000F634
-	extabindex  start:0x8002A4A0 end:0x8002A4AC
+	extabindex  start:0x8002A4AC end:0x8002A4B8
 	.text       start:0x801A0374 end:0x801A04A4
 	.rodata     start:0x804FF598 end:0x804FF610
 	.data       start:0x80536588 end:0x80536688
@@ -1213,7 +1201,7 @@ kyoshin/appgame/menu/CMenuBattleMode.o:
 
 kyoshin/appgame/COccCulling.o:
 	extab       start:0x8000F634 end:0x8000F6B0
-	extabindex  start:0x8002A4AC end:0x8002A518
+	extabindex  start:0x8002A4B8 end:0x8002A524
 	.text       start:0x801A04A4 end:0x801A1864
 	.ctors      start:0x804F5970 end:0x804F5974
 	.rodata     start:0x804FF610 end:0x804FF628
@@ -1224,7 +1212,7 @@ kyoshin/appgame/COccCulling.o:
 
 kyoshin/appgame/CSimpleEveTalkWin.o:
 	extab       start:0x8000F6B0 end:0x8000F790
-	extabindex  start:0x8002A518 end:0x8002A584
+	extabindex  start:0x8002A524 end:0x8002A590
 	.text       start:0x801A1864 end:0x801A29CC
 	.rodata     start:0x804FF628 end:0x804FF750
 	.data       start:0x80536698 end:0x80536798
@@ -1234,7 +1222,7 @@ kyoshin/appgame/CSimpleEveTalkWin.o:
 
 kyoshin/appgame/cf/CTaskCulling.o:
 	extab       start:0x8000F790 end:0x8000F864
-	extabindex  start:0x8002A584 end:0x8002A5FC
+	extabindex  start:0x8002A590 end:0x8002A608
 	.text       start:0x801A29CC end:0x801A30D8
 	.ctors      start:0x804F5974 end:0x804F5978
 	.rodata     start:0x804FF750 end:0x804FF788
@@ -1246,7 +1234,7 @@ kyoshin/appgame/cf/CTaskCulling.o:
 
 kyoshin/appgame/cf/CVision.o:
 	extab       start:0x8000F864 end:0x8000FB84
-	extabindex  start:0x8002A5FC end:0x8002A8CC
+	extabindex  start:0x8002A608 end:0x8002A8D8
 	.text       start:0x801A30D8 end:0x801ABE00
 	.rodata     start:0x804FF788 end:0x804FF998
 	.data       start:0x805368E0 end:0x80536C58
@@ -1256,7 +1244,7 @@ kyoshin/appgame/cf/CVision.o:
 
 kyoshin/appgame/menu/CMenuVision.o:
 	extab       start:0x8000FB84 end:0x8000FC5C
-	extabindex  start:0x8002A8CC end:0x8002A95C
+	extabindex  start:0x8002A8D8 end:0x8002A968
 	.text       start:0x801ABE00 end:0x801AFE1C
 	.ctors      start:0x804F5978 end:0x804F597C
 	.rodata     start:0x804FF998 end:0x80500010
@@ -1268,7 +1256,7 @@ kyoshin/appgame/menu/CMenuVision.o:
 
 kyoshin/appgame/menu/CMenuBattleCommu.o:
 	extab       start:0x8000FC5C end:0x8000FD24
-	extabindex  start:0x8002A95C end:0x8002A9D4
+	extabindex  start:0x8002A968 end:0x8002A9E0
 	.text       start:0x801AFE1C end:0x801B18D0
 	.rodata     start:0x80500010 end:0x80500218
 	.data       start:0x80536DF0 end:0x80536EF0
@@ -1278,7 +1266,7 @@ kyoshin/appgame/menu/CMenuBattleCommu.o:
 
 kyoshin/appgame/cf/CPcEffect07.o:
 	extab       start:0x8000FD24 end:0x8000FD5C
-	extabindex  start:0x8002A9D4 end:0x8002AA28
+	extabindex  start:0x8002A9E0 end:0x8002AA34
 	.text       start:0x801B18D0 end:0x801B2564
 	.rodata     start:0x80500218 end:0x80500248
 	.data       start:0x80536EF0 end:0x80536F40
@@ -1288,7 +1276,7 @@ kyoshin/appgame/cf/CPcEffect07.o:
 
 kyoshin/appgame/menu/CMenuGetItemMulti.o:
 	extab       start:0x8000FD5C end:0x8000FFAC
-	extabindex  start:0x8002AA28 end:0x8002AB6C
+	extabindex  start:0x8002AA34 end:0x8002AB78
 	.text       start:0x801B2564 end:0x801BA14C
 	.ctors      start:0x804F597C end:0x804F5980
 	.rodata     start:0x80500248 end:0x805008D0
@@ -1299,7 +1287,7 @@ kyoshin/appgame/menu/CMenuGetItemMulti.o:
 
 kyoshin/appgame/cf/CSuddenCommu.o:
 	extab       start:0x8000FFAC end:0x800100D8
-	extabindex  start:0x8002AB6C end:0x8002ACB0
+	extabindex  start:0x8002AB78 end:0x8002ACBC
 	.text       start:0x801BA14C end:0x801BCA38
 	.ctors      start:0x804F5980 end:0x804F5984
 	.rodata     start:0x805008D0 end:0x80500928
@@ -1310,7 +1298,7 @@ kyoshin/appgame/cf/CSuddenCommu.o:
 
 kyoshin/appgame/menu/CMenuKizunaTalk.o:
 	extab       start:0x800100D8 end:0x80010234
-	extabindex  start:0x8002ACB0 end:0x8002AD58
+	extabindex  start:0x8002ACBC end:0x8002AD64
 	.text       start:0x801BCA38 end:0x801BDDA4
 	.rodata     start:0x80500928 end:0x80500B28
 	.data       start:0x80537250 end:0x80537350
@@ -1320,7 +1308,7 @@ kyoshin/appgame/menu/CMenuKizunaTalk.o:
 
 kyoshin/appgame/menu/CMenuItemExchange.o:
 	extab       start:0x80010234 end:0x8001061C
-	extabindex  start:0x8002AD58 end:0x8002B028
+	extabindex  start:0x8002AD64 end:0x8002B034
 	.text       start:0x801BDDA4 end:0x801C189C
 	.ctors      start:0x804F5984 end:0x804F5988
 	.rodata     start:0x80500B28 end:0x80500B50
@@ -1332,7 +1320,7 @@ kyoshin/appgame/menu/CMenuItemExchange.o:
 
 kyoshin/appgame/cf/CfPadTask.o:
 	extab       start:0x8001061C end:0x80010874
-	extabindex  start:0x8002B028 end:0x8002B148
+	extabindex  start:0x8002B034 end:0x8002B154
 	.text       start:0x801C189C end:0x801C35A8
 	.rodata     start:0x80500B50 end:0x80500B78
 	.data       start:0x80537448 end:0x80537548
@@ -1343,7 +1331,7 @@ kyoshin/appgame/cf/CfPadTask.o:
 
 kyoshin/appgame/realtimeevt/CREvtLight.o:
 	extab       start:0x80010874 end:0x800108B0
-	extabindex  start:0x8002B148 end:0x8002B184
+	extabindex  start:0x8002B154 end:0x8002B190
 	.text       start:0x801C35A8 end:0x801C3974
 	.rodata     start:0x80500B78 end:0x80500B88
 	.data       start:0x80537548 end:0x80537580
@@ -1352,7 +1340,7 @@ kyoshin/appgame/realtimeevt/CREvtLight.o:
 
 kyoshin/appgame/CBgTex.o:
 	extab       start:0x800108B0 end:0x8001090C
-	extabindex  start:0x8002B184 end:0x8002B1CC
+	extabindex  start:0x8002B190 end:0x8002B1D8
 	.text       start:0x801C3974 end:0x801C3ED0
 	.rodata     start:0x80500B88 end:0x80500CB8
 	.data       start:0x80537580 end:0x80537618
@@ -1362,7 +1350,7 @@ kyoshin/appgame/CBgTex.o:
 
 kyoshin/appgame/CTitleAHelp.o:
 	extab       start:0x8001090C end:0x800109A0
-	extabindex  start:0x8002B1CC end:0x8002B274
+	extabindex  start:0x8002B1D8 end:0x8002B280
 	.text       start:0x801C3ED0 end:0x801C4B74
 	.ctors      start:0x804F5988 end:0x804F598C
 	.rodata     start:0x80500CB8 end:0x80500D98
@@ -1373,22 +1361,22 @@ kyoshin/appgame/CTitleAHelp.o:
 
 kyoshin/appgame/CQuestItem.o:
 	extab       start:0x800109A0 end:0x800109B8
-	extabindex  start:0x8002B274 end:0x8002B298
+	extabindex  start:0x8002B280 end:0x8002B2A4
 	.text       start:0x801C4B74 end:0x801C51FC
 
 kyoshin/appgame/CVisionItem.o:
 	extab       start:0x800109B8 end:0x800109C8
-	extabindex  start:0x8002B298 end:0x8002B2B0
+	extabindex  start:0x8002B2A4 end:0x8002B2BC
 	.text       start:0x801C51FC end:0x801C5380
 
 kyoshin/appgame/CArtsBookItem.o:
 	extab       start:0x800109C8 end:0x800109D8
-	extabindex  start:0x8002B2B0 end:0x8002B2C8
+	extabindex  start:0x8002B2BC end:0x8002B2D4
 	.text       start:0x801C5380 end:0x801C5514
 
 kyoshin/appgame/CItemBoxGrid.o:
 	extab       start:0x800109D8 end:0x800114EC
-	extabindex  start:0x8002B2C8 end:0x8002B808
+	extabindex  start:0x8002B2D4 end:0x8002B814
 	.text       start:0x801C5514 end:0x801D1FC0
 	.ctors      start:0x804F598C end:0x804F5990
 	.rodata     start:0x80500D98 end:0x80501588
@@ -1399,7 +1387,7 @@ kyoshin/appgame/CItemBoxGrid.o:
 
 kyoshin/appgame/CCur.o:
 	extab       start:0x800114EC end:0x8001162C
-	extabindex  start:0x8002B808 end:0x8002B9E8
+	extabindex  start:0x8002B814 end:0x8002B9F4
 	.text       start:0x801D1FC0 end:0x801D2F80
 	.rodata     start:0x80501588 end:0x805019C0
 	.data       start:0x80537FE0 end:0x80538170
@@ -1408,7 +1396,7 @@ kyoshin/appgame/CCur.o:
 
 kyoshin/appgame/CSortMenu.o:
 	extab       start:0x8001162C end:0x80011708
-	extabindex  start:0x8002B9E8 end:0x8002BAC0
+	extabindex  start:0x8002B9F4 end:0x8002BACC
 	.text       start:0x801D2F80 end:0x801D3F08
 	.rodata     start:0x805019C0 end:0x80501B1C
 	.data       start:0x80538170 end:0x80538220
@@ -1417,7 +1405,7 @@ kyoshin/appgame/CSortMenu.o:
 
 kyoshin/appgame/CItemBoxInfo.o:
 	extab       start:0x80011708 end:0x80011904
-	extabindex  start:0x8002BAC0 end:0x8002BD00
+	extabindex  start:0x8002BACC end:0x8002BD0C
 	.text       start:0x801D3F08 end:0x801E119C
 	.rodata     start:0x80501B1C end:0x805023A0
 	.data       start:0x80538220 end:0x80538248
@@ -1426,7 +1414,7 @@ kyoshin/appgame/CItemBoxInfo.o:
 
 kyoshin/appgame/CItemBoxInfo2.o:
 	extab       start:0x80011904 end:0x80011AD8
-	extabindex  start:0x8002BD00 end:0x8002BF04
+	extabindex  start:0x8002BD0C end:0x8002BF10
 	.text       start:0x801E119C end:0x801EADC0
 	.ctors      start:0x804F5990 end:0x804F5994
 	.data       start:0x80538248 end:0x80538378
@@ -1434,7 +1422,7 @@ kyoshin/appgame/CItemBoxInfo2.o:
 
 kyoshin/appgame/CNumSelect.o:
 	extab       start:0x80011AD8 end:0x80011BC4
-	extabindex  start:0x8002BF04 end:0x8002C030
+	extabindex  start:0x8002BF10 end:0x8002C03C
 	.text       start:0x801EADC0 end:0x801ECB84
 	.rodata     start:0x805023A0 end:0x80502910
 	.data       start:0x80538378 end:0x80538410
@@ -1443,12 +1431,12 @@ kyoshin/appgame/CNumSelect.o:
 
 kyoshin/appgame/CIBLTabCur.o:
 	extab       start:0x80011BC4 end:0x80011BDC
-	extabindex  start:0x8002C030 end:0x8002C054
+	extabindex  start:0x8002C03C end:0x8002C060
 	.text       start:0x801ECB84 end:0x801ECC94
 
 kyoshin/appgame/CItemBoxLine.o:
 	extab       start:0x80011BDC end:0x800121F4
-	extabindex  start:0x8002C054 end:0x8002C2D0
+	extabindex  start:0x8002C060 end:0x8002C2DC
 	.text       start:0x801ECC94 end:0x801F3410
 	.ctors      start:0x804F5994 end:0x804F5998
 	.rodata     start:0x80502910 end:0x805030F0
@@ -1459,7 +1447,7 @@ kyoshin/appgame/CItemBoxLine.o:
 
 kyoshin/appgame/CScrollBar.o:
 	extab       start:0x800121F4 end:0x80012308
-	extabindex  start:0x8002C2D0 end:0x8002C438
+	extabindex  start:0x8002C2DC end:0x8002C444
 	.text       start:0x801F3410 end:0x801F4F68
 	.rodata     start:0x805030F0 end:0x805031F8
 	.data       start:0x80538560 end:0x80538628
@@ -1469,7 +1457,7 @@ kyoshin/appgame/CScrollBar.o:
 
 kyoshin/appgame/cf/CfGimmickObject.o:
 	extab       start:0x80012308 end:0x800123F8
-	extabindex  start:0x8002C438 end:0x8002C564
+	extabindex  start:0x8002C444 end:0x8002C570
 	.text       start:0x801F4F68 end:0x801F8CB4
 	.rodata     start:0x805031F8 end:0x805033B8
 	.data       start:0x80538628 end:0x80538770
@@ -1478,13 +1466,13 @@ kyoshin/appgame/cf/CfGimmickObject.o:
 
 kyoshin/appgame/cf/CfObjectTbox.o:
 	extab       start:0x800123F8 end:0x80012438
-	extabindex  start:0x8002C564 end:0x8002C588
+	extabindex  start:0x8002C570 end:0x8002C594
 	.text       start:0x801F8CB4 end:0x801F8E34
 	.data       start:0x80538770 end:0x80538998
 
 kyoshin/appgame/cf/CfResTboxImpl.o:
 	extab       start:0x80012438 end:0x80012460
-	extabindex  start:0x8002C588 end:0x8002C5C4
+	extabindex  start:0x8002C594 end:0x8002C5D0
 	.text       start:0x801F8E34 end:0x801F92D8
 	.rodata     start:0x805033B8 end:0x805033D0
 	.data       start:0x80538998 end:0x80538A40
@@ -1494,7 +1482,7 @@ kyoshin/appgame/cf/CfResTboxImpl.o:
 
 kyoshin/appgame/CPartyStateWin.o:
 	extab       start:0x80012460 end:0x800126F8
-	extabindex  start:0x8002C5C4 end:0x8002C768
+	extabindex  start:0x8002C5D0 end:0x8002C774
 	.text       start:0x801F92D8 end:0x801FBDC8
 	.rodata     start:0x805033D0 end:0x80503428
 	.data       start:0x80538A40 end:0x80538B48
@@ -1503,7 +1491,7 @@ kyoshin/appgame/CPartyStateWin.o:
 
 kyoshin/appgame/CModelDisp.o:
 	extab       start:0x800126F8 end:0x800127E4
-	extabindex  start:0x8002C768 end:0x8002C81C
+	extabindex  start:0x8002C774 end:0x8002C828
 	.text       start:0x801FBDC8 end:0x801FCE70
 	.rodata     start:0x80503428 end:0x80503460
 	.data       start:0x80538B48 end:0x80538B80
@@ -1512,7 +1500,7 @@ kyoshin/appgame/CModelDisp.o:
 
 kyoshin/appgame/CPartyState.o:
 	extab       start:0x800127E4 end:0x80012960
-	extabindex  start:0x8002C81C end:0x8002C9E4
+	extabindex  start:0x8002C828 end:0x8002C9F0
 	.text       start:0x801FCE70 end:0x801FF564
 	.rodata     start:0x80503460 end:0x80503728
 	.data       start:0x80538B80 end:0x80538C80
@@ -1521,7 +1509,7 @@ kyoshin/appgame/CPartyState.o:
 
 kyoshin/appgame/menu/parts/CModelDispEquip.o:
 	extab       start:0x80012960 end:0x80012AD4
-	extabindex  start:0x8002C9E4 end:0x8002CB58
+	extabindex  start:0x8002C9F0 end:0x8002CB64
 	.text       start:0x801FF564 end:0x80201A84
 	.ctors      start:0x804F5998 end:0x804F599C
 	.rodata     start:0x80503728 end:0x805037B8
@@ -1532,7 +1520,7 @@ kyoshin/appgame/menu/parts/CModelDispEquip.o:
 
 kyoshin/appgame/CEquipChange.o:
 	extab       start:0x80012AD4 end:0x80012E10
-	extabindex  start:0x8002CB58 end:0x8002CD38
+	extabindex  start:0x8002CB64 end:0x8002CD44
 	.text       start:0x80201A84 end:0x80205A7C
 	.ctors      start:0x804F599C end:0x804F59A0
 	.rodata     start:0x805037B8 end:0x80503AE8
@@ -1544,7 +1532,7 @@ kyoshin/appgame/CEquipChange.o:
 
 kyoshin/appgame/cf/CfMapMineManager.o:
 	extab       start:0x80012E10 end:0x80012EC0
-	extabindex  start:0x8002CD38 end:0x8002CE10
+	extabindex  start:0x8002CD44 end:0x8002CE1C
 	.text       start:0x80205A7C end:0x80207F40
 	.rodata     start:0x80503AE8 end:0x80503BC8
 	.data       start:0x80538ED8 end:0x80538F08
@@ -1554,7 +1542,7 @@ kyoshin/appgame/cf/CfMapMineManager.o:
 
 kyoshin/appgame/CItemBoxGridSubMenu.o:
 	extab       start:0x80012EC0 end:0x80012F00
-	extabindex  start:0x8002CE10 end:0x8002CE70
+	extabindex  start:0x8002CE1C end:0x8002CE7C
 	.text       start:0x80207F40 end:0x802088E0
 	.rodata     start:0x80503BC8 end:0x80503CB8
 	.data       start:0x80538F08 end:0x80538FA0
@@ -1563,7 +1551,7 @@ kyoshin/appgame/CItemBoxGridSubMenu.o:
 
 kyoshin/appgame/cf/CfGimmick.o:
 	extab       start:0x80012F00 end:0x80013028
-	extabindex  start:0x8002CE70 end:0x8002D02C
+	extabindex  start:0x8002CE7C end:0x8002D038
 	.text       start:0x802088E0 end:0x8020AB80
 	.ctors      start:0x804F59A0 end:0x804F59A4
 	.rodata     start:0x80503CB8 end:0x80503D88
@@ -1575,7 +1563,7 @@ kyoshin/appgame/cf/CfGimmick.o:
 
 kyoshin/appgame/cf/CfGimmickElv.o:
 	extab       start:0x80013028 end:0x800130B0
-	extabindex  start:0x8002D02C end:0x8002D0BC
+	extabindex  start:0x8002D038 end:0x8002D0C8
 	.text       start:0x8020AB80 end:0x8020C334
 	.rodata     start:0x80503D88 end:0x80503DF8
 	.data       start:0x80539020 end:0x805390B8
@@ -1584,7 +1572,7 @@ kyoshin/appgame/cf/CfGimmickElv.o:
 
 kyoshin/appgame/cf/CfGimmickLock.o:
 	extab       start:0x800130B0 end:0x8001318C
-	extabindex  start:0x8002D0BC end:0x8002D11C
+	extabindex  start:0x8002D0C8 end:0x8002D128
 	.text       start:0x8020C334 end:0x8020D3A0
 	.rodata     start:0x80503DF8 end:0x80503E18
 	.data       start:0x805390B8 end:0x805390F0
@@ -1593,7 +1581,7 @@ kyoshin/appgame/cf/CfGimmickLock.o:
 
 kyoshin/appgame/cf/CfGimmickWarp.o:
 	extab       start:0x8001318C end:0x80013224
-	extabindex  start:0x8002D11C end:0x8002D1C4
+	extabindex  start:0x8002D128 end:0x8002D1D0
 	.text       start:0x8020D3A0 end:0x8020EF08
 	.rodata     start:0x80503E18 end:0x80503E48
 	.data       start:0x805390F0 end:0x805391A0
@@ -1602,7 +1590,7 @@ kyoshin/appgame/cf/CfGimmickWarp.o:
 
 kyoshin/appgame/cf/CfGimmickJump.o:
 	extab       start:0x80013224 end:0x80013294
-	extabindex  start:0x8002D1C4 end:0x8002D230
+	extabindex  start:0x8002D1D0 end:0x8002D23C
 	.text       start:0x8020EF08 end:0x80210264
 	.rodata     start:0x80503E48 end:0x80503EB8
 	.data       start:0x805391A0 end:0x80539208
@@ -1611,7 +1599,7 @@ kyoshin/appgame/cf/CfGimmickJump.o:
 
 kyoshin/appgame/cf/CfGimmickItem.o:
 	extab       start:0x80013294 end:0x800132FC
-	extabindex  start:0x8002D230 end:0x8002D290
+	extabindex  start:0x8002D23C end:0x8002D29C
 	.text       start:0x80210264 end:0x80210C20
 	.rodata     start:0x80503EB8 end:0x80503F30
 	.data       start:0x80539208 end:0x80539288
@@ -1620,7 +1608,7 @@ kyoshin/appgame/cf/CfGimmickItem.o:
 
 kyoshin/appgame/makecrystal/CMenuMakeCrystal.o:
 	extab       start:0x800132FC end:0x800133E8
-	extabindex  start:0x8002D290 end:0x8002D314
+	extabindex  start:0x8002D29C end:0x8002D320
 	.text       start:0x80210C20 end:0x80212504
 	.rodata     start:0x80503F30 end:0x80503F48
 	.data       start:0x80539288 end:0x805392F8
@@ -1629,7 +1617,7 @@ kyoshin/appgame/makecrystal/CMenuMakeCrystal.o:
 
 kyoshin/appgame/makecrystal/CMakeCrystalWin.o:
 	extab       start:0x800133E8 end:0x800135AC
-	extabindex  start:0x8002D314 end:0x8002D458
+	extabindex  start:0x8002D320 end:0x8002D464
 	.text       start:0x80212504 end:0x80213BF0
 	.rodata     start:0x80503F48 end:0x80503F90
 	.data       start:0x805392F8 end:0x805393D8
@@ -1638,7 +1626,7 @@ kyoshin/appgame/makecrystal/CMakeCrystalWin.o:
 
 kyoshin/appgame/makecrystal/CMCCrystalBox.o:
 	extab       start:0x800135AC end:0x80013E0C
-	extabindex  start:0x8002D458 end:0x8002D794
+	extabindex  start:0x8002D464 end:0x8002D7A0
 	.text       start:0x80213BF0 end:0x8021A634
 	.rodata     start:0x80503F90 end:0x80504500
 	.data       start:0x805393D8 end:0x805394B0
@@ -1648,7 +1636,7 @@ kyoshin/appgame/makecrystal/CMCCrystalBox.o:
 
 kyoshin/appgame/makecrystal/CMCCrystalInfo.o:
 	extab       start:0x80013E0C end:0x80013F30
-	extabindex  start:0x8002D794 end:0x8002D8C0
+	extabindex  start:0x8002D7A0 end:0x8002D8CC
 	.text       start:0x8021A634 end:0x8021BC70
 	.ctors      start:0x804F59A4 end:0x804F59A8
 	.rodata     start:0x80504500 end:0x805047F0
@@ -1659,7 +1647,7 @@ kyoshin/appgame/makecrystal/CMCCrystalInfo.o:
 
 kyoshin/appgame/makecrystal/CModelDispMakeCrystal.o:
 	extab       start:0x80013F30 end:0x80014DE8
-	extabindex  start:0x8002D8C0 end:0x8002DC08
+	extabindex  start:0x8002D8CC end:0x8002DC14
 	.text       start:0x8021BC70 end:0x80221E6C
 	.ctors      start:0x804F59A8 end:0x804F59AC
 	.rodata     start:0x805047F0 end:0x80504920
@@ -1671,7 +1659,7 @@ kyoshin/appgame/makecrystal/CModelDispMakeCrystal.o:
 
 kyoshin/appgame/makecrystal/CMCCylinderGauge.o:
 	extab       start:0x80014DE8 end:0x80014E60
-	extabindex  start:0x8002DC08 end:0x8002DCBC
+	extabindex  start:0x8002DC14 end:0x8002DCC8
 	.text       start:0x80221E6C end:0x80222740
 	.rodata     start:0x80504920 end:0x805049C0
 	.data       start:0x80539700 end:0x80539710
@@ -1680,7 +1668,7 @@ kyoshin/appgame/makecrystal/CMCCylinderGauge.o:
 
 kyoshin/appgame/makecrystal/CMCCrystalList.o:
 	extab       start:0x80014E60 end:0x80014F8C
-	extabindex  start:0x8002DCBC end:0x8002DDF4
+	extabindex  start:0x8002DCC8 end:0x8002DE00
 	.text       start:0x80222740 end:0x80223D40
 	.rodata     start:0x805049C0 end:0x80504C58
 	.data       start:0x80539710 end:0x805397D0
@@ -1689,7 +1677,7 @@ kyoshin/appgame/makecrystal/CMCCrystalList.o:
 
 kyoshin/appgame/makecrystal/CMCEffStart.o:
 	extab       start:0x80014F8C end:0x80014FB4
-	extabindex  start:0x8002DDF4 end:0x8002DE30
+	extabindex  start:0x8002DE00 end:0x8002DE3C
 	.text       start:0x80223D40 end:0x80223F90
 	.rodata     start:0x80504C58 end:0x80505110
 	.data       start:0x805397D0 end:0x805398E0
@@ -1698,57 +1686,57 @@ kyoshin/appgame/makecrystal/CMCEffStart.o:
 
 kyoshin/appgame/makecrystal/CMCEffUpRed.o:
 	extab       start:0x80014FB4 end:0x80014FD4
-	extabindex  start:0x8002DE30 end:0x8002DE60
+	extabindex  start:0x8002DE3C end:0x8002DE6C
 	.text       start:0x80223F90 end:0x802240C4
 
 kyoshin/appgame/makecrystal/CMCEffUpBlue.o:
 	extab       start:0x80014FD4 end:0x80014FF4
-	extabindex  start:0x8002DE60 end:0x8002DE90
+	extabindex  start:0x8002DE6C end:0x8002DE9C
 	.text       start:0x802240C4 end:0x802241F8
 
 kyoshin/appgame/makecrystal/CMCEffUpGreen.o:
 	extab       start:0x80014FF4 end:0x80015014
-	extabindex  start:0x8002DE90 end:0x8002DEC0
+	extabindex  start:0x8002DE9C end:0x8002DECC
 	.text       start:0x802241F8 end:0x8022432C
 
 kyoshin/appgame/makecrystal/CMCEffUpPrm.o:
 	extab       start:0x80015014 end:0x80015044
-	extabindex  start:0x8002DEC0 end:0x8002DF08
+	extabindex  start:0x8002DECC end:0x8002DF14
 	.text       start:0x8022432C end:0x802246EC
 
 kyoshin/appgame/makecrystal/CMCEffSuccess.o:
 	extab       start:0x80015044 end:0x80015094
-	extabindex  start:0x8002DF08 end:0x8002DF80
+	extabindex  start:0x8002DF14 end:0x8002DF8C
 	.text       start:0x802246EC end:0x80224B40
 
 kyoshin/appgame/makecrystal/CMCEffFailure.o:
 	extab       start:0x80015094 end:0x800150AC
-	extabindex  start:0x8002DF80 end:0x8002DFA4
+	extabindex  start:0x8002DF8C end:0x8002DFB0
 	.text       start:0x80224B40 end:0x80224C4C
 
 kyoshin/appgame/makecrystal/CMCEffCrystal.o:
 	extab       start:0x800150AC end:0x80015164
-	extabindex  start:0x8002DFA4 end:0x8002E0B8
+	extabindex  start:0x8002DFB0 end:0x8002E0C4
 	.text       start:0x80224C4C end:0x80225A98
 
 kyoshin/appgame/makecrystal/CMCEffUpRank.o:
 	extab       start:0x80015164 end:0x80015184
-	extabindex  start:0x8002E0B8 end:0x8002E0E8
+	extabindex  start:0x8002E0C4 end:0x8002E0F4
 	.text       start:0x80225A98 end:0x80225BCC
 
 kyoshin/appgame/makecrystal/CMCEffDivide.o:
 	extab       start:0x80015184 end:0x800151A4
-	extabindex  start:0x8002E0E8 end:0x8002E118
+	extabindex  start:0x8002E0F4 end:0x8002E124
 	.text       start:0x80225BCC end:0x80225D00
 
 kyoshin/appgame/makecrystal/CMCEffCylinder.o:
 	extab       start:0x800151A4 end:0x8001520C
-	extabindex  start:0x8002E118 end:0x8002E1B4
+	extabindex  start:0x8002E124 end:0x8002E1C0
 	.text       start:0x80225D00 end:0x802262B8
 
 kyoshin/appgame/menu/CMenuQstCnt.o:
 	extab       start:0x8001520C end:0x80015304
-	extabindex  start:0x8002E1B4 end:0x8002E274
+	extabindex  start:0x8002E1C0 end:0x8002E280
 	.text       start:0x802262B8 end:0x8022774C
 	.rodata     start:0x80505110 end:0x805051B8
 	.data       start:0x805398E0 end:0x805399E0
@@ -1758,7 +1746,7 @@ kyoshin/appgame/menu/CMenuQstCnt.o:
 
 kyoshin/appgame/CQstLogList.o:
 	extab       start:0x80015304 end:0x8001550C
-	extabindex  start:0x8002E274 end:0x8002E3D0
+	extabindex  start:0x8002E280 end:0x8002E3DC
 	.text       start:0x8022774C end:0x802293F0
 	.ctors      start:0x804F59AC end:0x804F59B0
 	.rodata     start:0x805051B8 end:0x80505380
@@ -1770,7 +1758,7 @@ kyoshin/appgame/CQstLogList.o:
 
 kyoshin/appgame/CQstLogInfo.o:
 	extab       start:0x8001550C end:0x800155E0
-	extabindex  start:0x8002E3D0 end:0x8002E4D8
+	extabindex  start:0x8002E3DC end:0x8002E4E4
 	.text       start:0x802293F0 end:0x8022B618
 	.rodata     start:0x80505380 end:0x80505B80
 	.data       start:0x80539AD8 end:0x80539CC8
@@ -1779,7 +1767,7 @@ kyoshin/appgame/CQstLogInfo.o:
 
 kyoshin/appgame/CSysWin.o:
 	extab       start:0x800155E0 end:0x8001567C
-	extabindex  start:0x8002E4D8 end:0x8002E58C
+	extabindex  start:0x8002E4E4 end:0x8002E598
 	.text       start:0x8022B618 end:0x8022C6B4
 	.rodata     start:0x80505B80 end:0x80505D20
 	.data       start:0x80539CC8 end:0x80539D60
@@ -1788,7 +1776,7 @@ kyoshin/appgame/CSysWin.o:
 
 kyoshin/appgame/CSelShopWin.o:
 	extab       start:0x8001567C end:0x800156E8
-	extabindex  start:0x8002E58C end:0x8002E5F8
+	extabindex  start:0x8002E598 end:0x8002E604
 	.text       start:0x8022C6B4 end:0x8022CE70
 	.rodata     start:0x80505D20 end:0x80505E30
 	.data       start:0x80539D60 end:0x80539DF8
@@ -1797,7 +1785,7 @@ kyoshin/appgame/CSelShopWin.o:
 
 kyoshin/appgame/CExchangeWin.o:
 	extab       start:0x800156E8 end:0x8001575C
-	extabindex  start:0x8002E5F8 end:0x8002E670
+	extabindex  start:0x8002E604 end:0x8002E67C
 	.text       start:0x8022CE70 end:0x8022D56C
 	.rodata     start:0x80505E30 end:0x80505F40
 	.data       start:0x80539DF8 end:0x80539E90
@@ -1806,7 +1794,7 @@ kyoshin/appgame/CExchangeWin.o:
 
 kyoshin/appgame/CPresentWin.o:
 	extab       start:0x8001575C end:0x800157D4
-	extabindex  start:0x8002E670 end:0x8002E724
+	extabindex  start:0x8002E67C end:0x8002E730
 	.text       start:0x8022D56C end:0x8022E888
 	.rodata     start:0x80505F40 end:0x80506128
 	.data       start:0x80539E90 end:0x80539F28
@@ -1815,7 +1803,7 @@ kyoshin/appgame/CPresentWin.o:
 
 kyoshin/appgame/makecrystal/CMCCrystalSupport.o:
 	extab       start:0x800157D4 end:0x800158A8
-	extabindex  start:0x8002E724 end:0x8002E7A8
+	extabindex  start:0x8002E730 end:0x8002E7B4
 	.text       start:0x8022E888 end:0x8022F408
 	.rodata     start:0x80506128 end:0x80506188
 	.data       start:0x80539F28 end:0x80539FC0
@@ -1824,7 +1812,7 @@ kyoshin/appgame/makecrystal/CMCCrystalSupport.o:
 
 kyoshin/appgame/menu/CMenuArtsSet.o:
 	extab       start:0x800158A8 end:0x80015A88
-	extabindex  start:0x8002E7A8 end:0x8002EA0C
+	extabindex  start:0x8002E7B4 end:0x8002EA18
 	.text       start:0x8022F408 end:0x802331B4
 	.rodata     start:0x80506188 end:0x80506360
 	.data       start:0x80539FC0 end:0x8053A0C0
@@ -1834,7 +1822,7 @@ kyoshin/appgame/menu/CMenuArtsSet.o:
 
 kyoshin/appgame/CArtsList.o:
 	extab       start:0x80015A88 end:0x80015D20
-	extabindex  start:0x8002EA0C end:0x8002EB98
+	extabindex  start:0x8002EA18 end:0x8002EBA4
 	.text       start:0x802331B4 end:0x80235708
 	.rodata     start:0x80506360 end:0x80506700
 	.data       start:0x8053A0C0 end:0x8053A158
@@ -1842,7 +1830,7 @@ kyoshin/appgame/CArtsList.o:
 
 kyoshin/appgame/CArtsInfo.o:
 	extab       start:0x80015D20 end:0x80015FE4
-	extabindex  start:0x8002EB98 end:0x8002EF4C
+	extabindex  start:0x8002EBA4 end:0x8002EF58
 	.text       start:0x80235708 end:0x8023BCF0
 	.ctors      start:0x804F59B0 end:0x804F59B4
 	.rodata     start:0x80506700 end:0x80506B40
@@ -1853,7 +1841,7 @@ kyoshin/appgame/CArtsInfo.o:
 
 kyoshin/appgame/cf/CfNandManager.o:
 	extab       start:0x80015FE4 end:0x80016138
-	extabindex  start:0x8002EF4C end:0x8002F0B4
+	extabindex  start:0x8002EF58 end:0x8002F0C0
 	.text       start:0x8023BCF0 end:0x80240614
 	.ctors      start:0x804F59B4 end:0x804F59B8
 	.rodata     start:0x80506B40 end:0x80506B88
@@ -1865,7 +1853,7 @@ kyoshin/appgame/cf/CfNandManager.o:
 
 kyoshin/appgame/code_802405F4.o:
 	extab       start:0x80016138 end:0x80016290
-	extabindex  start:0x8002F0B4 end:0x8002F144
+	extabindex  start:0x8002F0C0 end:0x8002F150
 	.text       start:0x80240614 end:0x8024221C
 	.data       start:0x8053A4B0 end:0x8053A4E0
 	.sbss       start:0x80667078 end:0x80667088
@@ -1873,7 +1861,7 @@ kyoshin/appgame/code_802405F4.o:
 
 kyoshin/appgame/menu/CMenuMapSelect.o:
 	extab       start:0x80016290 end:0x80016320
-	extabindex  start:0x8002F144 end:0x8002F174
+	extabindex  start:0x8002F150 end:0x8002F180
 	.text       start:0x8024221C end:0x802430AC
 	.rodata     start:0x80506B88 end:0x80506BA8
 	.data       start:0x8053A4E0 end:0x8053A550
@@ -1882,7 +1870,7 @@ kyoshin/appgame/menu/CMenuMapSelect.o:
 
 kyoshin/appgame/CMapSel.o:
 	extab       start:0x80016320 end:0x80016474
-	extabindex  start:0x8002F174 end:0x8002F294
+	extabindex  start:0x8002F180 end:0x8002F2A0
 	.text       start:0x802430AC end:0x802442E0
 	.rodata     start:0x80506BA8 end:0x80506CA0
 	.data       start:0x8053A550 end:0x8053A660
@@ -1891,7 +1879,7 @@ kyoshin/appgame/CMapSel.o:
 
 kyoshin/appgame/CFade.o:
 	extab       start:0x80016474 end:0x80016508
-	extabindex  start:0x8002F294 end:0x8002F33C
+	extabindex  start:0x8002F2A0 end:0x8002F348
 	.text       start:0x802442E0 end:0x80244F50
 	.rodata     start:0x80506CA0 end:0x80506CE8
 	.data       start:0x8053A660 end:0x8053A6F8
@@ -1900,7 +1888,7 @@ kyoshin/appgame/CFade.o:
 
 kyoshin/appgame/code_80244F50.o:
 	extab       start:0x80016508 end:0x80016600
-	extabindex  start:0x8002F33C end:0x8002F4B0
+	extabindex  start:0x8002F348 end:0x8002F4BC
 	.text       start:0x80244F50 end:0x8024B8D4
 	.rodata     start:0x80506CE8 end:0x80506E98
 	.data       start:0x8053A6F8 end:0x8053A768
@@ -1908,7 +1896,7 @@ kyoshin/appgame/code_80244F50.o:
 
 kyoshin/appgame/CFloorMap.o:
 	extab       start:0x80016600 end:0x80016A70
-	extabindex  start:0x8002F4B0 end:0x8002F60C
+	extabindex  start:0x8002F4BC end:0x8002F618
 	.text       start:0x8024B8D4 end:0x80250D24
 	.ctors      start:0x804F59B8 end:0x804F59BC
 	.rodata     start:0x80506E98 end:0x80507C20
@@ -1919,7 +1907,7 @@ kyoshin/appgame/CFloorMap.o:
 
 kyoshin/appgame/menu/CMenuMapSelectSC.o:
 	extab       start:0x80016A70 end:0x80016C10
-	extabindex  start:0x8002F60C end:0x8002F6E4
+	extabindex  start:0x8002F618 end:0x8002F6F0
 	.text       start:0x80250D24 end:0x80252410
 	.rodata     start:0x80507C20 end:0x80507C48
 	.data       start:0x8053A8C8 end:0x8053A958
@@ -1929,7 +1917,7 @@ kyoshin/appgame/menu/CMenuMapSelectSC.o:
 
 kyoshin/appgame/menu/CMenuPause.o:
 	extab       start:0x80016C10 end:0x80016C4C
-	extabindex  start:0x8002F6E4 end:0x8002F6FC
+	extabindex  start:0x8002F6F0 end:0x8002F708
 	.text       start:0x80252410 end:0x80252640
 	.rodata     start:0x80507C48 end:0x80507D08
 	.data       start:0x8053A958 end:0x8053AA58
@@ -1939,7 +1927,7 @@ kyoshin/appgame/menu/CMenuPause.o:
 
 kyoshin/appgame/menu/CMenuCollepedia.o:
 	extab       start:0x80016C4C end:0x80016D78
-	extabindex  start:0x8002F6FC end:0x8002F798
+	extabindex  start:0x8002F708 end:0x8002F7A4
 	.text       start:0x80252640 end:0x80253198
 	.rodata     start:0x80507D08 end:0x80507D30
 	.data       start:0x8053AA58 end:0x8053AAC8
@@ -1949,13 +1937,13 @@ kyoshin/appgame/menu/CMenuCollepedia.o:
 
 kyoshin/appgame/CCLPCur.o:
 	extab       start:0x80016D78 end:0x80016E20
-	extabindex  start:0x8002F798 end:0x8002F894
+	extabindex  start:0x8002F7A4 end:0x8002F8A0
 	.text       start:0x80253198 end:0x80254720
 	.data       start:0x8053AAC8 end:0x8053AB30
 
 kyoshin/appgame/CCollepedia.o:
 	extab       start:0x80016E20 end:0x80017130
-	extabindex  start:0x8002F894 end:0x8002FA38
+	extabindex  start:0x8002F8A0 end:0x8002FA44
 	.text       start:0x80254720 end:0x80256968
 	.rodata     start:0x80507D30 end:0x80508130
 	.data       start:0x8053AB30 end:0x8053AC38
@@ -1964,7 +1952,7 @@ kyoshin/appgame/CCollepedia.o:
 
 kyoshin/appgame/menu/CMenuKizunagram.o:
 	extab       start:0x80017130 end:0x8001733C
-	extabindex  start:0x8002FA38 end:0x8002FB10
+	extabindex  start:0x8002FA44 end:0x8002FB1C
 	.text       start:0x80256968 end:0x80257A8C
 	.rodata     start:0x80508130 end:0x80508168
 	.data       start:0x8053AC38 end:0x8053ACD8
@@ -1973,28 +1961,28 @@ kyoshin/appgame/menu/CMenuKizunagram.o:
 
 kyoshin/appgame/CKizunaRadar.o:
 	extab       start:0x8001733C end:0x8001735C
-	extabindex  start:0x8002FB10 end:0x8002FB40
+	extabindex  start:0x8002FB1C end:0x8002FB4C
 	.text       start:0x80257A8C end:0x80257DE8
 
 kyoshin/appgame/CKizunaCur.o:
 	extab       start:0x8001735C end:0x80017384
-	extabindex  start:0x8002FB40 end:0x8002FB7C
+	extabindex  start:0x8002FB4C end:0x8002FB88
 	.text       start:0x80257DE8 end:0x80258024
 
 kyoshin/appgame/CKizunaLine.o:
 	extab       start:0x80017384 end:0x80017424
-	extabindex  start:0x8002FB7C end:0x8002FC6C
+	extabindex  start:0x8002FB88 end:0x8002FC78
 	.text       start:0x80258024 end:0x8025B5F8
 
 kyoshin/appgame/CKizunaInfo.o:
-	extab       start:0x80017424 end:0x8001747C
-	extabindex  start:0x8002FC6C end:0x8002FCF0
-	.text       start:0x8025B5F8 end:0x8025C3DC
+	extab       start:0x80017424 end:0x80017454
+	extabindex  start:0x8002FC78 end:0x8002FCC0
+	.text       start:0x8025B5F8 end:0x8025BA38
 
 kyoshin/appgame/CKizunagram.o:
-	extab       start:0x8001747C end:0x800175E0
-	extabindex  start:0x8002FCF0 end:0x8002FDE0
-	.text       start:0x8025C3DC end:0x8025D470
+	extab       start:0x80017454 end:0x800175E0
+	extabindex  start:0x8002FCC0 end:0x8002FDEC
+	.text       start:0x8025BA38 end:0x8025D470
 	.ctors      start:0x804F59BC end:0x804F59C0
 	.rodata     start:0x80508168 end:0x80508EE0
 	.data       start:0x8053ACD8 end:0x8053ADD0
@@ -2004,12 +1992,12 @@ kyoshin/appgame/CKizunagram.o:
 
 kyoshin/appgame/CPcKizunaCur.o:
 	extab       start:0x800175E0 end:0x80017608
-	extabindex  start:0x8002FDE0 end:0x8002FE1C
+	extabindex  start:0x8002FDEC end:0x8002FE28
 	.text       start:0x8025D470 end:0x8025D794
 
 kyoshin/appgame/CPcKizunagram.o:
 	extab       start:0x80017608 end:0x800177E8
-	extabindex  start:0x8002FE1C end:0x8003002C
+	extabindex  start:0x8002FE28 end:0x80030038
 	.text       start:0x8025D794 end:0x80263158
 	.rodata     start:0x80508EE0 end:0x805091D0
 	.data       start:0x8053ADD0 end:0x8053B068
@@ -2019,7 +2007,7 @@ kyoshin/appgame/CPcKizunagram.o:
 
 kyoshin/appgame/menu/CMenuPassiveSkill.o:
 	extab       start:0x800177E8 end:0x8001791C
-	extabindex  start:0x8003002C end:0x800300D4
+	extabindex  start:0x80030038 end:0x800300E0
 	.text       start:0x80263158 end:0x80263EBC
 	.rodata     start:0x805091D0 end:0x805091F8
 	.data       start:0x8053B068 end:0x8053B0D8
@@ -2029,24 +2017,24 @@ kyoshin/appgame/menu/CMenuPassiveSkill.o:
 
 kyoshin/appgame/UI/CPassiveSkillCur.o:
 	extab       start:0x8001791C end:0x80017984
-	extabindex  start:0x800300D4 end:0x80030170
+	extabindex  start:0x800300E0 end:0x8003017C
 	.text       start:0x80263EBC end:0x80264630
 
 kyoshin/appgame/UI/CPassiveSkillInfo.o:
 	extab       start:0x80017984 end:0x80017A54
-	extabindex  start:0x80030170 end:0x800302A8
+	extabindex  start:0x8003017C end:0x800302B4
 	.text       start:0x80264630 end:0x80266A34
 
 kyoshin/appgame/UI/CPassiveSkillLine.o:
 	extab       start:0x80017A54 end:0x80017C14
-	extabindex  start:0x800302A8 end:0x80030500
+	extabindex  start:0x800302B4 end:0x8003050C
 	.text       start:0x80266A34 end:0x8026D4C0
 	.data       start:0x8053B0D8 end:0x8053B1D8
 	.sdata      start:0x80665288 end:0x806652A8
 
 kyoshin/appgame/UI/CPassiveSkill.o:
 	extab       start:0x80017C14 end:0x80017D0C
-	extabindex  start:0x80030500 end:0x800305B4
+	extabindex  start:0x8003050C end:0x800305C0
 	.text       start:0x8026D4C0 end:0x8026E170
 	.rodata     start:0x805091F8 end:0x80509D20
 	.sbss       start:0x80667170 end:0x80667188
@@ -2054,7 +2042,7 @@ kyoshin/appgame/UI/CPassiveSkill.o:
 
 kyoshin/appgame/cf/CfGimmickEne.o:
 	extab       start:0x80017D0C end:0x80017D9C
-	extabindex  start:0x800305B4 end:0x80030650
+	extabindex  start:0x800305C0 end:0x8003065C
 	.text       start:0x8026E170 end:0x8026F37C
 	.rodata     start:0x80509D20 end:0x80509D78
 	.data       start:0x8053B1D8 end:0x8053B268
@@ -2063,7 +2051,7 @@ kyoshin/appgame/cf/CfGimmickEne.o:
 
 kyoshin/appgame/menu/CMenuBattleEnd.o:
 	extab       start:0x80017D9C end:0x80017E5C
-	extabindex  start:0x80030650 end:0x800306BC
+	extabindex  start:0x8003065C end:0x800306C8
 	.text       start:0x8026F37C end:0x8026FCA8
 	.rodata     start:0x80509D78 end:0x80509E20
 	.data       start:0x8053B268 end:0x8053B368
@@ -2073,7 +2061,7 @@ kyoshin/appgame/menu/CMenuBattleEnd.o:
 
 kyoshin/appgame/menu/CMenuPlayAward.o:
 	extab       start:0x80017E5C end:0x80017F98
-	extabindex  start:0x800306BC end:0x80030770
+	extabindex  start:0x800306C8 end:0x8003077C
 	.text       start:0x8026FCA8 end:0x80270B14
 	.rodata     start:0x80509E20 end:0x80509E40
 	.data       start:0x8053B368 end:0x8053B3D8
@@ -2083,7 +2071,7 @@ kyoshin/appgame/menu/CMenuPlayAward.o:
 
 kyoshin/appgame/CPlayAwardList.o:
 	extab       start:0x80017F98 end:0x80018134
-	extabindex  start:0x80030770 end:0x8003089C
+	extabindex  start:0x8003077C end:0x800308A8
 	.text       start:0x80270B14 end:0x80271DD4
 	.rodata     start:0x80509E40 end:0x80509FE0
 	.data       start:0x8053B3D8 end:0x8053B470
@@ -2092,7 +2080,7 @@ kyoshin/appgame/CPlayAwardList.o:
 
 kyoshin/appgame/menu/CMenuKizunaTalkList.o:
 	extab       start:0x80018134 end:0x80018278
-	extabindex  start:0x8003089C end:0x8003095C
+	extabindex  start:0x800308A8 end:0x80030968
 	.text       start:0x80271DD4 end:0x80273120
 	.rodata     start:0x80509FE0 end:0x8050A008
 	.data       start:0x8053B470 end:0x8053B4E0
@@ -2101,7 +2089,7 @@ kyoshin/appgame/menu/CMenuKizunaTalkList.o:
 
 kyoshin/appgame/CKizunaTalkList.o:
 	extab       start:0x80018278 end:0x8001840C
-	extabindex  start:0x8003095C end:0x80030A7C
+	extabindex  start:0x80030968 end:0x80030A88
 	.text       start:0x80273120 end:0x802744D4
 	.ctors      start:0x804F59C0 end:0x804F59C4
 	.rodata     start:0x8050A008 end:0x8050A238
@@ -2112,7 +2100,7 @@ kyoshin/appgame/CKizunaTalkList.o:
 
 kyoshin/appgame/CSysWinBuff.o:
 	extab       start:0x8001840C end:0x800184C0
-	extabindex  start:0x80030A7C end:0x80030AD0
+	extabindex  start:0x80030A88 end:0x80030ADC
 	.text       start:0x802744D4 end:0x80274B28
 	.rodata     start:0x8050A238 end:0x8050A270
 	.data       start:0x8053B578 end:0x8053B678
@@ -2121,22 +2109,22 @@ kyoshin/appgame/CSysWinBuff.o:
 
 kyoshin/appgame/cf/ICamControlRemote.o:
 	extab       start:0x800184C0 end:0x80018508
-	extabindex  start:0x80030AD0 end:0x80030B3C
+	extabindex  start:0x80030ADC end:0x80030B48
 	.text       start:0x80274B28 end:0x80274DD8
 
 kyoshin/appgame/cf/ICamControlGc.o:
 	extab       start:0x80018508 end:0x80018528
-	extabindex  start:0x80030B3C end:0x80030B6C
+	extabindex  start:0x80030B48 end:0x80030B78
 	.text       start:0x80274DD8 end:0x80274EA8
 
 kyoshin/appgame/cf/ICamControlClassic.o:
 	extab       start:0x80018528 end:0x80018570
-	extabindex  start:0x80030B6C end:0x80030BD8
+	extabindex  start:0x80030B78 end:0x80030BE4
 	.text       start:0x80274EA8 end:0x8027513C
 
 kyoshin/appgame/code_8027513C.o:
 	extab       start:0x80018570 end:0x800185E0
-	extabindex  start:0x80030BD8 end:0x80030C80
+	extabindex  start:0x80030BE4 end:0x80030C8C
 	.text       start:0x8027513C end:0x802759C8
 	.rodata     start:0x8050A270 end:0x8050A2E0
 	.data       start:0x8053B678 end:0x8053B880
@@ -2146,7 +2134,7 @@ kyoshin/appgame/code_8027513C.o:
 
 kyoshin/appgame/menu/CMenuLvUp.o:
 	extab       start:0x800185E0 end:0x800186B0
-	extabindex  start:0x80030C80 end:0x80030D04
+	extabindex  start:0x80030C8C end:0x80030D10
 	.text       start:0x802759C8 end:0x80276C30
 	.rodata     start:0x8050A2E0 end:0x8050A398
 	.data       start:0x8053B880 end:0x8053B980
@@ -2156,7 +2144,7 @@ kyoshin/appgame/menu/CMenuLvUp.o:
 
 kyoshin/appgame/cf/chain/CChainActor.o:
 	extab       start:0x800186B0 end:0x8001881C
-	extabindex  start:0x80030D04 end:0x80030E78
+	extabindex  start:0x80030D10 end:0x80030E84
 	.text       start:0x80276C30 end:0x8027AA50
 	.rodata     start:0x8050A398 end:0x8050A3E8
 	.data       start:0x8053B980 end:0x8053BAC0
@@ -2165,7 +2153,7 @@ kyoshin/appgame/cf/chain/CChainActor.o:
 
 kyoshin/appgame/cf/chain/CChainActorList.o:
 	extab       start:0x8001881C end:0x80018A14
-	extabindex  start:0x80030E78 end:0x80031034
+	extabindex  start:0x80030E84 end:0x80031040
 	.text       start:0x8027AA50 end:0x8027CDD4
 	.rodata     start:0x8050A3E8 end:0x8050A490
 	.data       start:0x8053BAC0 end:0x8053BB10
@@ -2174,39 +2162,64 @@ kyoshin/appgame/cf/chain/CChainActorList.o:
 
 kyoshin/appgame/cf/chain/CChainTime.o:
 	extab       start:0x80018A14 end:0x80018A34
-	extabindex  start:0x80031034 end:0x80031064
+	extabindex  start:0x80031040 end:0x80031070
 	.text       start:0x8027CDD4 end:0x8027D0E8
 	.sdata2     start:0x8066B330 end:0x8066B338
 
 kyoshin/appgame/cf/chain/CChainTimer.o:
 	extab       start:0x80018A34 end:0x80018ACC
-	extabindex  start:0x80031064 end:0x800310E8
+	extabindex  start:0x80031070 end:0x800310F4
 	.text       start:0x8027D0E8 end:0x8027E4B0
 	.sdata2     start:0x8066B338 end:0x8066B378
 
 kyoshin/appgame/CSysWinScenarioLog.o:
-	extab       start:0x80018ACC end:0x80018E38
-	extabindex  start:0x800310E8 end:0x80031514
-	.text       start:0x8027E4B0 end:0x80285928
-	.rodata     start:0x8050A490 end:0x8050A5FC
-	.data       start:0x8053BB10 end:0x8053BD78
-	.sdata      start:0x80665388 end:0x806653A0
+	extab       start:0x80018ACC end:0x80018C50
+	extabindex  start:0x800310F4 end:0x80031268
+	.text       start:0x8027E4B0 end:0x80281308
+	.rodata     start:0x8050A490 end:0x8050A598
+	.data       start:0x8053BB10 end:0x8053BC10
+	.sdata      start:0x80665388 end:0x80665390
 	.sbss       start:0x806671F8 end:0x80667210
-	.sdata2     start:0x8066B378 end:0x8066B3CC
+	.sdata2     start:0x8066B378 end:0x8066B390
+
+kyoshin/appgame/cf/chain/CChainActorEne.o:
+	extab       start:0x80018C50 end:0x80018C98
+	extabindex  start:0x80031268 end:0x800312D4
+	.text       start:0x80281308 end:0x80281924
+	.rodata     start:0x8050A598 end:0x8050A5B0
+	.data       start:0x8053BC10 end:0x8053BC98
+	.sdata      start:0x80665390 end:0x80665398
+
+kyoshin/appgame/cf/chain/CChainActorPc.o:
+	extab       start:0x80018C98 end:0x80018D18
+	extabindex  start:0x800312D4 end:0x80031370
+	.text       start:0x80281924 end:0x802824B4
+	.rodata     start:0x8050A5B0 end:0x8050A5C8
+	.data       start:0x8053BC98 end:0x8053BD20
+	.sdata      start:0x80665398 end:0x806653A0
+	.sdata2     start:0x8066B390 end:0x8066B3A8
+
+kyoshin/appgame/CEquipItemBox.o:
+	extab       start:0x80018D18 end:0x80018E38
+	extabindex  start:0x80031370 end:0x80031520
+	.text       start:0x802824B4 end:0x80285928
+	.rodata     start:0x8050A5C8 end:0x8050A5FC
+	.data       start:0x8053BD20 end:0x8053BD78
+	.sdata2     start:0x8066B3A8 end:0x8066B3CC
 
 kyoshin/appgame/CEIBCur.o:
 	extab       start:0x80018E38 end:0x80018E68
-	extabindex  start:0x80031514 end:0x8003155C
+	extabindex  start:0x80031520 end:0x80031568
 	.text       start:0x80285928 end:0x80285C08
 
 kyoshin/appgame/CEIBPageCur.o:
 	extab       start:0x80018E68 end:0x80018E80
-	extabindex  start:0x8003155C end:0x80031580
+	extabindex  start:0x80031568 end:0x8003158C
 	.text       start:0x80285C08 end:0x80285D7C
 
-kyoshin/appgame/CEquipItemBox.o:
+kyoshin/appgame/CEquipItemBox_1.o:
 	extab       start:0x80018E80 end:0x800192F8
-	extabindex  start:0x80031580 end:0x80031844
+	extabindex  start:0x8003158C end:0x80031850
 	.text       start:0x80285D7C end:0x8028DCAC
 	.ctors      start:0x804F59C4 end:0x804F59C8
 	.rodata     start:0x8050A5FC end:0x8050AE18
@@ -2217,7 +2230,7 @@ kyoshin/appgame/CEquipItemBox.o:
 
 kyoshin/appgame/menu/CMenuSave.o:
 	extab       start:0x800192F8 end:0x80019448
-	extabindex  start:0x80031844 end:0x800318F8
+	extabindex  start:0x80031850 end:0x80031904
 	.text       start:0x8028DCAC end:0x8028EA08
 	.rodata     start:0x8050AE18 end:0x8050AE38
 	.data       start:0x8053BEC8 end:0x8053BF38
@@ -2226,12 +2239,12 @@ kyoshin/appgame/menu/CMenuSave.o:
 
 kyoshin/appgame/CSLCur.o:
 	extab       start:0x80019448 end:0x800194B0
-	extabindex  start:0x800318F8 end:0x80031994
+	extabindex  start:0x80031904 end:0x800319A0
 	.text       start:0x8028EA08 end:0x8028EFDC
 
 kyoshin/appgame/CSaveLoad.o:
 	extab       start:0x800194B0 end:0x80019828
-	extabindex  start:0x80031994 end:0x80031BD4
+	extabindex  start:0x800319A0 end:0x80031BE0
 	.text       start:0x8028EFDC end:0x80293140
 	.ctors      start:0x804F59C8 end:0x804F59CC
 	.rodata     start:0x8050AE38 end:0x8050B228
@@ -2243,7 +2256,7 @@ kyoshin/appgame/CSaveLoad.o:
 
 kyoshin/appgame/menu/CMenuPTChangeNotice.o:
 	extab       start:0x80019828 end:0x80019930
-	extabindex  start:0x80031BD4 end:0x80031C58
+	extabindex  start:0x80031BE0 end:0x80031C64
 	.text       start:0x80293140 end:0x80293D90
 	.rodata     start:0x8050B228 end:0x8050B388
 	.data       start:0x8053C040 end:0x8053C140
@@ -2253,7 +2266,7 @@ kyoshin/appgame/menu/CMenuPTChangeNotice.o:
 
 kyoshin/appgame/cf/chain/CChainCombo.o:
 	extab       start:0x80019930 end:0x80019A10
-	extabindex  start:0x80031C58 end:0x80031CC4
+	extabindex  start:0x80031C64 end:0x80031CD0
 	.text       start:0x80293D90 end:0x802944D8
 	.rodata     start:0x8050B388 end:0x8050B398
 	.data       start:0x8053C140 end:0x8053C158
@@ -2262,7 +2275,7 @@ kyoshin/appgame/cf/chain/CChainCombo.o:
 
 kyoshin/appgame/CSysWinSave.o:
 	extab       start:0x80019A10 end:0x80019A74
-	extabindex  start:0x80031CC4 end:0x80031CDC
+	extabindex  start:0x80031CD0 end:0x80031CE8
 	.text       start:0x802944D8 end:0x80294874
 	.rodata     start:0x8050B398 end:0x8050B3C0
 	.data       start:0x8053C158 end:0x8053C258
@@ -2272,7 +2285,7 @@ kyoshin/appgame/CSysWinSave.o:
 
 kyoshin/appgame/realtimeevt/CREvtMovie.o:
 	extab       start:0x80019A74 end:0x80019AB8
-	extabindex  start:0x80031CDC end:0x80031D24
+	extabindex  start:0x80031CE8 end:0x80031D30
 	.text       start:0x80294874 end:0x80294CB4
 	.rodata     start:0x8050B3C0 end:0x8050B3E8
 	.data       start:0x8053C258 end:0x8053C290
@@ -2280,7 +2293,7 @@ kyoshin/appgame/realtimeevt/CREvtMovie.o:
 
 kyoshin/appgame/CTaskGamePic.o:
 	extab       start:0x80019AB8 end:0x80019B50
-	extabindex  start:0x80031D24 end:0x80031DA8
+	extabindex  start:0x80031D30 end:0x80031DB4
 	.text       start:0x80294CB4 end:0x80295564
 	.rodata     start:0x8050B3E8 end:0x8050B410
 	.data       start:0x8053C290 end:0x8053C3B8
@@ -2289,7 +2302,7 @@ kyoshin/appgame/CTaskGamePic.o:
 
 kyoshin/appgame/CTaskGameEvt.o:
 	extab       start:0x80019B50 end:0x80019BA8
-	extabindex  start:0x80031DA8 end:0x80031DFC
+	extabindex  start:0x80031DB4 end:0x80031E08
 	.text       start:0x80295564 end:0x80295888
 	.rodata     start:0x8050B410 end:0x8050B438
 	.data       start:0x8053C3B8 end:0x8053C4E0
@@ -2297,7 +2310,7 @@ kyoshin/appgame/CTaskGameEvt.o:
 
 kyoshin/appgame/cf/CHelpManager.o:
 	extab       start:0x80019BA8 end:0x80019BF8
-	extabindex  start:0x80031DFC end:0x80031E74
+	extabindex  start:0x80031E08 end:0x80031E80
 	.text       start:0x80295888 end:0x80296898
 	.ctors      start:0x804F59CC end:0x804F59D0
 	.rodata     start:0x8050B438 end:0x8050B550
@@ -2308,21 +2321,21 @@ kyoshin/appgame/cf/CHelpManager.o:
 
 kyoshin/appgame/code_80296898.o:
 	extab       start:0x80019BF8 end:0x80019C20
-	extabindex  start:0x80031E74 end:0x80031EB0
+	extabindex  start:0x80031E80 end:0x80031EBC
 	.text       start:0x80296898 end:0x80296B44
 	.ctors      start:0x804F59D0 end:0x804F59D4
 	.bss        start:0x8057A9C8 end:0x8057AA08
 
 kyoshin/appgame/code_80296B44.o:
 	extab       start:0x80019C20 end:0x80019C48
-	extabindex  start:0x80031EB0 end:0x80031EEC
+	extabindex  start:0x80031EBC end:0x80031EF8
 	.text       start:0x80296B44 end:0x80297430
 	.rodata     start:0x8050B550 end:0x8050B5B4
 	.sdata2     start:0x8066B478 end:0x8066B494
 
 kyoshin/appgame/makecrystal/CMCGetItemBox.o:
 	extab       start:0x80019C48 end:0x8001A020
-	extabindex  start:0x80031EEC end:0x80032078
+	extabindex  start:0x80031EF8 end:0x80032084
 	.text       start:0x80297430 end:0x8029A0B8
 	.rodata     start:0x8050B5B4 end:0x8050B848
 	.data       start:0x8053C8E0 end:0x8053C978
@@ -2332,7 +2345,7 @@ kyoshin/appgame/makecrystal/CMCGetItemBox.o:
 
 kyoshin/appgame/menu/CMenuTutorial.o:
 	extab       start:0x8001A020 end:0x8001A110
-	extabindex  start:0x80032078 end:0x800320FC
+	extabindex  start:0x80032084 end:0x80032108
 	.text       start:0x8029A0B8 end:0x8029A934
 	.rodata     start:0x8050B848 end:0x8050B878
 	.data       start:0x8053C978 end:0x8053C9E8
@@ -2341,7 +2354,7 @@ kyoshin/appgame/menu/CMenuTutorial.o:
 
 kyoshin/appgame/CTutorial.o:
 	extab       start:0x8001A110 end:0x8001A1EC
-	extabindex  start:0x800320FC end:0x800321BC
+	extabindex  start:0x80032108 end:0x800321C8
 	.text       start:0x8029A934 end:0x8029B4FC
 	.rodata     start:0x8050B878 end:0x8050B9A8
 	.data       start:0x8053C9E8 end:0x8053CA80
@@ -2351,7 +2364,7 @@ kyoshin/appgame/CTutorial.o:
 
 kyoshin/appgame/menu/CMenuOption.o:
 	extab       start:0x8001A1EC end:0x8001A308
-	extabindex  start:0x800321BC end:0x80032240
+	extabindex  start:0x800321C8 end:0x8003224C
 	.text       start:0x8029B4FC end:0x8029BEDC
 	.rodata     start:0x8050B9A8 end:0x8050B9C8
 	.data       start:0x8053CA80 end:0x8053CAF0
@@ -2360,12 +2373,12 @@ kyoshin/appgame/menu/CMenuOption.o:
 
 kyoshin/appgame/CCur19.o:
 	extab       start:0x8001A308 end:0x8001A338
-	extabindex  start:0x80032240 end:0x80032288
+	extabindex  start:0x8003224C end:0x80032294
 	.text       start:0x8029BEDC end:0x8029C1F8
 
 kyoshin/appgame/COption.o:
 	extab       start:0x8001A338 end:0x8001A5AC
-	extabindex  start:0x80032288 end:0x80032420
+	extabindex  start:0x80032294 end:0x8003242C
 	.text       start:0x8029C1F8 end:0x8029E7E4
 	.ctors      start:0x804F59D4 end:0x804F59D8
 	.rodata     start:0x8050B9C8 end:0x8050BB20
@@ -2376,7 +2389,7 @@ kyoshin/appgame/COption.o:
 
 kyoshin/appgame/menu/CMenuSkipTimer.o:
 	extab       start:0x8001A5AC end:0x8001A6C8
-	extabindex  start:0x80032420 end:0x800324A4
+	extabindex  start:0x8003242C end:0x800324B0
 	.text       start:0x8029E7E4 end:0x8029F0A8
 	.rodata     start:0x8050BB20 end:0x8050BB40
 	.data       start:0x8053CF10 end:0x8053CF80
@@ -2385,12 +2398,12 @@ kyoshin/appgame/menu/CMenuSkipTimer.o:
 
 kyoshin/appgame/CSkipTimer2.o:
 	extab       start:0x8001A6C8 end:0x8001A740
-	extabindex  start:0x800324A4 end:0x80032540
+	extabindex  start:0x800324B0 end:0x8003254C
 	.text       start:0x8029F0A8 end:0x8029FAE4
 
 kyoshin/appgame/CSkipTimer.o:
 	extab       start:0x8001A740 end:0x8001A868
-	extabindex  start:0x80032540 end:0x8003263C
+	extabindex  start:0x8003254C end:0x80032648
 	.text       start:0x8029FAE4 end:0x802A07F4
 	.ctors      start:0x804F59D8 end:0x804F59DC
 	.rodata     start:0x8050BB40 end:0x8050BCA8
@@ -2401,7 +2414,7 @@ kyoshin/appgame/CSkipTimer.o:
 
 kyoshin/appgame/cf/chain/CChainEffect.o:
 	extab       start:0x8001A868 end:0x8001A880
-	extabindex  start:0x8003263C end:0x80032660
+	extabindex  start:0x80032648 end:0x8003266C
 	.text       start:0x802A07F4 end:0x802A0AFC
 	.rodata     start:0x8050BCA8 end:0x8050BCC0
 	.data       start:0x8053D020 end:0x8053D040
@@ -2410,7 +2423,7 @@ kyoshin/appgame/cf/chain/CChainEffect.o:
 
 kyoshin/appgame/cf/voice/CCharVoice.o:
 	extab       start:0x8001A880 end:0x8001A8B8
-	extabindex  start:0x80032660 end:0x800326B4
+	extabindex  start:0x8003266C end:0x800326C0
 	.text       start:0x802A0AFC end:0x802A13BC
 	.rodata     start:0x8050BCC0 end:0x8050BCF0
 	.data       start:0x8053D040 end:0x8053D050
@@ -2419,7 +2432,7 @@ kyoshin/appgame/cf/voice/CCharVoice.o:
 
 kyoshin/appgame/cf/voice/CCharVoiceMan.o:
 	extab       start:0x8001A8B8 end:0x8001AA90
-	extabindex  start:0x800326B4 end:0x8003293C
+	extabindex  start:0x800326C0 end:0x80032948
 	.text       start:0x802A13BC end:0x802A3A80
 	.rodata     start:0x8050BCF0 end:0x8050BD08
 	.data       start:0x8053D050 end:0x8053D088
@@ -2427,124 +2440,124 @@ kyoshin/appgame/cf/voice/CCharVoiceMan.o:
 	.sbss       start:0x80667340 end:0x80667348
 	.sdata2     start:0x8066B510 end:0x8066B530
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD.o:
 	extab       start:0x8001AA90 end:0x8001AAF8
-	extabindex  start:0x8003293C end:0x800329D8
+	extabindex  start:0x80032948 end:0x800329E4
 	.text       start:0x802A3A80 end:0x802A4870
 	.rodata     start:0x8050BD08 end:0x8050BD18
 	.data       start:0x8053D088 end:0x8053D0E8
 	.sdata      start:0x806655A8 end:0x806655C0
 	.sdata2     start:0x8066B530 end:0x8066B538
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_BATTLE_END.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_BATTLE_END.o:
 	extab       start:0x8001AAF8 end:0x8001AB44
-	extabindex  start:0x800329D8 end:0x80032A14
+	extabindex  start:0x800329E4 end:0x80032A20
 	.text       start:0x802A4870 end:0x802A4E48
 	.rodata     start:0x8050BD18 end:0x8050BD38
 	.data       start:0x8053D0E8 end:0x8053D170
 	.sdata      start:0x806655C0 end:0x806655D8
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_BUF.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_BUF.o:
 	extab       start:0x8001AB44 end:0x8001AB90
-	extabindex  start:0x80032A14 end:0x80032A50
+	extabindex  start:0x80032A20 end:0x80032A5C
 	.text       start:0x802A4E48 end:0x802A5830
 	.rodata     start:0x8050BD38 end:0x8050BD50
 	.data       start:0x8053D170 end:0x8053D1C0
 	.sdata      start:0x806655D8 end:0x806655E0
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_CHAIN.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_CHAIN.o:
 	extab       start:0x8001AB90 end:0x8001ABE4
-	extabindex  start:0x80032A50 end:0x80032A98
+	extabindex  start:0x80032A5C end:0x80032AA4
 	.text       start:0x802A5830 end:0x802A5B88
 	.rodata     start:0x8050BD50 end:0x8050BD68
 	.data       start:0x8053D1C0 end:0x8053D1F8
 	.sdata      start:0x806655E0 end:0x806655E8
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_DOWN.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_DOWN.o:
 	extab       start:0x8001ABE4 end:0x8001AC30
-	extabindex  start:0x80032A98 end:0x80032AD4
+	extabindex  start:0x80032AA4 end:0x80032AE0
 	.text       start:0x802A5B88 end:0x802A5ED4
 	.rodata     start:0x8050BD68 end:0x8050BD80
 	.data       start:0x8053D1F8 end:0x8053D248
 	.sdata      start:0x806655E8 end:0x806655F0
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_EHP.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_EHP.o:
 	extab       start:0x8001AC30 end:0x8001AC9C
-	extabindex  start:0x80032AD4 end:0x80032B40
+	extabindex  start:0x80032AE0 end:0x80032B4C
 	.text       start:0x802A5ED4 end:0x802A6AA8
 	.rodata     start:0x8050BD80 end:0x8050BD98
 	.data       start:0x8053D248 end:0x8053D2E8
 	.sdata      start:0x806655F0 end:0x806655F8
 	.sdata2     start:0x8066B538 end:0x8066B548
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_FAINT.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_FAINT.o:
 	extab       start:0x8001AC9C end:0x8001ACF0
-	extabindex  start:0x80032B40 end:0x80032B88
+	extabindex  start:0x80032B4C end:0x80032B94
 	.text       start:0x802A6AA8 end:0x802A6E84
 	.rodata     start:0x8050BD98 end:0x8050BDB0
 	.data       start:0x8053D2E8 end:0x8053D338
 	.sdata      start:0x806655F8 end:0x80665600
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_HAGE.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_HAGE.o:
 	extab       start:0x8001ACF0 end:0x8001AD3C
-	extabindex  start:0x80032B88 end:0x80032BC4
+	extabindex  start:0x80032B94 end:0x80032BD0
 	.text       start:0x802A6E84 end:0x802A7254
 	.rodata     start:0x8050BDB0 end:0x8050BDC8
 	.data       start:0x8053D338 end:0x8053D388
 	.sdata      start:0x80665600 end:0x80665608
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_HP.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_HP.o:
 	extab       start:0x8001AD3C end:0x8001ADE8
-	extabindex  start:0x80032BC4 end:0x80032C90
+	extabindex  start:0x80032BD0 end:0x80032C9C
 	.text       start:0x802A7254 end:0x802A8174
 	.rodata     start:0x8050BDC8 end:0x8050BDE0
 	.data       start:0x8053D388 end:0x8053D3D8
 	.sdata      start:0x80665608 end:0x80665610
 	.sdata2     start:0x8066B548 end:0x8066B558
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_PARTY_GAGE.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_PARTY_GAGE.o:
 	extab       start:0x8001ADE8 end:0x8001AE3C
-	extabindex  start:0x80032C90 end:0x80032CD8
+	extabindex  start:0x80032C9C end:0x80032CE4
 	.text       start:0x802A8174 end:0x802A86CC
 	.rodata     start:0x8050BDE0 end:0x8050BE00
 	.data       start:0x8053D3D8 end:0x8053D428
 	.sdata      start:0x80665610 end:0x80665620
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_REVIVE.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_REVIVE.o:
 	extab       start:0x8001AE3C end:0x8001AE98
-	extabindex  start:0x80032CD8 end:0x80032D2C
+	extabindex  start:0x80032CE4 end:0x80032D38
 	.text       start:0x802A86CC end:0x802A8C04
 	.rodata     start:0x8050BE00 end:0x8050BE18
 	.data       start:0x8053D428 end:0x8053D478
 	.sdata      start:0x80665620 end:0x80665628
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_SUDDEN.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_SUDDEN.o:
 	extab       start:0x8001AE98 end:0x8001AEDC
-	extabindex  start:0x80032D2C end:0x80032D5C
+	extabindex  start:0x80032D38 end:0x80032D68
 	.text       start:0x802A8C04 end:0x802A8DE8
 	.rodata     start:0x8050BE18 end:0x8050BE30
 	.data       start:0x8053D478 end:0x8053D4B0
 	.sdata      start:0x80665628 end:0x80665630
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_TENSION_UP.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_TENSION_UP.o:
 	extab       start:0x8001AEDC end:0x8001AF28
-	extabindex  start:0x80032D5C end:0x80032D98
+	extabindex  start:0x80032D68 end:0x80032DA4
 	.text       start:0x802A8DE8 end:0x802A92D8
 	.rodata     start:0x8050BE30 end:0x8050BE50
 	.data       start:0x8053D4B0 end:0x8053D500
 	.sdata      start:0x80665630 end:0x80665638
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_VISION_BREAK.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_VISION_BREAK.o:
 	extab       start:0x8001AF28 end:0x8001AF74
-	extabindex  start:0x80032D98 end:0x80032DD4
+	extabindex  start:0x80032DA4 end:0x80032DE0
 	.text       start:0x802A92D8 end:0x802A96C0
 	.rodata     start:0x8050BE50 end:0x8050BE70
 	.data       start:0x8053D500 end:0x8053D540
 	.sdata      start:0x80665638 end:0x80665650
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_VISION_TELL.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_VISION_TELL.o:
 	extab       start:0x8001AF74 end:0x8001AFC0
-	extabindex  start:0x80032DD4 end:0x80032E10
+	extabindex  start:0x80032DE0 end:0x80032E1C
 	.text       start:0x802A96C0 end:0x802A9B8C
 	.rodata     start:0x8050BE70 end:0x8050BE90
 	.data       start:0x8053D540 end:0x8053D590
@@ -2552,7 +2565,7 @@ kyoshin/appgame/cf/voice/CVS/CVS_THREAD_VISION_TELL.o:
 
 kyoshin/appgame/menu/CMenuBattleChain.o:
 	extab       start:0x8001AFC0 end:0x8001B0C8
-	extabindex  start:0x80032E10 end:0x80032EE8
+	extabindex  start:0x80032E1C end:0x80032EF4
 	.text       start:0x802A9B8C end:0x802AB5F0
 	.ctors      start:0x804F59DC end:0x804F59E0
 	.rodata     start:0x8050BE90 end:0x8050BFE8
@@ -2561,9 +2574,9 @@ kyoshin/appgame/menu/CMenuBattleChain.o:
 	.sbss       start:0x80667348 end:0x806674D0
 	.sdata2     start:0x8066B558 end:0x8066B560
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_BATTLE_END_SP.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_BATTLE_END_SP.o:
 	extab       start:0x8001B0C8 end:0x8001B10C
-	extabindex  start:0x80032EE8 end:0x80032F18
+	extabindex  start:0x80032EF4 end:0x80032F24
 	.text       start:0x802AB5F0 end:0x802ABB40
 	.rodata     start:0x8050BFE8 end:0x8050C128
 	.data       start:0x8053D6D8 end:0x8053D970
@@ -2572,7 +2585,7 @@ kyoshin/appgame/cf/voice/CVS/CVS_THREAD_BATTLE_END_SP.o:
 
 kyoshin/appgame/cf/CfGimmickSaveOff.o:
 	extab       start:0x8001B10C end:0x8001B138
-	extabindex  start:0x80032F18 end:0x80032F3C
+	extabindex  start:0x80032F24 end:0x80032F48
 	.text       start:0x802ABB40 end:0x802ABDB0
 	.rodata     start:0x8050C128 end:0x8050C148
 	.data       start:0x8053D970 end:0x8053D9A8
@@ -2580,7 +2593,7 @@ kyoshin/appgame/cf/CfGimmickSaveOff.o:
 
 kyoshin/appgame/menu/CMenuTutorialList.o:
 	extab       start:0x8001B138 end:0x8001B2D0
-	extabindex  start:0x80032F3C end:0x80033008
+	extabindex  start:0x80032F48 end:0x80033014
 	.text       start:0x802ABDB0 end:0x802ACE24
 	.rodata     start:0x8050C148 end:0x8050C180
 	.data       start:0x8053D9A8 end:0x8053DA38
@@ -2590,7 +2603,7 @@ kyoshin/appgame/menu/CMenuTutorialList.o:
 
 kyoshin/appgame/CTutorialList.o:
 	extab       start:0x8001B2D0 end:0x8001B4D8
-	extabindex  start:0x80033008 end:0x80033170
+	extabindex  start:0x80033014 end:0x8003317C
 	.text       start:0x802ACE24 end:0x802AE43C
 	.rodata     start:0x8050C180 end:0x8050C2D8
 	.data       start:0x8053DA38 end:0x8053DAD0
@@ -2600,7 +2613,7 @@ kyoshin/appgame/CTutorialList.o:
 
 kyoshin/appgame/CLoad.o:
 	extab       start:0x8001B4D8 end:0x8001B570
-	extabindex  start:0x80033170 end:0x80033200
+	extabindex  start:0x8003317C end:0x8003320C
 	.text       start:0x802AE43C end:0x802AEB74
 	.ctors      start:0x804F59E0 end:0x804F59E4
 	.rodata     start:0x8050C2D8 end:0x8050C880
@@ -2614,23 +2627,23 @@ kyoshin/appgame/code_802AEB74.o:
 
 kyoshin/appgame/code_802AEBC4.o:
 	extab       start:0x8001B570 end:0x8001B5E0
-	extabindex  start:0x80033200 end:0x800332A8
+	extabindex  start:0x8003320C end:0x800332B4
 	.text       start:0x802AEBC4 end:0x802AF5CC
 	.rodata     start:0x8050C880 end:0x8050C8B0
 	.data       start:0x8053DBB0 end:0x8053E170
 	.sdata2     start:0x8066B6A8 end:0x8066B6C0
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_BATTLE_MAIN.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_BATTLE_MAIN.o:
 	extab       start:0x8001B5E0 end:0x8001B62C
-	extabindex  start:0x800332A8 end:0x800332E4
+	extabindex  start:0x800332B4 end:0x800332F0
 	.text       start:0x802AF5CC end:0x802AFA80
 	.rodata     start:0x8050C8B0 end:0x8050C8D0
 	.data       start:0x8053E170 end:0x8053E1C0
 	.sdata      start:0x80665730 end:0x80665738
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_BATTLE_BEGIN.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_BATTLE_BEGIN.o:
 	extab       start:0x8001B62C end:0x8001B690
-	extabindex  start:0x800332E4 end:0x80033344
+	extabindex  start:0x800332F0 end:0x80033350
 	.text       start:0x802AFA80 end:0x802B03D0
 	.rodata     start:0x8050C8D0 end:0x8050C918
 	.data       start:0x8053E1C0 end:0x8053E420
@@ -2638,7 +2651,7 @@ kyoshin/appgame/cf/voice/CVS/CVS_THREAD_BATTLE_BEGIN.o:
 
 kyoshin/appgame/menu/CMenuGCItem.o:
 	extab       start:0x8001B690 end:0x8001B840
-	extabindex  start:0x80033344 end:0x800333D4
+	extabindex  start:0x80033350 end:0x800333E0
 	.text       start:0x802B03D0 end:0x802B219C
 	.rodata     start:0x8050C918 end:0x8050C938
 	.data       start:0x8053E420 end:0x8053E538
@@ -2648,7 +2661,7 @@ kyoshin/appgame/menu/CMenuGCItem.o:
 
 kyoshin/appgame/menu/CMenuGameClear.o:
 	extab       start:0x8001B840 end:0x8001B8B4
-	extabindex  start:0x800333D4 end:0x800333F8
+	extabindex  start:0x800333E0 end:0x80033404
 	.text       start:0x802B219C end:0x802B2634
 	.rodata     start:0x8050C938 end:0x8050C990
 	.data       start:0x8053E538 end:0x8053E5A8
@@ -2657,7 +2670,7 @@ kyoshin/appgame/menu/CMenuGameClear.o:
 
 kyoshin/appgame/cf/CfHikariItemManager.o:
 	extab       start:0x8001B8B4 end:0x8001B954
-	extabindex  start:0x800333F8 end:0x800334AC
+	extabindex  start:0x80033404 end:0x800334B8
 	.text       start:0x802B2634 end:0x802B48A0
 	.ctors      start:0x804F59E4 end:0x804F59E8
 	.rodata     start:0x8050C990 end:0x8050C9E0
@@ -2669,7 +2682,7 @@ kyoshin/appgame/cf/CfHikariItemManager.o:
 
 kyoshin/appgame/CUIErrMesWin.o:
 	extab       start:0x8001B954 end:0x8001BAD8
-	extabindex  start:0x800334AC end:0x800335FC
+	extabindex  start:0x800334B8 end:0x80033608
 	.text       start:0x802B48A0 end:0x802B5DEC
 	.rodata     start:0x8050C9E0 end:0x8050CA18
 	.data       start:0x8053E5C8 end:0x8053E7D0
@@ -2679,7 +2692,7 @@ kyoshin/appgame/CUIErrMesWin.o:
 
 kyoshin/appgame/menu/CMenuTitle.o:
 	extab       start:0x8001BAD8 end:0x8001BB54
-	extabindex  start:0x800335FC end:0x80033674
+	extabindex  start:0x80033608 end:0x80033680
 	.text       start:0x802B5DEC end:0x802B632C
 	.rodata     start:0x8050CA18 end:0x8050CA38
 	.data       start:0x8053E7D0 end:0x8053E908
@@ -2689,18 +2702,18 @@ kyoshin/appgame/menu/CMenuTitle.o:
 
 kyoshin/appgame/CTitleLogo.o:
 	extab       start:0x8001BB54 end:0x8001BBB4
-	extabindex  start:0x80033674 end:0x80033704
+	extabindex  start:0x80033680 end:0x80033710
 	.text       start:0x802B632C end:0x802B68EC
 
 kyoshin/appgame/CTitleMenu.o:
 	extab       start:0x8001BBB4 end:0x8001BC54
-	extabindex  start:0x80033704 end:0x800337F4
+	extabindex  start:0x80033710 end:0x80033800
 	.text       start:0x802B68EC end:0x802B72F4
 	.sdata2     start:0x8066B7E0 end:0x8066B800
 
 kyoshin/appgame/CTitle.o:
 	extab       start:0x8001BC54 end:0x8001BD48
-	extabindex  start:0x800337F4 end:0x800338A8
+	extabindex  start:0x80033800 end:0x800338B4
 	.text       start:0x802B72F4 end:0x802B7BD4
 	.rodata     start:0x8050CA38 end:0x8050CBA0
 	.data       start:0x8053E908 end:0x8053EA90
@@ -2709,7 +2722,7 @@ kyoshin/appgame/CTitle.o:
 
 kyoshin/appgame/help/CHelp.o:
 	extab       start:0x8001BD48 end:0x8001BD58
-	extabindex  start:0x800338A8 end:0x800338C0
+	extabindex  start:0x800338B4 end:0x800338CC
 	.text       start:0x802B7BD4 end:0x802B7D00
 	.rodata     start:0x8050CBA0 end:0x8050CD98
 	.data       start:0x8053EA90 end:0x8053EF00
@@ -2717,47 +2730,47 @@ kyoshin/appgame/help/CHelp.o:
 
 kyoshin/appgame/help/CHelp_ArtsAttack.o:
 	extab       start:0x8001BD58 end:0x8001BD60
-	extabindex  start:0x800338C0 end:0x800338CC
+	extabindex  start:0x800338CC end:0x800338D8
 	.text       start:0x802B7D00 end:0x802B7D9C
 
 kyoshin/appgame/help/CHelp_ArtsSet.o:
 	extab       start:0x8001BD60 end:0x8001BD68
-	extabindex  start:0x800338CC end:0x800338D8
+	extabindex  start:0x800338D8 end:0x800338E4
 	.text       start:0x802B7D9C end:0x802B7DEC
 
 kyoshin/appgame/help/CHelp_CkKizuna.o:
 	extab       start:0x8001BD68 end:0x8001BD70
-	extabindex  start:0x800338D8 end:0x800338E4
+	extabindex  start:0x800338E4 end:0x800338F0
 	.text       start:0x802B7DEC end:0x802B7E34
 
 kyoshin/appgame/help/CHelp_CloseItemMenu.o:
 	extab       start:0x8001BD70 end:0x8001BD78
-	extabindex  start:0x800338E4 end:0x800338F0
+	extabindex  start:0x800338F0 end:0x800338FC
 	.text       start:0x802B7E34 end:0x802B7E7C
 
 kyoshin/appgame/help/CHelp_CloseSysMenu.o:
 	extab       start:0x8001BD78 end:0x8001BD80
-	extabindex  start:0x800338F0 end:0x800338FC
+	extabindex  start:0x800338FC end:0x80033908
 	.text       start:0x802B7E7C end:0x802B7EC4
 
 kyoshin/appgame/help/CHelp_EndEvent.o:
 	extab       start:0x8001BD80 end:0x8001BD88
-	extabindex  start:0x800338FC end:0x80033908
+	extabindex  start:0x80033908 end:0x80033914
 	.text       start:0x802B7EC4 end:0x802B7F54
 
 kyoshin/appgame/help/CHelp_EnemyCount.o:
 	extab       start:0x8001BD88 end:0x8001BD90
-	extabindex  start:0x80033908 end:0x80033914
+	extabindex  start:0x80033914 end:0x80033920
 	.text       start:0x802B7F54 end:0x802B8028
 
 kyoshin/appgame/help/CHelp_EnemyEnable.o:
 	extab       start:0x8001BD90 end:0x8001BD98
-	extabindex  start:0x80033914 end:0x80033920
+	extabindex  start:0x80033920 end:0x8003392C
 	.text       start:0x802B8028 end:0x802B80A4
 
 kyoshin/appgame/help/CHelp_EtherMake.o:
 	extab       start:0x8001BD98 end:0x8001BDA0
-	extabindex  start:0x80033920 end:0x8003392C
+	extabindex  start:0x8003392C end:0x80033938
 	.text       start:0x802B80A4 end:0x802B80F0
 
 kyoshin/appgame/help/CHelp_Exchange.o:
@@ -2765,7 +2778,7 @@ kyoshin/appgame/help/CHelp_Exchange.o:
 
 kyoshin/appgame/help/CHelp_GameOver.o:
 	extab       start:0x8001BDA0 end:0x8001BDA8
-	extabindex  start:0x8003392C end:0x80033938
+	extabindex  start:0x80033938 end:0x80033944
 	.text       start:0x802B80F4 end:0x802B8180
 
 kyoshin/appgame/help/CHelp_ItemCole.o:
@@ -2776,17 +2789,17 @@ kyoshin/appgame/help/CHelp_Kizuna.o:
 
 kyoshin/appgame/help/CHelp_LandMark.o:
 	extab       start:0x8001BDA8 end:0x8001BDF0
-	extabindex  start:0x80033938 end:0x80033968
+	extabindex  start:0x80033944 end:0x80033974
 	.text       start:0x802B8198 end:0x802B8398
 
 kyoshin/appgame/help/CHelp_LearnArts.o:
 	extab       start:0x8001BDF0 end:0x8001BDF8
-	extabindex  start:0x80033968 end:0x80033974
+	extabindex  start:0x80033974 end:0x80033980
 	.text       start:0x802B8398 end:0x802B84EC
 
 kyoshin/appgame/help/CHelp_ClosePartyMenu.o:
 	extab       start:0x8001BDF8 end:0x8001BE08
-	extabindex  start:0x80033974 end:0x8003398C
+	extabindex  start:0x80033980 end:0x80033998
 	.text       start:0x802B84EC end:0x802B859C
 
 kyoshin/appgame/help/CHelp_OpenPartyMenu.o:
@@ -2794,13 +2807,13 @@ kyoshin/appgame/help/CHelp_OpenPartyMenu.o:
 
 kyoshin/appgame/help/CHelp_Pg.o:
 	extab       start:0x8001BE08 end:0x8001BE10
-	extabindex  start:0x8003398C end:0x80033998
+	extabindex  start:0x80033998 end:0x800339A4
 	.text       start:0x802B85A4 end:0x802B8604
 	.sdata2     start:0x8066B800 end:0x8066B808
 
 kyoshin/appgame/help/CHelp_CloseQuestMenu.o:
 	extab       start:0x8001BE10 end:0x8001BE18
-	extabindex  start:0x80033998 end:0x800339A4
+	extabindex  start:0x800339A4 end:0x800339B0
 	.text       start:0x802B8604 end:0x802B864C
 
 kyoshin/appgame/help/CHelp_ShopBuy.o:
@@ -2811,22 +2824,22 @@ kyoshin/appgame/help/CHelp_ShopSel.o:
 
 kyoshin/appgame/help/CHelp_Sp.o:
 	extab       start:0x8001BE18 end:0x8001BE20
-	extabindex  start:0x800339A4 end:0x800339B0
+	extabindex  start:0x800339B0 end:0x800339BC
 	.text       start:0x802B8654 end:0x802B86BC
 
 kyoshin/appgame/help/CHelp_Talk.o:
 	extab       start:0x8001BE20 end:0x8001BE30
-	extabindex  start:0x800339B0 end:0x800339C8
+	extabindex  start:0x800339BC end:0x800339D4
 	.text       start:0x802B86BC end:0x802B88C8
 
 kyoshin/appgame/help/CHelp_Target.o:
 	extab       start:0x8001BE30 end:0x8001BE38
-	extabindex  start:0x800339C8 end:0x800339D4
+	extabindex  start:0x800339D4 end:0x800339E0
 	.text       start:0x802B88C8 end:0x802B8A3C
 
-kyoshin/appgame/cf/voice/CVS/CVS_THREAD_ORDER.o:
+kyoshin/appgame/cf/voice/cvs/CVS_THREAD_ORDER.o:
 	extab       start:0x8001BE38 end:0x8001BE94
-	extabindex  start:0x800339D4 end:0x80033A28
+	extabindex  start:0x800339E0 end:0x80033A34
 	.text       start:0x802B8A3C end:0x802B91E8
 	.rodata     start:0x8050CD98 end:0x8050CDB8
 	.data       start:0x8053EF00 end:0x8053EFA8
@@ -2835,7 +2848,7 @@ kyoshin/appgame/cf/voice/CVS/CVS_THREAD_ORDER.o:
 
 kyoshin/appgame/CBattery.o:
 	extab       start:0x8001BE94 end:0x8001BEE8
-	extabindex  start:0x80033A28 end:0x80033A70
+	extabindex  start:0x80033A34 end:0x80033A7C
 	.text       start:0x802B91E8 end:0x802B95B8
 	.rodata     start:0x8050CDB8 end:0x8050CE00
 	.data       start:0x8053EFA8 end:0x8053F040
@@ -2860,7 +2873,7 @@ PowerPC_EABI_Support/Runtime/global_destructor_chain.o:
 
 PowerPC_EABI_Support/Runtime/NMWException.o:
 	extab       start:0x8001BEE8 end:0x8001BF30
-	extabindex  start:0x80033A70 end:0x80033AAC
+	extabindex  start:0x80033A7C end:0x80033AB8
 	.text       start:0x802B96FC end:0x802B9CF0
 
 PowerPC_EABI_Support/Runtime/ptmf.o:
@@ -2868,7 +2881,7 @@ PowerPC_EABI_Support/Runtime/ptmf.o:
 
 PowerPC_EABI_Support/Runtime/MWRTTI.o:
 	extab       start:0x8001BF30 end:0x8001BF40
-	extabindex  start:0x80033AAC end:0x80033AC4
+	extabindex  start:0x80033AB8 end:0x80033AD0
 	.text       start:0x802B9D84 end:0x802BA02C
 	.rodata     start:0x8050CE00 end:0x8050CE78
 	.data       start:0x8053F040 end:0x8053F068
@@ -2883,11 +2896,11 @@ PowerPC_EABI_Support/Runtime/__init_cpp_exceptions.o:
 	.ctors      start:0x804F5900 end:0x804F5904 rename:.ctors$10
 	.dtors      start:0x804F5B00 end:0x804F5B04 rename:.dtors$10
 	.dtors      start:0x804F5B04 end:0x804F5B08 rename:.dtors$15
-	.sdata      start:0x80665870 end:0x80665874
+	.sdata      start:0x80665870 end:0x80665878
 
 PowerPC_EABI_Support/Runtime/Gecko_ExceptionPPC.o:
 	extab       start:0x8001BF40 end:0x8001BF80
-	extabindex  start:0x80033AC4 end:0x80033B00
+	extabindex  start:0x80033AD0 end:0x80033B0C
 	.text       start:0x802BA7E4 end:0x802BBD00
 	.data       start:0x8053F068 end:0x8053F0F0
 	.bss        start:0x8057AE90 end:0x8057B010
@@ -2954,7 +2967,7 @@ PowerPC_EABI_Support/MSL_C/MSL_Common/printf.o:
 	.text       start:0x802BEC4C end:0x802C110C
 	.rodata     start:0x8050D020 end:0x8050DB88
 	.data       start:0x8053F398 end:0x8053F7C0
-	.sdata      start:0x80665874 end:0x80665880
+	.sdata      start:0x80665878 end:0x80665880
 	.sdata2     start:0x8066B858 end:0x8066B878
 
 PowerPC_EABI_Support/MSL_C/MSL_Common/rand.o:
@@ -3248,7 +3261,6 @@ PowerPC_EABI_Support/MetroTRK/target_options.o:
 
 NdevExi2A/DebuggerDriver.o:
 	.text       start:0x802D05D4 end:0x802D0908
-#	.sdata      start:0x80665898 end:0x80665899
 	.sdata      start:0x80665898 end:0x806658A0
 	.sbss       start:0x806675B0 end:0x806675C4
 
@@ -3443,7 +3455,7 @@ RevoSDK/bte/bta_dm_main.o:
 RevoSDK/bte/bta_dm_pm.o:
 	.text       start:0x802E16CC end:0x802E20E8 align:16
 	.data       start:0x80544148 end:0x80544198
-	.sbss2      start:0x8066DCE0 end:0x8066DCE8
+	.sbss2      start:0x8066DCE0 end:0x8066DCE0
 
 RevoSDK/bte/bta_hh_act.o:
 	.text       start:0x802E20E8 end:0x802E3830 align:16
@@ -4865,7 +4877,7 @@ CriWare/sofdec/sfdcore/sfd/sfd_hds.o:
 CriWare/sofdec/sfdcore/sfd/sfd_lib.o:
 	.text       start:0x803C0A60 end:0x803C0E40
 	.rodata     start:0x8051FF80 end:0x805202A0
-	.data       start:0x8056B5B8 end:0x8056C610
+	.data       start:0x8056B5B8 end:0x8056C5F0
 	.bss        start:0x8060A2D8 end:0x8060A518
 
 CriWare/sofdec/sfdcore/sfd/sfd_mem.o:
@@ -4892,6 +4904,7 @@ CriWare/sofdec/sfdcore/sfd/sfd_pl2.o:
 CriWare/sofdec/sfdcore/sfd/sfd_ply.o:
 	.text       start:0x803C901C end:0x803CB858
 	.rodata     start:0x805203F0 end:0x805205D8
+	.data       start:0x8056C5F0 end:0x8056C610
 	.bss        start:0x8061CDD8 end:0x8061CDE4
 
 CriWare/sofdec/sfdcore/sfd/sfd_pts.o:
@@ -5705,13 +5718,13 @@ nw4r/ut/ut_TextWriterBase.o:
 
 mm/code_80432678.o:
 	extab       start:0x8001BF80 end:0x8001BF98
-	extabindex  start:0x80033B00 end:0x80033B24
+	extabindex  start:0x80033B0C end:0x80033B30
 	.text       start:0x80432678 end:0x80433300
 	.sdata2     start:0x8066C978 end:0x8066C9A8
 
 mm/MemManager.o:
 	extab       start:0x8001BF98 end:0x8001C020
-	extabindex  start:0x80033B24 end:0x80033BF0
+	extabindex  start:0x80033B30 end:0x80033BFC
 	.text       start:0x80433300 end:0x80434C24
 	.rodata     start:0x80525D28 end:0x80525D70
 	.bss        start:0x806570E0 end:0x806593E0
@@ -5724,13 +5737,13 @@ mm/Operators.o:
 
 mm/code_80434F94.o:
 	extab       start:0x8001C020 end:0x8001C040
-	extabindex  start:0x80033BF0 end:0x80033C20
+	extabindex  start:0x80033BFC end:0x80033C2C
 	.text       start:0x80434F94 end:0x8043539C
 	.rodata     start:0x80525D70 end:0x80525D78
 
 mm/MTRand.o:
 	extab       start:0x8001C040 end:0x8001C070
-	extabindex  start:0x80033C20 end:0x80033C68
+	extabindex  start:0x80033C2C end:0x80033C74
 	.text       start:0x8043539C end:0x80435D28
 	.ctors      start:0x804F5A44 end:0x804F5A48
 	.bss        start:0x806593E0 end:0x80659DB0
@@ -5742,7 +5755,7 @@ mm/Globals1.o:
 
 mm/code_80435D28.o:
 	extab       start:0x8001C070 end:0x8001C078
-	extabindex  start:0x80033C68 end:0x80033C74
+	extabindex  start:0x80033C74 end:0x80033C80
 	.text       start:0x80435D28 end:0x80435DF8
 	.ctors      start:0x804F5A48 end:0x804F5A4C
 	.sdata2     start:0x8066C9E8 end:0x8066C9F0
@@ -5757,21 +5770,21 @@ mm/MathConstants.o:
 
 mm/Random.o:
 	extab       start:0x8001C078 end:0x8001C0A8
-	extabindex  start:0x80033C74 end:0x80033CBC
+	extabindex  start:0x80033C80 end:0x80033CC8
 	.text       start:0x80435EA4 end:0x80436138
 	.ctors      start:0x804F5A50 end:0x804F5A54
 	.sdata2     start:0x8066CA14 end:0x8066CA30
 
 mm/code_80436138.o:
 	extab       start:0x8001C0A8 end:0x8001C0B0
-	extabindex  start:0x80033CBC end:0x80033CC8
+	extabindex  start:0x80033CC8 end:0x80033CD4
 	.text       start:0x80436138 end:0x80436260
 	.ctors      start:0x804F5A54 end:0x804F5A58
 	.sdata2     start:0x8066CA30 end:0x8066CA40
 
 mm/code_80436260.o:
 	extab       start:0x8001C0B0 end:0x8001C0D0
-	extabindex  start:0x80033CC8 end:0x80033CF8
+	extabindex  start:0x80033CD4 end:0x80033D04
 	.text       start:0x80436260 end:0x80436E84
 	.ctors      start:0x804F5A58 end:0x804F5A5C
 	.sdata2     start:0x8066CA40 end:0x8066CA58
@@ -5783,7 +5796,7 @@ mm/code_80436E84.o:
 
 mm/code_80436F20.o:
 	extab       start:0x8001C0D0 end:0x8001C0F0
-	extabindex  start:0x80033CF8 end:0x80033D28
+	extabindex  start:0x80033D04 end:0x80033D34
 	.text       start:0x80436F20 end:0x8043738C
 	.ctors      start:0x804F5A60 end:0x804F5A64
 	.bss        start:0x8065A068 end:0x8065A088
@@ -5791,7 +5804,7 @@ mm/code_80436F20.o:
 
 mm/code_8043738C.o:
 	extab       start:0x8001C0F0 end:0x8001C100
-	extabindex  start:0x80033D28 end:0x80033D40
+	extabindex  start:0x80033D34 end:0x80033D4C
 	.text       start:0x8043738C end:0x804375BC
 	.rodata     start:0x80525D78 end:0x80525D8C
 	.sdata      start:0x80665E40 end:0x80665E48
@@ -5799,7 +5812,7 @@ mm/code_8043738C.o:
 
 monolithlib/work/CWorkThread.o:
 	extab       start:0x8001C100 end:0x8001C1B4
-	extabindex  start:0x80033D40 end:0x80033E0C
+	extabindex  start:0x80033D4C end:0x80033E18
 	.text       start:0x804375BC end:0x80438C30
 	.rodata     start:0x80525D8C end:0x80525DE0
 	.data       start:0x8056E958 end:0x8056EA58
@@ -5807,7 +5820,7 @@ monolithlib/work/CWorkThread.o:
 
 monolithlib/CProc.o:
 	extab       start:0x8001C1B4 end:0x8001C230
-	extabindex  start:0x80033E0C end:0x80033E78
+	extabindex  start:0x80033E18 end:0x80033E84
 	.text       start:0x80438C30 end:0x8043974C
 	.rodata     start:0x80525DE0 end:0x80525E20
 	.data       start:0x8056EA58 end:0x8056EB20
@@ -5816,7 +5829,7 @@ monolithlib/CProc.o:
 
 monolithlib/CProcRoot.o:
 	extab       start:0x8001C230 end:0x8001C278
-	extabindex  start:0x80033E78 end:0x80033EE4
+	extabindex  start:0x80033E84 end:0x80033EF0
 	.text       start:0x8043974C end:0x80439CB4
 	.rodata     start:0x80525E20 end:0x80525E40
 	.data       start:0x8056EB20 end:0x8056EBD8
@@ -5826,7 +5839,7 @@ monolithlib/CProcRoot.o:
 
 monolithlib/CRsrcData.o:
 	extab       start:0x8001C278 end:0x8001C2CC
-	extabindex  start:0x80033EE4 end:0x80033F44
+	extabindex  start:0x80033EF0 end:0x80033F50
 	.text       start:0x80439CB4 end:0x8043A0E0
 	.rodata     start:0x80525E40 end:0x80525E58
 	.data       start:0x8056EBD8 end:0x8056EC90
@@ -5834,7 +5847,7 @@ monolithlib/CRsrcData.o:
 
 monolithlib/CScriptCode.o:
 	extab       start:0x8001C2CC end:0x8001C340
-	extabindex  start:0x80033F44 end:0x80033F98
+	extabindex  start:0x80033F50 end:0x80033FA4
 	.text       start:0x8043A0E0 end:0x8043A984
 	.rodata     start:0x80525E58 end:0x80525E70
 	.data       start:0x8056EC90 end:0x8056ED48
@@ -5843,7 +5856,7 @@ monolithlib/CScriptCode.o:
 
 monolithlib/CToken.o:
 	extab       start:0x8001C340 end:0x8001C380
-	extabindex  start:0x80033F98 end:0x80033FF8
+	extabindex  start:0x80033FA4 end:0x80034004
 	.text       start:0x8043A984 end:0x8043BC84
 	.rodata     start:0x80525E70 end:0x80525EA0
 	.data       start:0x8056ED48 end:0x8056EDB0
@@ -5852,7 +5865,7 @@ monolithlib/CToken.o:
 
 monolithlib/CRootProc.o:
 	extab       start:0x8001C380 end:0x8001C3C0
-	extabindex  start:0x80033FF8 end:0x80034058
+	extabindex  start:0x80034004 end:0x80034064
 	.text       start:0x8043BC84 end:0x8043C2C4
 	.rodata     start:0x80525EA0 end:0x80525EF8
 	.data       start:0x8056EDB0 end:0x8056EE38
@@ -5861,7 +5874,7 @@ monolithlib/CRootProc.o:
 
 monolithlib/CView.o:
 	extab       start:0x8001C3C0 end:0x8001C5E0
-	extabindex  start:0x80034058 end:0x800341E4
+	extabindex  start:0x80034064 end:0x800341F0
 	.text       start:0x8043C2C4 end:0x8043FBC4
 	.ctors      start:0x804F5A64 end:0x804F5A68
 	.rodata     start:0x80525EF8 end:0x80525F68
@@ -5873,7 +5886,7 @@ monolithlib/CView.o:
 
 monolithlib/CViewFrame.o:
 	extab       start:0x8001C5E0 end:0x8001C6D8
-	extabindex  start:0x800341E4 end:0x800342EC
+	extabindex  start:0x800341F0 end:0x800342F8
 	.text       start:0x8043FBC4 end:0x804434FC
 	.rodata     start:0x80525F68 end:0x80525F78
 	.data       start:0x8056EF78 end:0x8056EF88
@@ -5883,7 +5896,7 @@ monolithlib/CViewFrame.o:
 
 monolithlib/CViewRoot.o:
 	extab       start:0x8001C6D8 end:0x8001C724
-	extabindex  start:0x800342EC end:0x800342F8
+	extabindex  start:0x800342F8 end:0x80034304
 	.text       start:0x804434FC end:0x80443718
 	.rodata     start:0x80525F78 end:0x80525F90
 	.data       start:0x8056EF88 end:0x8056F040
@@ -5891,7 +5904,7 @@ monolithlib/CViewRoot.o:
 
 monolithlib/work/CWorkControl.o:
 	extab       start:0x8001C724 end:0x8001C75C
-	extabindex  start:0x800342F8 end:0x8003434C
+	extabindex  start:0x80034304 end:0x80034358
 	.text       start:0x80443718 end:0x804439CC
 	.rodata     start:0x80525F90 end:0x80526020
 	.data       start:0x8056F040 end:0x8056F0F8
@@ -5900,7 +5913,7 @@ monolithlib/work/CWorkControl.o:
 
 monolithlib/work/CWorkFlowSetup.o:
 	extab       start:0x8001C75C end:0x8001C774
-	extabindex  start:0x8003434C end:0x80034370
+	extabindex  start:0x80034358 end:0x8003437C
 	.text       start:0x804439CC end:0x80443B08
 	.rodata     start:0x80526020 end:0x80526030
 	.data       start:0x8056F0F8 end:0x8056F1B0
@@ -5909,7 +5922,7 @@ monolithlib/work/CWorkFlowSetup.o:
 
 monolithlib/work/CWorkRoot.o:
 	extab       start:0x8001C774 end:0x8001C838
-	extabindex  start:0x80034370 end:0x80034424
+	extabindex  start:0x8003437C end:0x80034430
 	.text       start:0x80443B08 end:0x80444418
 	.ctors      start:0x804F5A68 end:0x804F5A6C
 	.rodata     start:0x80526030 end:0x805260A8
@@ -5920,7 +5933,7 @@ monolithlib/work/CWorkRoot.o:
 
 monolithlib/work/CWorkSystem.o:
 	extab       start:0x8001C838 end:0x8001C870
-	extabindex  start:0x80034424 end:0x80034478
+	extabindex  start:0x80034430 end:0x80034484
 	.text       start:0x80444418 end:0x804448B8
 	.rodata     start:0x805260A8 end:0x80526130
 	.data       start:0x8056F268 end:0x8056F320
@@ -5929,7 +5942,7 @@ monolithlib/work/CWorkSystem.o:
 
 monolithlib/work/CWorkSystemMem.o:
 	extab       start:0x8001C870 end:0x8001C89C
-	extabindex  start:0x80034478 end:0x8003449C
+	extabindex  start:0x80034484 end:0x800344A8
 	.text       start:0x804448B8 end:0x80444A18
 	.rodata     start:0x80526130 end:0x80526140
 	.data       start:0x8056F320 end:0x8056F3D8
@@ -5938,7 +5951,7 @@ monolithlib/work/CWorkSystemMem.o:
 
 monolithlib/CProcess.o:
 	extab       start:0x8001C89C end:0x8001C9A4
-	extabindex  start:0x8003449C end:0x80034580
+	extabindex  start:0x800344A8 end:0x8003458C
 	.text       start:0x80444A18 end:0x80446578
 	.ctors      start:0x804F5A6C end:0x804F5A70
 	.rodata     start:0x80526140 end:0x80526160
@@ -5953,7 +5966,7 @@ monolithlib/CDoubleListNode.o:
 
 monolithlib/CChildListNode.o:
 	extab       start:0x8001C9A4 end:0x8001CA1C
-	extabindex  start:0x80034580 end:0x80034634
+	extabindex  start:0x8003458C end:0x80034640
 	.text       start:0x804466E0 end:0x8044676C
 	.rodata     start:0x80526160 end:0x80526188
 	.data       start:0x8056F418 end:0x8056F438
@@ -5970,7 +5983,7 @@ monolithlib/device/CDeviceRemotePad.o:
 
 monolithlib/device/CDeviceBase.o:
 	extab       start:0x8001CA1C end:0x8001CA3C
-	extabindex  start:0x80034634 end:0x80034664
+	extabindex  start:0x80034640 end:0x80034670
 	.text       start:0x80447900 end:0x80447B50
 	.rodata     start:0x8052628C end:0x80526298
 	.data       start:0x8056F4F8 end:0x8056F5B0
@@ -5979,7 +5992,7 @@ monolithlib/device/CDeviceBase.o:
 
 monolithlib/device/CDeviceSC.o:
 	extab       start:0x8001CA3C end:0x8001CA70
-	extabindex  start:0x80034664 end:0x80034694
+	extabindex  start:0x80034670 end:0x800346A0
 	.text       start:0x80447B50 end:0x80447DD4
 	.rodata     start:0x80526298 end:0x805262A8
 	.data       start:0x8056F5B0 end:0x8056F670
@@ -5988,7 +6001,7 @@ monolithlib/device/CDeviceSC.o:
 
 monolithlib/device/CDeviceVI.o:
 	extab       start:0x8001CA70 end:0x8001CB68
-	extabindex  start:0x80034694 end:0x80034754
+	extabindex  start:0x800346A0 end:0x80034760
 	.text       start:0x80447DD4 end:0x80448F30
 	.ctors      start:0x804F5A70 end:0x804F5A74
 	.rodata     start:0x805262A8 end:0x80526368
@@ -6000,7 +6013,7 @@ monolithlib/device/CDeviceVI.o:
 
 monolithlib/device/CDeviceVICb.o:
 	extab       start:0x8001CB68 end:0x8001CB78
-	extabindex  start:0x80034754 end:0x8003476C
+	extabindex  start:0x80034760 end:0x80034778
 	.text       start:0x80448F30 end:0x80448FDC
 	.rodata     start:0x80526368 end:0x80526378
 	.data       start:0x8056F7A8 end:0x8056F7C0
@@ -6008,29 +6021,29 @@ monolithlib/device/CDeviceVICb.o:
 
 monolithlib/CFontLayer.o:
 	extab       start:0x8001CB78 end:0x8001CB90
-	extabindex  start:0x8003476C end:0x80034790
+	extabindex  start:0x80034778 end:0x8003479C
 	.text       start:0x80448FDC end:0x80449164
 	.data       start:0x8056F7C0 end:0x8056F7D0
 
 monolithlib/CGXCache.o:
-	extab       start:0x8001CB90 end:0x8001CC00
-	extabindex  start:0x80034790 end:0x80034808
-	.text       start:0x80449164 end:0x80449CF4
+	extab       start:0x8001CB90 end:0x8001CC10
+	extabindex  start:0x8003479C end:0x8003482C
+	.text       start:0x80449164 end:0x8044A578
 	.rodata     start:0x80526378 end:0x805263A0
 	.data       start:0x8056F7D0 end:0x8056F840
 	.sdata      start:0x80665F48 end:0x80665F98
 	.sdata2     start:0x8066CB78 end:0x8066CBB0
 
 monolithlib/IStateCache.o:
-	extab       start:0x8001CC00 end:0x8001CCD8
-	extabindex  start:0x80034808 end:0x8003494C
-	.text       start:0x80449CF4 end:0x8044D820
+	extab       start:0x8001CC10 end:0x8001CCD8
+	extabindex  start:0x8003482C end:0x80034958
+	.text       start:0x8044A578 end:0x8044D820
 	.bss        start:0x8065A6F8 end:0x8065A780
 	.sbss       start:0x80667F30 end:0x80667F38
 
 monolithlib/device/CDevice.o:
 	extab       start:0x8001CCD8 end:0x8001CD08
-	extabindex  start:0x8003494C end:0x80034994
+	extabindex  start:0x80034958 end:0x800349A0
 	.text       start:0x8044D820 end:0x8044DB24
 	.ctors      start:0x804F5A74 end:0x804F5A78
 	.rodata     start:0x805263A0 end:0x80526460
@@ -6039,7 +6052,7 @@ monolithlib/device/CDevice.o:
 
 monolithlib/device/CDeviceClock.o:
 	extab       start:0x8001CD08 end:0x8001CD84
-	extabindex  start:0x80034994 end:0x80034A00
+	extabindex  start:0x800349A0 end:0x80034A0C
 	.text       start:0x8044DB24 end:0x8044E148
 	.rodata     start:0x80526460 end:0x805264B8
 	.data       start:0x8056F9B0 end:0x8056FA90
@@ -6048,7 +6061,7 @@ monolithlib/device/CDeviceClock.o:
 
 monolithlib/device/CDeviceFile.o:
 	extab       start:0x8001CD84 end:0x8001CE38
-	extabindex  start:0x80034A00 end:0x80034AC0
+	extabindex  start:0x80034A0C end:0x80034ACC
 	.text       start:0x8044E148 end:0x8044F5C4
 	.rodata     start:0x805264B8 end:0x805265A8
 	.data       start:0x8056FA90 end:0x8056FB70
@@ -6057,7 +6070,7 @@ monolithlib/device/CDeviceFile.o:
 
 monolithlib/device/CDeviceFileCri.o:
 	extab       start:0x8001CE38 end:0x8001CF14
-	extabindex  start:0x80034AC0 end:0x80034B8C
+	extabindex  start:0x80034ACC end:0x80034B98
 	.text       start:0x8044F5C4 end:0x80450B14
 	.rodata     start:0x805265A8 end:0x805265C0
 	.data       start:0x8056FB70 end:0x8056FC68
@@ -6075,7 +6088,7 @@ monolithlib/device/code_80450B2C.o:
 
 monolithlib/device/CDeviceFileDvd.o:
 	extab       start:0x8001CF14 end:0x8001CF9C
-	extabindex  start:0x80034B8C end:0x80034C58
+	extabindex  start:0x80034B98 end:0x80034C64
 	.text       start:0x80450B54 end:0x80451E50
 	.rodata     start:0x805265C0 end:0x80526658
 	.data       start:0x8056FC68 end:0x8056FD20
@@ -6084,7 +6097,7 @@ monolithlib/device/CDeviceFileDvd.o:
 
 monolithlib/device/CDeviceFileJob.o:
 	extab       start:0x8001CF9C end:0x8001CFAC
-	extabindex  start:0x80034C58 end:0x80034C70
+	extabindex  start:0x80034C64 end:0x80034C7C
 	.text       start:0x80451E50 end:0x80451F20
 	.rodata     start:0x80526658 end:0x80526668
 	.data       start:0x8056FD20 end:0x8056FDE0
@@ -6092,7 +6105,7 @@ monolithlib/device/CDeviceFileJob.o:
 
 monolithlib/device/CDeviceFileJobReadDvd.o:
 	extab       start:0x8001CFAC end:0x8001CFEC
-	extabindex  start:0x80034C70 end:0x80034CD0
+	extabindex  start:0x80034C7C end:0x80034CDC
 	.text       start:0x80451F20 end:0x8045229C
 	.rodata     start:0x80526668 end:0x80526680
 	.data       start:0x8056FDE0 end:0x8056FEA8
@@ -6100,7 +6113,7 @@ monolithlib/device/CDeviceFileJobReadDvd.o:
 
 monolithlib/device/CDeviceFont.o:
 	extab       start:0x8001CFEC end:0x8001D080
-	extabindex  start:0x80034CD0 end:0x80034D60
+	extabindex  start:0x80034CDC end:0x80034D6C
 	.text       start:0x8045229C end:0x804532D4
 	.rodata     start:0x80526680 end:0x80526718
 	.data       start:0x8056FEA8 end:0x8056FF88
@@ -6110,7 +6123,7 @@ monolithlib/device/CDeviceFont.o:
 
 monolithlib/device/CDeviceFontInfoExt.o:
 	extab       start:0x8001D080 end:0x8001D0E8
-	extabindex  start:0x80034D60 end:0x80034D90
+	extabindex  start:0x80034D6C end:0x80034D9C
 	.text       start:0x804532D4 end:0x8045365C
 	.rodata     start:0x80526718 end:0x80526740
 	.data       start:0x8056FF88 end:0x8056FFD0
@@ -6120,7 +6133,7 @@ monolithlib/device/CDeviceFontInfoExt.o:
 
 monolithlib/device/CDeviceFontInfoRom.o:
 	extab       start:0x8001D0E8 end:0x8001D120
-	extabindex  start:0x80034D90 end:0x80034DA8
+	extabindex  start:0x80034D9C end:0x80034DB4
 	.text       start:0x8045365C end:0x80453838
 	.rodata     start:0x80526740 end:0x80526758
 	.data       start:0x8056FFD0 end:0x80570018
@@ -6129,7 +6142,7 @@ monolithlib/device/CDeviceFontInfoRom.o:
 
 monolithlib/device/CDeviceFontLayer.o:
 	extab       start:0x8001D120 end:0x8001D1F4
-	extabindex  start:0x80034DA8 end:0x80034E68
+	extabindex  start:0x80034DB4 end:0x80034E74
 	.text       start:0x80453838 end:0x80454E80
 	.rodata     start:0x80526758 end:0x805267D0
 	.data       start:0x80570018 end:0x805700F0
@@ -6139,7 +6152,7 @@ monolithlib/device/CDeviceFontLayer.o:
 
 monolithlib/device/CDeviceFontLoader.o:
 	extab       start:0x8001D1F4 end:0x8001D224
-	extabindex  start:0x80034E68 end:0x80034EB0
+	extabindex  start:0x80034E74 end:0x80034EBC
 	.text       start:0x80454E80 end:0x804550E4
 	.rodata     start:0x805267D0 end:0x805267E8
 	.data       start:0x805700F0 end:0x805701A8
@@ -6147,7 +6160,7 @@ monolithlib/device/CDeviceFontLoader.o:
 
 monolithlib/device/CDeviceGX.o:
 	extab       start:0x8001D224 end:0x8001D2E4
-	extabindex  start:0x80034EB0 end:0x80034F10
+	extabindex  start:0x80034EBC end:0x80034F1C
 	.text       start:0x804550E4 end:0x804559CC
 	.rodata     start:0x805267E8 end:0x805267F8
 	.data       start:0x805701A8 end:0x80570290
@@ -6157,7 +6170,7 @@ monolithlib/device/CDeviceGX.o:
 
 monolithlib/CDesktop.o:
 	extab       start:0x8001D2E4 end:0x8001D3C0
-	extabindex  start:0x80034F10 end:0x8003503C
+	extabindex  start:0x80034F1C end:0x80035048
 	.text       start:0x804559CC end:0x80457B9C
 	.rodata     start:0x805267F8 end:0x80526888
 	.data       start:0x80570290 end:0x80570528
@@ -6167,7 +6180,7 @@ monolithlib/CDesktop.o:
 
 monolithlib/CException.o:
 	extab       start:0x8001D3C0 end:0x8001D498
-	extabindex  start:0x8003503C end:0x800350F0
+	extabindex  start:0x80035048 end:0x800350FC
 	.text       start:0x80457B9C end:0x80459790
 	.rodata     start:0x80526888 end:0x805268F8
 	.data       start:0x80570528 end:0x805705E8
@@ -6178,7 +6191,7 @@ monolithlib/CException.o:
 
 monolithlib/lib/CLib.o:
 	extab       start:0x8001D498 end:0x8001D4A8
-	extabindex  start:0x800350F0 end:0x80035108
+	extabindex  start:0x800350FC end:0x80035114
 	.text       start:0x80459790 end:0x80459864
 	.data       start:0x805705E8 end:0x805706A0
 	.sdata      start:0x806660B0 end:0x806660B8
@@ -6186,7 +6199,7 @@ monolithlib/lib/CLib.o:
 
 monolithlib/lib/CLibCri.o:
 	extab       start:0x8001D4A8 end:0x8001D564
-	extabindex  start:0x80035108 end:0x80035144
+	extabindex  start:0x80035114 end:0x80035150
 	.text       start:0x80459864 end:0x80459C98
 	.rodata     start:0x805268F8 end:0x80526928
 	.data       start:0x805706A0 end:0x80570790
@@ -6196,7 +6209,7 @@ monolithlib/lib/CLibCri.o:
 
 monolithlib/lib/CLibCriMoviePlay.o:
 	extab       start:0x8001D564 end:0x8001D614
-	extabindex  start:0x80035144 end:0x800351F8
+	extabindex  start:0x80035150 end:0x80035204
 	.text       start:0x80459C98 end:0x8045B3EC
 	.rodata     start:0x80526928 end:0x80526970
 	.data       start:0x80570790 end:0x80570870
@@ -6206,7 +6219,7 @@ monolithlib/lib/CLibCriMoviePlay.o:
 
 monolithlib/lib/CLibCriStreamingPlay.o:
 	extab       start:0x8001D614 end:0x8001D6E0
-	extabindex  start:0x800351F8 end:0x800352AC
+	extabindex  start:0x80035204 end:0x800352B8
 	.text       start:0x8045B3EC end:0x8045D150
 	.rodata     start:0x80526970 end:0x80526A38
 	.data       start:0x80570870 end:0x80570938
@@ -6216,7 +6229,7 @@ monolithlib/lib/CLibCriStreamingPlay.o:
 
 monolithlib/lib/CLibG3d.o:
 	extab       start:0x8001D6E0 end:0x8001D700
-	extabindex  start:0x800352AC end:0x800352DC
+	extabindex  start:0x800352B8 end:0x800352E8
 	.text       start:0x8045D150 end:0x8045D354
 	.data       start:0x80570938 end:0x805709F0
 	.sdata      start:0x806660D8 end:0x806660E0
@@ -6225,7 +6238,7 @@ monolithlib/lib/CLibG3d.o:
 
 monolithlib/lib/CLibHbm.o:
 	extab       start:0x8001D700 end:0x8001D7A8
-	extabindex  start:0x800352DC end:0x800353A8
+	extabindex  start:0x800352E8 end:0x800353B4
 	.text       start:0x8045D354 end:0x8045ECC4
 	.rodata     start:0x80526A38 end:0x80526A98
 	.data       start:0x805709F0 end:0x80570AD8
@@ -6236,7 +6249,7 @@ monolithlib/lib/CLibHbm.o:
 
 monolithlib/lib/CLibHbmControl.o:
 	extab       start:0x8001D7A8 end:0x8001D7C0
-	extabindex  start:0x800353A8 end:0x800353CC
+	extabindex  start:0x800353B4 end:0x800353D8
 	.text       start:0x8045ECC4 end:0x8045EF84
 	.rodata     start:0x80526A98 end:0x80526AD8
 	.data       start:0x80570AD8 end:0x80570B98
@@ -6244,7 +6257,7 @@ monolithlib/lib/CLibHbmControl.o:
 
 monolithlib/lib/CLibLayout.o:
 	extab       start:0x8001D7C0 end:0x8001D89C
-	extabindex  start:0x800353CC end:0x8003548C
+	extabindex  start:0x800353D8 end:0x80035498
 	.text       start:0x8045EF84 end:0x8045F930
 	.rodata     start:0x80526AD8 end:0x80526AF8
 	.data       start:0x80570B98 end:0x80570C50
@@ -6253,7 +6266,7 @@ monolithlib/lib/CLibLayout.o:
 
 monolithlib/lib/CLibStaticData.o:
 	extab       start:0x8001D89C end:0x8001D940
-	extabindex  start:0x8003548C end:0x800354F8
+	extabindex  start:0x80035498 end:0x80035504
 	.text       start:0x8045F930 end:0x804600E0
 	.rodata     start:0x80526AF8 end:0x80526B20
 	.data       start:0x80570C50 end:0x80570D90
@@ -6262,7 +6275,7 @@ monolithlib/lib/CLibStaticData.o:
 
 monolithlib/lib/CLibVM.o:
 	extab       start:0x8001D940 end:0x8001D9C4
-	extabindex  start:0x800354F8 end:0x800355A0
+	extabindex  start:0x80035504 end:0x800355AC
 	.text       start:0x804600E0 end:0x80462904
 	.rodata     start:0x80526B20 end:0x80527688
 	.data       start:0x80570D90 end:0x80570EC0
@@ -6272,7 +6285,7 @@ monolithlib/lib/CLibVM.o:
 
 monolithlib/CTaskLOD.o:
 	extab       start:0x8001D9C4 end:0x8001DABC
-	extabindex  start:0x800355A0 end:0x800356D8
+	extabindex  start:0x800355AC end:0x800356E4
 	.text       start:0x80462904 end:0x804645CC
 	.ctors      start:0x804F5A7C end:0x804F5A80
 	.rodata     start:0x80527688 end:0x805276A8
@@ -6283,7 +6296,7 @@ monolithlib/CTaskLOD.o:
 
 monolithlib/code_804645CC.o:
 	extab       start:0x8001DABC end:0x8001DC74
-	extabindex  start:0x800356D8 end:0x8003596C
+	extabindex  start:0x800356E4 end:0x80035978
 	.text       start:0x804645CC end:0x80468434
 	.ctors      start:0x804F5A80 end:0x804F5A84
 	.data       start:0x80570F70 end:0x805711C8
@@ -6294,7 +6307,7 @@ monolithlib/code_804645CC.o:
 
 monolithlib/code_80468434.o:
 	extab       start:0x8001DC74 end:0x8001DCEC
-	extabindex  start:0x8003596C end:0x80035A20
+	extabindex  start:0x80035978 end:0x80035A2C
 	.text       start:0x80468434 end:0x8046A530
 	.ctors      start:0x804F5A84 end:0x804F5A88
 	.data       start:0x805711C8 end:0x80571208
@@ -6303,14 +6316,14 @@ monolithlib/code_80468434.o:
 
 monolithlib/code_8046A530.o:
 	extab       start:0x8001DCEC end:0x8001DD2C
-	extabindex  start:0x80035A20 end:0x80035A80
+	extabindex  start:0x80035A2C end:0x80035A8C
 	.text       start:0x8046A530 end:0x8046CFE0
 	.sdata      start:0x80666138 end:0x80666148
 	.sdata2     start:0x8066CE18 end:0x8066CE80
 
 monolithlib/LOD/LODMemMan.o:
 	extab       start:0x8001DD2C end:0x8001DFA8
-	extabindex  start:0x80035A80 end:0x80035DEC
+	extabindex  start:0x80035A8C end:0x80035DF8
 	.text       start:0x8046CFE0 end:0x80474F80
 	.ctors      start:0x804F5A88 end:0x804F5A8C
 	.rodata     start:0x805276A8 end:0x805276C0
@@ -6321,7 +6334,7 @@ monolithlib/LOD/LODMemMan.o:
 
 monolithlib/mpfsys/MPFDrawDisplayList.o:
 	extab       start:0x8001DFA8 end:0x8001E020
-	extabindex  start:0x80035DEC end:0x80035EA0
+	extabindex  start:0x80035DF8 end:0x80035EAC
 	.text       start:0x80474F80 end:0x80479844
 	.rodata     start:0x805276C0 end:0x805276F0
 	.data       start:0x805713E8 end:0x80571408
@@ -6336,7 +6349,7 @@ monolithlib/mpfsys/MPFDrawMdlNoColor.o:
 
 monolithlib/mpfsys/MPFDrawMdlColor.o:
 	extab       start:0x8001E020 end:0x8001E040
-	extabindex  start:0x80035EA0 end:0x80035ED0
+	extabindex  start:0x80035EAC end:0x80035EDC
 	.text       start:0x8047986C end:0x80479EDC
 	.rodata     start:0x805276F0 end:0x80527798
 	.data       start:0x80571408 end:0x805714B0
@@ -6353,7 +6366,7 @@ monolithlib/mpfsys/MPFDrawCross.o:
 
 monolithlib/mpfsys/MPFDrawBillLayTex.o:
 	extab       start:0x8001E040 end:0x8001E0E0
-	extabindex  start:0x80035ED0 end:0x80035FC0
+	extabindex  start:0x80035EDC end:0x80035FCC
 	.text       start:0x80479F2C end:0x8047CA88
 	.ctors      start:0x804F5A8C end:0x804F5A90
 	.bss        start:0x8065ADA0 end:0x8065ADD0
@@ -6362,7 +6375,7 @@ monolithlib/mpfsys/MPFDrawBillLayTex.o:
 
 monolithlib/code_8047CA88.o:
 	extab       start:0x8001E0E0 end:0x8001E130
-	extabindex  start:0x80035FC0 end:0x80036038
+	extabindex  start:0x80035FCC end:0x80036044
 	.text       start:0x8047CA88 end:0x8047D2AC
 	.ctors      start:0x804F5A90 end:0x804F5A94
 	.bss        start:0x8065ADD0 end:0x8065AE18
@@ -6371,7 +6384,7 @@ monolithlib/code_8047CA88.o:
 
 monolithlib/code_8047D2AC.o:
 	extab       start:0x8001E130 end:0x8001E210
-	extabindex  start:0x80036038 end:0x80036188
+	extabindex  start:0x80036044 end:0x80036194
 	.text       start:0x8047D2AC end:0x80481E6C
 	.ctors      start:0x804F5A94 end:0x804F5A98
 	.data       start:0x805714B0 end:0x805714D8
@@ -6381,7 +6394,7 @@ monolithlib/code_8047D2AC.o:
 
 monolithlib/scn/CScnItemCameraNw4r.o:
 	extab       start:0x8001E210 end:0x8001E238
-	extabindex  start:0x80036188 end:0x800361C4
+	extabindex  start:0x80036194 end:0x800361D0
 	.text       start:0x80481E6C end:0x80482094
 	.rodata     start:0x80527798 end:0x805277C0
 	.data       start:0x805714D8 end:0x80571520
@@ -6389,7 +6402,7 @@ monolithlib/scn/CScnItemCameraNw4r.o:
 
 monolithlib/scn/CScnItemId.o:
 	extab       start:0x8001E238 end:0x8001E284
-	extabindex  start:0x800361C4 end:0x800361DC
+	extabindex  start:0x800361D0 end:0x800361E8
 	.text       start:0x80482094 end:0x804822A0
 	.rodata     start:0x805277C0 end:0x805277D0
 	.data       start:0x80571520 end:0x80571550
@@ -6397,7 +6410,7 @@ monolithlib/scn/CScnItemId.o:
 
 monolithlib/scn/CScnItemLight.o:
 	extab       start:0x8001E284 end:0x8001E2B8
-	extabindex  start:0x800361DC end:0x8003620C
+	extabindex  start:0x800361E8 end:0x80036218
 	.text       start:0x804822A0 end:0x80482440
 	.rodata     start:0x805277D0 end:0x805277E0
 	.data       start:0x80571550 end:0x80571580
@@ -6405,7 +6418,7 @@ monolithlib/scn/CScnItemLight.o:
 
 monolithlib/scn/CScnItemLightNw4r.o:
 	extab       start:0x8001E2B8 end:0x8001E2C0
-	extabindex  start:0x8003620C end:0x80036218
+	extabindex  start:0x80036218 end:0x80036224
 	.text       start:0x80482440 end:0x80482528
 	.rodata     start:0x805277E0 end:0x80527800
 	.data       start:0x80571580 end:0x805715B8
@@ -6413,14 +6426,14 @@ monolithlib/scn/CScnItemLightNw4r.o:
 
 monolithlib/scn/CScnItemModel.o:
 	extab       start:0x8001E2C0 end:0x8001E444
-	extabindex  start:0x80036218 end:0x800363A4
+	extabindex  start:0x80036224 end:0x800363B0
 	.text       start:0x80482528 end:0x80486098
 	.data       start:0x805715B8 end:0x80571698
 	.sdata2     start:0x8066D080 end:0x8066D090
 
 monolithlib/scn/CScnItemModelNw4r.o:
 	extab       start:0x8001E444 end:0x8001E990
-	extabindex  start:0x800363A4 end:0x80036620
+	extabindex  start:0x800363B0 end:0x8003662C
 	.text       start:0x80486098 end:0x8048BD94
 	.rodata     start:0x80527800 end:0x80527840
 	.data       start:0x80571698 end:0x80571CD0
@@ -6430,7 +6443,7 @@ monolithlib/scn/CScnItemModelNw4r.o:
 
 monolithlib/scn/CScnItemPool.o:
 	extab       start:0x8001E990 end:0x8001EB70
-	extabindex  start:0x80036620 end:0x80036734
+	extabindex  start:0x8003662C end:0x80036740
 	.text       start:0x8048BD94 end:0x8048D024
 	.rodata     start:0x80527840 end:0x80527880
 	.data       start:0x80571CD0 end:0x80571DB0
@@ -6438,7 +6451,7 @@ monolithlib/scn/CScnItemPool.o:
 
 monolithlib/scn/CScnLightMan.o:
 	extab       start:0x8001EB70 end:0x8001EB90
-	extabindex  start:0x80036734 end:0x80036764
+	extabindex  start:0x80036740 end:0x80036770
 	.text       start:0x8048D024 end:0x8048D1C4
 	.rodata     start:0x80527880 end:0x80527890
 	.data       start:0x80571DB0 end:0x80571DC0
@@ -6446,7 +6459,7 @@ monolithlib/scn/CScnLightMan.o:
 
 monolithlib/scn/CScnMaruShadowNw4r.o:
 	extab       start:0x8001EB90 end:0x8001EBC8
-	extabindex  start:0x80036764 end:0x800367B8
+	extabindex  start:0x80036770 end:0x800367C4
 	.text       start:0x8048D1C4 end:0x8048EAA8
 	.ctors      start:0x804F5A98 end:0x804F5A9C
 	.rodata     start:0x80527890 end:0x805278C0
@@ -6458,7 +6471,7 @@ monolithlib/scn/CScnMaruShadowNw4r.o:
 
 monolithlib/scn/CScnMem.o:
 	extab       start:0x8001EBC8 end:0x8001EC30
-	extabindex  start:0x800367B8 end:0x80036824
+	extabindex  start:0x800367C4 end:0x80036830
 	.text       start:0x8048EAA8 end:0x8048ED24
 	.rodata     start:0x805278C0 end:0x805278E8
 	.data       start:0x80571E00 end:0x80571F78
@@ -6474,7 +6487,7 @@ monolithlib/scn/CScnRoot.o:
 
 monolithlib/scn/CScnRootNw4r.o:
 	extab       start:0x8001EC30 end:0x8001ECBC
-	extabindex  start:0x80036824 end:0x800368A8
+	extabindex  start:0x80036830 end:0x800368B4
 	.text       start:0x8048F338 end:0x804900BC
 	.rodata     start:0x805278F8 end:0x80527938
 	.data       start:0x80571FB0 end:0x80572018
@@ -6482,7 +6495,7 @@ monolithlib/scn/CScnRootNw4r.o:
 
 monolithlib/scn/CScnTexWorkMan.o:
 	extab       start:0x8001ECBC end:0x8001ED44
-	extabindex  start:0x800368A8 end:0x80036938
+	extabindex  start:0x800368B4 end:0x80036944
 	.text       start:0x804900BC end:0x80491E74
 	.rodata     start:0x80527938 end:0x80527958
 	.data       start:0x80572018 end:0x805720B0
@@ -6492,7 +6505,7 @@ monolithlib/scn/CScnTexWorkMan.o:
 
 monolithlib/scn/CScnVirtualLight.o:
 	extab       start:0x8001ED44 end:0x8001EEEC
-	extabindex  start:0x80036938 end:0x80036A7C
+	extabindex  start:0x80036944 end:0x80036A88
 	.text       start:0x80491E74 end:0x8049431C
 	.ctors      start:0x804F5A9C end:0x804F5AA0
 	.rodata     start:0x80527958 end:0x80527978
@@ -6503,12 +6516,12 @@ monolithlib/scn/CScnVirtualLight.o:
 
 monolithlib/code_8049431C.o:
 	extab       start:0x8001EEEC end:0x8001EF14
-	extabindex  start:0x80036A7C end:0x80036AB8
+	extabindex  start:0x80036A88 end:0x80036AC4
 	.text       start:0x8049431C end:0x80494678
 
 monolithlib/CVirtualLightAmb.o:
 	extab       start:0x8001EF14 end:0x8001EF24
-	extabindex  start:0x80036AB8 end:0x80036AD0
+	extabindex  start:0x80036AC4 end:0x80036ADC
 	.text       start:0x80494678 end:0x804946FC
 	.rodata     start:0x80527978 end:0x8052798C
 	.data       start:0x805720C0 end:0x805720E0
@@ -6516,7 +6529,7 @@ monolithlib/CVirtualLightAmb.o:
 
 monolithlib/CVirtualLightDir.o:
 	extab       start:0x8001EF24 end:0x8001EF34
-	extabindex  start:0x80036AD0 end:0x80036AE8
+	extabindex  start:0x80036ADC end:0x80036AF4
 	.text       start:0x804946FC end:0x80494798
 	.rodata     start:0x8052798C end:0x805279B8
 	.data       start:0x805720E0 end:0x80572100
@@ -6525,14 +6538,14 @@ monolithlib/CVirtualLightDir.o:
 
 monolithlib/CVirtualLightObj.o:
 	extab       start:0x8001EF34 end:0x8001F168
-	extabindex  start:0x80036AE8 end:0x80036BA8
+	extabindex  start:0x80036AF4 end:0x80036BB4
 	.text       start:0x80494798 end:0x80495C2C
 	.data       start:0x80572100 end:0x80572118
 	.sdata2     start:0x8066D248 end:0x8066D270
 
 monolithlib/scn/CScn.o:
 	extab       start:0x8001F168 end:0x8001F2CC
-	extabindex  start:0x80036BA8 end:0x80036D34
+	extabindex  start:0x80036BB4 end:0x80036D40
 	.text       start:0x80495C2C end:0x80498C6C
 	.rodata     start:0x805279B8 end:0x805279C8
 	.data       start:0x80572118 end:0x80572230
@@ -6542,7 +6555,7 @@ monolithlib/scn/CScn.o:
 
 monolithlib/scn/CScnBlend.o:
 	extab       start:0x8001F2CC end:0x8001F2E4
-	extabindex  start:0x80036D34 end:0x80036D58
+	extabindex  start:0x80036D40 end:0x80036D64
 	.text       start:0x80498C6C end:0x804991D8
 	.rodata     start:0x805279C8 end:0x805279E0
 	.data       start:0x80572230 end:0x80572250
@@ -6551,7 +6564,7 @@ monolithlib/scn/CScnBlend.o:
 
 monolithlib/scn/CScnBloom.o:
 	extab       start:0x8001F2E4 end:0x8001F374
-	extabindex  start:0x80036D58 end:0x80036DF4
+	extabindex  start:0x80036D64 end:0x80036E00
 	.text       start:0x804991D8 end:0x8049ACBC
 	.rodata     start:0x805279E0 end:0x80527A00
 	.data       start:0x80572250 end:0x80572288
@@ -6560,7 +6573,7 @@ monolithlib/scn/CScnBloom.o:
 
 monolithlib/scn/CScnCameraMan.o:
 	extab       start:0x8001F374 end:0x8001F42C
-	extabindex  start:0x80036DF4 end:0x80036EA8
+	extabindex  start:0x80036E00 end:0x80036EB4
 	.text       start:0x8049ACBC end:0x8049B994
 	.rodata     start:0x80527A00 end:0x80527A30
 	.data       start:0x80572288 end:0x80572320
@@ -6569,7 +6582,7 @@ monolithlib/scn/CScnCameraMan.o:
 
 monolithlib/scn/CScnEffectActNw4r.o:
 	extab       start:0x8001F42C end:0x8001F48C
-	extabindex  start:0x80036EA8 end:0x80036F38
+	extabindex  start:0x80036EB4 end:0x80036F44
 	.text       start:0x8049B994 end:0x8049C438
 	.rodata     start:0x80527A30 end:0x80527A50
 	.data       start:0x80572320 end:0x80572398
@@ -6578,7 +6591,7 @@ monolithlib/scn/CScnEffectActNw4r.o:
 
 monolithlib/scn/CScnFadeMan.o:
 	extab       start:0x8001F48C end:0x8001F4E4
-	extabindex  start:0x80036F38 end:0x80036F68
+	extabindex  start:0x80036F44 end:0x80036F74
 	.text       start:0x8049C438 end:0x8049C7F8
 	.rodata     start:0x80527A50 end:0x80527A60
 	.data       start:0x80572398 end:0x805723A8
@@ -6587,14 +6600,14 @@ monolithlib/scn/CScnFadeMan.o:
 
 monolithlib/scn/CScnFilter.o:
 	extab       start:0x8001F4E4 end:0x8001F4F4
-	extabindex  start:0x80036F68 end:0x80036F80
+	extabindex  start:0x80036F74 end:0x80036F8C
 	.text       start:0x8049C7F8 end:0x8049C948
 	.data       start:0x805723A8 end:0x805723C0
 	.sdata2     start:0x8066D350 end:0x8066D360
 
 monolithlib/scn/CScnFilterMan.o:
 	extab       start:0x8001F4F4 end:0x8001F698
-	extabindex  start:0x80036F80 end:0x80037154
+	extabindex  start:0x80036F8C end:0x80037160
 	.text       start:0x8049C948 end:0x8049DD8C
 	.rodata     start:0x80527A60 end:0x80527B40
 	.data       start:0x805723C0 end:0x80572418
@@ -6602,7 +6615,7 @@ monolithlib/scn/CScnFilterMan.o:
 
 monolithlib/scn/CScnFogMan.o:
 	extab       start:0x8001F698 end:0x8001F6A8
-	extabindex  start:0x80037154 end:0x8003716C
+	extabindex  start:0x80037160 end:0x80037178
 	.text       start:0x8049DD8C end:0x8049E380
 	.rodata     start:0x80527B40 end:0x80527B50
 	.data       start:0x80572418 end:0x805724B8
@@ -6611,7 +6624,7 @@ monolithlib/scn/CScnFogMan.o:
 
 monolithlib/scn/CScnFrame.o:
 	extab       start:0x8001F6A8 end:0x8001F6B8
-	extabindex  start:0x8003716C end:0x80037184
+	extabindex  start:0x80037178 end:0x80037190
 	.text       start:0x8049E380 end:0x8049E458
 	.rodata     start:0x80527B50 end:0x80527B60
 	.data       start:0x805724B8 end:0x805724C8
@@ -6620,7 +6633,7 @@ monolithlib/scn/CScnFrame.o:
 
 monolithlib/scn/CScnIdMan.o:
 	extab       start:0x8001F6B8 end:0x8001F700
-	extabindex  start:0x80037184 end:0x800371B4
+	extabindex  start:0x80037190 end:0x800371C0
 	.text       start:0x8049E458 end:0x8049E5DC
 	.rodata     start:0x80527B60 end:0x80527B70
 	.data       start:0x805724C8 end:0x805724D8
@@ -6628,7 +6641,7 @@ monolithlib/scn/CScnIdMan.o:
 
 monolithlib/scn/CScnItemAnim.o:
 	extab       start:0x8001F700 end:0x8001F75C
-	extabindex  start:0x800371B4 end:0x800371D8
+	extabindex  start:0x800371C0 end:0x800371E4
 	.text       start:0x8049E5DC end:0x8049E8C4
 	.rodata     start:0x80527B70 end:0x80527B80
 	.data       start:0x805724D8 end:0x80572508
@@ -6636,7 +6649,7 @@ monolithlib/scn/CScnItemAnim.o:
 
 monolithlib/scn/CScnItemCamera.o:
 	extab       start:0x8001F75C end:0x8001F850
-	extabindex  start:0x800371D8 end:0x80037274
+	extabindex  start:0x800371E4 end:0x80037280
 	.text       start:0x8049E8C4 end:0x8049FCAC
 	.ctors      start:0x804F5AA0 end:0x804F5AA4
 	.rodata     start:0x80527B80 end:0x80527B90
@@ -6646,7 +6659,7 @@ monolithlib/scn/CScnItemCamera.o:
 
 monolithlib/code_8049FCAC.o:
 	extab       start:0x8001F850 end:0x8001FC50
-	extabindex  start:0x80037274 end:0x80037874
+	extabindex  start:0x80037280 end:0x80037880
 	.text       start:0x8049FCAC end:0x804B2578
 	.ctors      start:0x804F5AA4 end:0x804F5AA8
 	.rodata     start:0x80527B90 end:0x80527D40
@@ -6658,7 +6671,7 @@ monolithlib/code_8049FCAC.o:
 
 monolithlib/CColiProc.o:
 	extab       start:0x8001FC50 end:0x8001FC88
-	extabindex  start:0x80037874 end:0x800378C8
+	extabindex  start:0x80037880 end:0x800378D4
 	.text       start:0x804B2578 end:0x804B2FF0
 	.ctors      start:0x804F5AA8 end:0x804F5AAC
 	.rodata     start:0x80527D40 end:0x80527D50
@@ -6670,7 +6683,7 @@ monolithlib/CColiProc.o:
 
 monolithlib/code_804B2FF0.o:
 	extab       start:0x8001FC88 end:0x8001FD84
-	extabindex  start:0x800378C8 end:0x80037A24
+	extabindex  start:0x800378D4 end:0x80037A30
 	.text       start:0x804B2FF0 end:0x804B59C8
 	.ctors      start:0x804F5AAC end:0x804F5AB0
 	.rodata     start:0x80527D50 end:0x80527D90
@@ -6681,7 +6694,7 @@ monolithlib/code_804B2FF0.o:
 
 monolithlib/code_804B59C8.o:
 	extab       start:0x8001FD84 end:0x8001FEDC
-	extabindex  start:0x80037A24 end:0x80037BEC
+	extabindex  start:0x80037A30 end:0x80037BF8
 	.text       start:0x804B59C8 end:0x804BAE10
 	.ctors      start:0x804F5AB0 end:0x804F5AB4
 	.data       start:0x80572D50 end:0x80573138
@@ -6691,7 +6704,7 @@ monolithlib/code_804B59C8.o:
 
 monolithlib/code_804BAE10.o:
 	extab       start:0x8001FEDC end:0x8001FF2C
-	extabindex  start:0x80037BEC end:0x80037C64
+	extabindex  start:0x80037BF8 end:0x80037C70
 	.text       start:0x804BAE10 end:0x804BC9EC
 	.ctors      start:0x804F5AB4 end:0x804F5AB8
 	.sbss       start:0x80668238 end:0x80668240
@@ -6699,7 +6712,7 @@ monolithlib/code_804BAE10.o:
 
 monolithlib/code_804BC9EC.o:
 	extab       start:0x8001FF2C end:0x8001FF44
-	extabindex  start:0x80037C64 end:0x80037C88
+	extabindex  start:0x80037C70 end:0x80037C94
 	.text       start:0x804BC9EC end:0x804BD8E8
 	.ctors      start:0x804F5AB8 end:0x804F5ABC
 	.data       start:0x80573138 end:0x80573188
@@ -6709,7 +6722,7 @@ monolithlib/code_804BC9EC.o:
 
 monolithlib/code_804BD8E8.o:
 	extab       start:0x8001FF44 end:0x8001FF94
-	extabindex  start:0x80037C88 end:0x80037D00
+	extabindex  start:0x80037C94 end:0x80037D0C
 	.text       start:0x804BD8E8 end:0x804BF59C
 	.ctors      start:0x804F5ABC end:0x804F5AC0
 	.bss        start:0x80662168 end:0x80662300
@@ -6719,7 +6732,7 @@ monolithlib/code_804BD8E8.o:
 
 monolithlib/code_804BF59C.o:
 	extab       start:0x8001FF94 end:0x80020020
-	extabindex  start:0x80037D00 end:0x80037D54
+	extabindex  start:0x80037D0C end:0x80037D60
 	.text       start:0x804BF59C end:0x804C0280
 	.data       start:0x80573188 end:0x80573198
 	.sbss       start:0x80668270 end:0x80668278
@@ -6727,7 +6740,7 @@ monolithlib/code_804BF59C.o:
 
 monolithlib/CLight.o:
 	extab       start:0x80020020 end:0x80020058
-	extabindex  start:0x80037D54 end:0x80037DA8
+	extabindex  start:0x80037D60 end:0x80037DB4
 	.text       start:0x804C0280 end:0x804C0BE4
 	.data       start:0x80573198 end:0x805731A8
 	.sdata      start:0x80666400 end:0x80666408
@@ -6735,7 +6748,7 @@ monolithlib/CLight.o:
 
 monolithlib/scn/CScnEnvLgtCtrl.o:
 	extab       start:0x80020058 end:0x800202E8
-	extabindex  start:0x80037DA8 end:0x80038108
+	extabindex  start:0x80037DB4 end:0x80038114
 	.text       start:0x804C0BE4 end:0x804C8684
 	.ctors      start:0x804F5AC0 end:0x804F5AC4
 	.rodata     start:0x80527D90 end:0x80527E08
@@ -6756,7 +6769,7 @@ monolithlib/code_804C8684.o:
 
 monolithlib/code_804C8718.o:
 	extab       start:0x800202E8 end:0x800203B8
-	extabindex  start:0x80038108 end:0x80038240
+	extabindex  start:0x80038114 end:0x8003824C
 	.text       start:0x804C8718 end:0x804CC2B8
 	.ctors      start:0x804F5AC8 end:0x804F5ACC
 	.rodata     start:0x80527E08 end:0x80527E20
@@ -6764,7 +6777,7 @@ monolithlib/code_804C8718.o:
 
 monolithlib/code_804CC2B8.o:
 	extab       start:0x800203B8 end:0x80020518
-	extabindex  start:0x80038240 end:0x80038450
+	extabindex  start:0x8003824C end:0x8003845C
 	.text       start:0x804CC2B8 end:0x804D6C60
 	.rodata     start:0x80527E20 end:0x80527E50
 	.data       start:0x80573458 end:0x80573488
@@ -6774,7 +6787,7 @@ monolithlib/code_804CC2B8.o:
 
 monolithlib/effect/CETrail.o:
 	extab       start:0x80020518 end:0x800205C4
-	extabindex  start:0x80038450 end:0x80038534
+	extabindex  start:0x8003845C end:0x80038540
 	.text       start:0x804D6C60 end:0x804D8D90
 	.rodata     start:0x80527E50 end:0x80527E88
 	.data       start:0x80573488 end:0x805734B8
@@ -6785,7 +6798,7 @@ monolithlib/effect/CETrail.o:
 
 monolithlib/work/CWorkSystemCache.o:
 	extab       start:0x800205C4 end:0x80020650
-	extabindex  start:0x80038534 end:0x800385B8
+	extabindex  start:0x80038540 end:0x800385C4
 	.text       start:0x804D8D90 end:0x804DA0B8
 	.rodata     start:0x80527E88 end:0x80527ED0
 	.data       start:0x805734B8 end:0x80573590
@@ -6795,7 +6808,7 @@ monolithlib/work/CWorkSystemCache.o:
 
 monolithlib/nand/CNand.o:
 	extab       start:0x80020650 end:0x80020758
-	extabindex  start:0x800385B8 end:0x80038744
+	extabindex  start:0x800385C4 end:0x80038750
 	.text       start:0x804DA0B8 end:0x804DA4CC
 	.ctors      start:0x804F5ACC end:0x804F5AD0
 	.rodata     start:0x80527ED0 end:0x80527EF8
@@ -6814,7 +6827,7 @@ monolithlib/nand/code_804DA4CC.o:
 
 monolithlib/nand/CNReqtaskSave.o:
 	extab       start:0x80020758 end:0x80020768
-	extabindex  start:0x80038744 end:0x8003875C
+	extabindex  start:0x80038750 end:0x80038768
 	.text       start:0x804DAD38 end:0x804DAF70
 	.ctors      start:0x804F5AD0 end:0x804F5AD4
 	.rodata     start:0x80527EF8 end:0x80527F10
@@ -6826,7 +6839,7 @@ monolithlib/nand/CNReqtaskSave.o:
 
 monolithlib/nand/CNReqtaskLoad.o:
 	extab       start:0x80020768 end:0x80020778
-	extabindex  start:0x8003875C end:0x80038774
+	extabindex  start:0x80038768 end:0x80038780
 	.text       start:0x804DAF70 end:0x804DB0F0
 	.ctors      start:0x804F5AD4 end:0x804F5AD8
 	.rodata     start:0x80527F10 end:0x80527F20
@@ -6836,7 +6849,7 @@ monolithlib/nand/CNReqtaskLoad.o:
 
 monolithlib/nand/CNReqtaskReaddir.o:
 	extab       start:0x80020778 end:0x80020780
-	extabindex  start:0x80038774 end:0x80038780
+	extabindex  start:0x80038780 end:0x8003878C
 	.text       start:0x804DB0F0 end:0x804DB240
 	.ctors      start:0x804F5AD8 end:0x804F5ADC
 	.rodata     start:0x80527F20 end:0x80527F38
@@ -6846,7 +6859,7 @@ monolithlib/nand/CNReqtaskReaddir.o:
 
 monolithlib/nand/CNReqtaskRemove.o:
 	extab       start:0x80020780 end:0x80020790
-	extabindex  start:0x80038780 end:0x80038798
+	extabindex  start:0x8003878C end:0x800387A4
 	.text       start:0x804DB240 end:0x804DB348
 	.ctors      start:0x804F5ADC end:0x804F5AE0
 	.rodata     start:0x80527F38 end:0x80527F48
@@ -6856,7 +6869,7 @@ monolithlib/nand/CNReqtaskRemove.o:
 
 monolithlib/nand/CNReqtaskCheck.o:
 	extab       start:0x80020790 end:0x80020798
-	extabindex  start:0x80038798 end:0x800387A4
+	extabindex  start:0x800387A4 end:0x800387B0
 	.text       start:0x804DB348 end:0x804DB438
 	.ctors      start:0x804F5AE0 end:0x804F5AE4
 	.rodata     start:0x80527F48 end:0x80527F58
@@ -6866,7 +6879,7 @@ monolithlib/nand/CNReqtaskCheck.o:
 
 monolithlib/effect/CERandomizer.o:
 	extab       start:0x80020798 end:0x800207E8
-	extabindex  start:0x800387A4 end:0x8003881C
+	extabindex  start:0x800387B0 end:0x80038828
 	.text       start:0x804DB438 end:0x804DB980
 	.ctors      start:0x804F5AE4 end:0x804F5AE8
 	.rodata     start:0x80527F58 end:0x80527F88
@@ -6878,13 +6891,13 @@ monolithlib/effect/CERandomizer.o:
 
 monolithlib/code_804DB938.o:
 	extab       start:0x800207E8 end:0x80020830
-	extabindex  start:0x8003881C end:0x80038888
+	extabindex  start:0x80038828 end:0x80038894
 	.text       start:0x804DB980 end:0x804DD8F4
 	.sdata2     start:0x8066DA08 end:0x8066DA30
 
 monolithlib/work/CWorkSystemPack.o:
 	extab       start:0x80020830 end:0x800208F4
-	extabindex  start:0x80038888 end:0x8003893C
+	extabindex  start:0x80038894 end:0x80038948
 	.text       start:0x804DD8F4 end:0x804DE38C
 	.rodata     start:0x80527F88 end:0x80527FFC
 	.data       start:0x805736A0 end:0x805737A0
@@ -6893,7 +6906,7 @@ monolithlib/work/CWorkSystemPack.o:
 
 monolithlib/CPackItem.o:
 	extab       start:0x800208F4 end:0x80020938
-	extabindex  start:0x8003893C end:0x80038984
+	extabindex  start:0x80038948 end:0x80038990
 	.text       start:0x804DE38C end:0x804DEB14
 	.rodata     start:0x80527FFC end:0x80528008
 	.data       start:0x805737A0 end:0x80573828
@@ -6901,7 +6914,7 @@ monolithlib/CPackItem.o:
 
 monolithlib/CArcItem.o:
 	extab       start:0x80020938 end:0x80020980
-	extabindex  start:0x80038984 end:0x800389B4
+	extabindex  start:0x80038990 end:0x800389C0
 	.text       start:0x804DEB14 end:0x804DEDA8
 	.rodata     start:0x80528008 end:0x80528028
 	.data       start:0x80573828 end:0x805738B0
@@ -6909,7 +6922,7 @@ monolithlib/CArcItem.o:
 
 monolithlib/code_804DEDA8.o:
 	extab       start:0x80020980 end:0x80020B08
-	extabindex  start:0x800389B4 end:0x80038C00
+	extabindex  start:0x800389C0 end:0x80038C0C
 	.text       start:0x804DEDA8 end:0x804E3294
 	.bss        start:0x80662940 end:0x80664050
 	.sbss       start:0x806682F8 end:0x80668328
@@ -6917,7 +6930,7 @@ monolithlib/code_804DEDA8.o:
 
 monolithlib/CSchedule.o:
 	extab       start:0x80020B08 end:0x80020B20
-	extabindex  start:0x80038C00 end:0x80038C24
+	extabindex  start:0x80038C0C end:0x80038C30
 	.text       start:0x804E3294 end:0x804E36DC
 	.rodata     start:0x80528028 end:0x80528038
 	.data       start:0x805738B0 end:0x805738C0
@@ -6925,13 +6938,13 @@ monolithlib/CSchedule.o:
 
 monolithlib/code_804E36DC.o:
 	extab       start:0x80020B20 end:0x80020B78
-	extabindex  start:0x80038C24 end:0x80038CA8
+	extabindex  start:0x80038C30 end:0x80038CB4
 	.text       start:0x804E36DC end:0x804E4334
 	.sdata2     start:0x8066DA88 end:0x8066DAA0
 
-monolithlib/CScheduleList.o:
+monolithlib/ScheduleList.o:
 	extab       start:0x80020B78 end:0x80020C88
-	extabindex  start:0x80038CA8 end:0x80038D80
+	extabindex  start:0x80038CB4 end:0x80038D8C
 	.text       start:0x804E4334 end:0x804E5444
 	.rodata     start:0x80528038 end:0x80528090
 	.data       start:0x805738C0 end:0x80573920
@@ -6940,7 +6953,7 @@ monolithlib/CScheduleList.o:
 
 monolithlib/CMdlMaterial.o:
 	extab       start:0x80020C88 end:0x80020CD0
-	extabindex  start:0x80038D80 end:0x80038DEC
+	extabindex  start:0x80038D8C end:0x80038DF8
 	.text       start:0x804E5444 end:0x804E6544
 	.rodata     start:0x80528090 end:0x805280A0
 	.data       start:0x80573920 end:0x805739F8
@@ -6949,7 +6962,7 @@ monolithlib/CMdlMaterial.o:
 
 monolithlib/CMdlMouth.o:
 	extab       start:0x80020CD0 end:0x80020CF8
-	extabindex  start:0x80038DEC end:0x80038E28
+	extabindex  start:0x80038DF8 end:0x80038E34
 	.text       start:0x804E6544 end:0x804E6C14
 	.rodata     start:0x805280A0 end:0x805280C8
 	.data       start:0x805739F8 end:0x80573A08
@@ -6958,7 +6971,7 @@ monolithlib/CMdlMouth.o:
 
 monolithlib/CMdlAnmUV.o:
 	extab       start:0x80020CF8 end:0x80020D10
-	extabindex  start:0x80038E28 end:0x80038E4C
+	extabindex  start:0x80038E34 end:0x80038E58
 	.text       start:0x804E6C14 end:0x804E7544
 	.rodata     start:0x805280C8 end:0x805280E0
 	.data       start:0x80573A08 end:0x80573A18
@@ -6967,7 +6980,7 @@ monolithlib/CMdlAnmUV.o:
 
 monolithlib/CMdlAnmEye.o:
 	extab       start:0x80020D10 end:0x80020D28
-	extabindex  start:0x80038E4C end:0x80038E70
+	extabindex  start:0x80038E58 end:0x80038E7C
 	.text       start:0x804E7544 end:0x804E7A80
 	.rodata     start:0x805280E0 end:0x80528108
 	.data       start:0x80573A18 end:0x80573A28
@@ -6976,7 +6989,7 @@ monolithlib/CMdlAnmEye.o:
 
 monolithlib/CMdlLook.o:
 	extab       start:0x80020D28 end:0x80020D50
-	extabindex  start:0x80038E70 end:0x80038EAC
+	extabindex  start:0x80038E7C end:0x80038EB8
 	.text       start:0x804E7A80 end:0x804E942C
 	.rodata     start:0x80528108 end:0x80528128
 	.data       start:0x80573A28 end:0x80573A38
@@ -6986,7 +6999,7 @@ monolithlib/CMdlLook.o:
 
 monolithlib/CMdlDynamics.o:
 	extab       start:0x80020D50 end:0x80020EB4
-	extabindex  start:0x80038EAC end:0x80038FFC
+	extabindex  start:0x80038EB8 end:0x80039008
 	.text       start:0x804E942C end:0x804EE0F4
 	.rodata     start:0x80528128 end:0x80528168
 	.data       start:0x80573A38 end:0x80573A90
@@ -6995,7 +7008,7 @@ monolithlib/CMdlDynamics.o:
 
 monolithlib/code_804EE0F4.o:
 	extab       start:0x80020EB4 end:0x80020FBC
-	extabindex  start:0x80038FFC end:0x80039188
+	extabindex  start:0x80039008 end:0x80039194
 	.text       start:0x804EE0F4 end:0x804F0258
 	.ctors      start:0x804F5AE8 end:0x804F5AEC
 	.rodata     start:0x80528168 end:0x80528190
@@ -7012,7 +7025,7 @@ monolithlib/code_804F0258.o:
 
 monolithlib/nand/CNReqtaskSaveBanner.o:
 	extab       start:0x80020FBC end:0x80020FD4
-	extabindex  start:0x80039188 end:0x800391AC
+	extabindex  start:0x80039194 end:0x800391B8
 	.text       start:0x804F4D7C end:0x804F5158
 	.ctors      start:0x804F5AEC end:0x804F5AF0
 	.rodata     start:0x80528190 end:0x805281B8
@@ -7024,7 +7037,7 @@ monolithlib/nand/CNReqtaskSaveBanner.o:
 
 monolithlib/nand/CNBanner.o:
 	extab       start:0x80020FD4 end:0x80021020
-	extabindex  start:0x800391AC end:0x80039220
+	extabindex  start:0x800391B8 end:0x80039220
 	.text       start:0x804F5158 end:0x804F5900
 	.rodata     start:0x805281B8 end:0x805281E0
 	.data       start:0x80573BC0 end:0x80573C80

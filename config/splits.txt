@@ -212,11 +212,13 @@ kyoshin/appgame/cf/CfCamDirectionIntf.o:
 	.text       start:0x8006B3EC end:0x8006B508
 
 kyoshin/appgame/cf/CfCamLookatIntf.o:
-	extab       start:0x80008098 end:0x800080A8
-	extabindex  start:0x800233B4 end:0x800233CC
+	extab       start:0x80008098 end:0x800080A0
+	extabindex  start:0x800233B4 end:0x800233C0
 	.text       start:0x8006B508 end:0x8006B5D4
 
 kyoshin/appgame/cf/CfCamTargetIntf.o:
+	extab       start:0x800080A0 end:0x800080A8
+	extabindex  start:0x800233C0 end:0x800233CC
 	.text       start:0x8006B5D4 end:0x8006B6A0
 
 kyoshin/appgame/cf/CfCam.o:
@@ -5723,8 +5725,8 @@ mm/code_80432678.o:
 	.sdata2     start:0x8066C978 end:0x8066C9A8
 
 mm/MemManager.o:
-	extab       start:0x8001BF98 end:0x8001C020
-	extabindex  start:0x80033B30 end:0x80033BFC
+	extab       start:0x8001BF98 end:0x8001C010
+	extabindex  start:0x80033B30 end:0x80033BE4
 	.text       start:0x80433300 end:0x80434C24
 	.rodata     start:0x80525D28 end:0x80525D70
 	.bss        start:0x806570E0 end:0x806593E0
@@ -5733,6 +5735,8 @@ mm/MemManager.o:
 	.sdata2     start:0x8066C9A8 end:0x8066C9D0
 
 mm/Operators.o:
+	extab       start:0x8001C010 end:0x8001C020
+	extabindex  start:0x80033BE4 end:0x80033BFC
 	.text       start:0x80434C24 end:0x80434F94
 
 mm/code_80434F94.o:
